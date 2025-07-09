@@ -22,6 +22,57 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 // Serve demo datasets
 app.use('/demo-datasets', express.static('demo-datasets'));
 
+// CSV Download endpoints
+app.get('/api/download/ecommerce', (req, res) => {
+  const filePath = 'demo-datasets/ecommerce-sales.csv';
+  res.download(filePath, 'ecommerce-sample.csv', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).json({ error: 'Failed to download file' });
+    }
+  });
+});
+
+app.get('/api/download/saas', (req, res) => {
+  const filePath = 'demo-datasets/saas-metrics.csv';
+  res.download(filePath, 'saas-sample.csv', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).json({ error: 'Failed to download file' });
+    }
+  });
+});
+
+app.get('/api/download/restaurant', (req, res) => {
+  const filePath = 'demo-datasets/restaurant-daily-pnl.csv';
+  res.download(filePath, 'restaurant-sample.csv', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).json({ error: 'Failed to download file' });
+    }
+  });
+});
+
+app.get('/api/download/consulting', (req, res) => {
+  const filePath = 'demo-datasets/consulting-revenue.csv';
+  res.download(filePath, 'consulting-sample.csv', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).json({ error: 'Failed to download file' });
+    }
+  });
+});
+
+app.get('/api/download/retail', (req, res) => {
+  const filePath = 'demo-datasets/retail-inventory.csv';
+  res.download(filePath, 'retail-sample.csv', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).json({ error: 'Failed to download file' });
+    }
+  });
+});
+
 // Configure multer for file uploads
 const upload = multer({ 
   dest: 'uploads/',

@@ -3,27 +3,15 @@ import './App.css';
 
 const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
-// Professional demo datasets configuration
+// Professional sample datasets configuration
 const DEMO_DATASETS = [
   {
-    id: 'ecommerce-demo',
-    name: 'E-commerce Sales Analytics',
-    icon: '🛍️',
-    description: '$2M+ annual revenue • 6 months • 150+ transactions',
-    endpoint: '/api/demo/ecommerce',
-    sampleQuestions: [
-      "What's driving our revenue growth this quarter?",
-      "Which product categories are most profitable?",
-      "How do customer segments perform across regions?",
-      "What's our return rate by marketing channel?"
-    ]
-  },
-  {
-    id: 'saas-demo',
-    name: 'SaaS Growth Metrics',
-    icon: '📈',
+    id: 'ecommerce-sample',
+    name: 'SaaS Sample Dataset',
+    icon: '📊',
     description: 'MRR/ARR tracking • 120+ customers • Churn analysis',
     endpoint: '/api/demo/saas',
+    downloadEndpoint: '/api/download/saas',
     sampleQuestions: [
       "What's our monthly recurring revenue trend?",
       "Which customer segments have lowest churn?",
@@ -32,11 +20,26 @@ const DEMO_DATASETS = [
     ]
   },
   {
-    id: 'restaurant-demo',
-    name: 'Restaurant P&L Analysis',
+    id: 'saas-sample',
+    name: 'E-commerce Sample Dataset',
+    icon: '🛒',
+    description: '$2M+ annual revenue • 6 months • 150+ transactions',
+    endpoint: '/api/demo/ecommerce',
+    downloadEndpoint: '/api/download/ecommerce',
+    sampleQuestions: [
+      "What's driving our revenue growth this quarter?",
+      "Which product categories are most profitable?",
+      "How do customer segments perform across regions?",
+      "What's our return rate by marketing channel?"
+    ]
+  },
+  {
+    id: 'restaurant-sample',
+    name: 'Restaurant Sample Dataset',
     icon: '🍽️',
     description: 'Daily operations • 213 days • Cost optimization',
     endpoint: '/api/demo/restaurant',
+    downloadEndpoint: '/api/download/restaurant',
     sampleQuestions: [
       "What are our most profitable days?",
       "How do food costs impact margins?",
@@ -45,11 +48,12 @@ const DEMO_DATASETS = [
     ]
   },
   {
-    id: 'consulting-demo',
-    name: 'Consulting Revenue',
+    id: 'consulting-sample',
+    name: 'Consulting Sample Dataset',
     icon: '💼',
     description: 'Project-based • 125+ projects • Client satisfaction',
     endpoint: '/api/demo/consulting',
+    downloadEndpoint: '/api/download/consulting',
     sampleQuestions: [
       "What's our average project profitability?",
       "Which industries provide highest returns?",
@@ -58,11 +62,12 @@ const DEMO_DATASETS = [
     ]
   },
   {
-    id: 'retail-demo',
-    name: 'Retail Inventory Intelligence',
+    id: 'retail-sample',
+    name: 'Retail Sample Dataset',
     icon: '🏪',
     description: 'Inventory optimization • 1000+ products • Seasonal trends',
     endpoint: '/api/demo/retail',
+    downloadEndpoint: '/api/download/retail',
     sampleQuestions: [
       "Which products need reordering?",
       "How do seasonal trends affect demand?",
@@ -141,6 +146,42 @@ function App() {
     } finally {
       setIsLoading(false);
       setTimeout(() => setUploadProgress(0), 2000);
+    }
+  };
+
+  const downloadCSV = async (demoConfig) => {
+    try {
+      const response = await fetch(`${API_BASE}${demoConfig.downloadEndpoint}`);
+      
+      if (!response.ok) {
+        throw new Error(`Failed to download CSV: ${response.statusText}`);
+      }
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${demoConfig.name.toLowerCase().replace(/ /g, '-')}-sample.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(url);
+
+      const successMessage = {
+        id: Date.now(),
+        type: 'system',
+        content: `✅ Downloaded ${demoConfig.name} sample CSV. You can now modify it with your own data and re-upload!`,
+        timestamp: new Date().toISOString()
+      };
+      setMessages(prev => [...prev, successMessage]);
+    } catch (error) {
+      const errorMessage = {
+        id: Date.now(),
+        type: 'error',
+        content: `❌ Failed to download CSV: ${error.message}`,
+        timestamp: new Date().toISOString()
+      };
+      setMessages(prev => [...prev, errorMessage]);
     }
   };
 
@@ -524,29 +565,42 @@ function App() {
       <div className="app-body">
         <aside className="sidebar">
           <div className="demo-buttons-section">
-            <h3>🎯 Enterprise Demo Datasets</h3>
+            <h3>📊 Sample Datasets</h3>
             <div className="demo-buttons-grid">
               {DEMO_DATASETS.map(demo => (
-                <button
-                  key={demo.id}
-                  className="demo-button"
-                  onClick={() => loadDemoDataset(demo)}
-                  disabled={isLoading}
-                >
-                  <div className="demo-button-title">
-                    <span>{demo.icon}</span>
-                    {demo.name}
-                  </div>
-                  <div className="demo-button-subtitle">
-                    {demo.description}
-                  </div>
-                </button>
+                <div key={demo.id} className="demo-item">
+                  <button
+                    className="demo-button"
+                    onClick={() => loadDemoDataset(demo)}
+                    disabled={isLoading}
+                  >
+                    <div className="demo-button-title">
+                      <span>{demo.icon}</span>
+                      {demo.name}
+                    </div>
+                    <div className="demo-button-subtitle">
+                      {demo.description}
+                    </div>
+                  </button>
+                  <button
+                    className="download-button"
+                    onClick={() => downloadCSV(demo)}
+                    disabled={isLoading}
+                    title="Download Sample CSV"
+                  >
+                    📥 Download CSV
+                  </button>
+                </div>
               ))}
             </div>
           </div>
 
           <div className="upload-section">
-            <h3>📁 Upload Custom Data</h3>
+            <h3>📁 Upload Your Data</h3>
+            <div className="upload-instructions">
+              <p>📝 <strong>CSV Format:</strong> Date, Revenue, Product, Category (see sample files)</p>
+              <p>💡 <strong>Tip:</strong> Download sample → Modify with your data → Upload</p>
+            </div>
             <div className="upload-area">
               <input
                 type="file"
@@ -603,16 +657,19 @@ function App() {
               {messages.length === 0 ? (
                 <div className="welcome-message">
                   <div className="welcome-icon">🧠</div>
-                  <h2>Enterprise AI Business Intelligence</h2>
+                  <h2>AI Business Intelligence Platform</h2>
                   <p>Transform complex business data into actionable insights with natural language queries</p>
                   <div className="sample-questions">
-                    <h4>🚀 Get started in seconds:</h4>
+                    <h4>🚀 Quick Start Guide:</h4>
                     <ul>
-                      <li><strong>Click a demo dataset</strong> to instantly load professional data</li>
-                      <li><strong>Ask sophisticated questions</strong> about revenue, margins, and growth</li>
-                      <li><strong>Receive executive-level insights</strong> with actionable recommendations</li>
-                      <li><strong>Explore enterprise analytics</strong> across 5 different industries</li>
+                      <li><strong>Try with sample data:</strong> Click any sample dataset to instantly explore</li>
+                      <li><strong>Download → Customize → Upload:</strong> Download sample CSV → Modify with your data → Upload</li>
+                      <li><strong>Ask intelligent questions:</strong> Get executive-level insights and recommendations</li>
+                      <li><strong>CSV Format:</strong> Date, Revenue, Product, Category (see sample files)</li>
                     </ul>
+                    <div className="workflow-highlight">
+                      <strong>💡 Perfect workflow:</strong> Download sample data → Modify with your numbers → Upload → Get AI insights
+                    </div>
                   </div>
                 </div>
               ) : (
