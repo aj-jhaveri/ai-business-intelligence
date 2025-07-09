@@ -1,0 +1,121 @@
+Date,Company_ID,Subscription_Type,Plan_Tier,MRR,ARR,Customer_ID,Customer_Segment,Acquisition_Channel,Churn_Status,Upgrade_Status,Support_Tickets,Feature_Usage_Score,Login_Frequency,Billing_Cycle,Payment_Method,Geographic_Region,Company_Size,Industry,Contract_Length,Discount_Applied,Payment_Status
+2024-02-28,COMP-1000,Basic,Growth,103.73,1244.7,CUST-85187,Mid-Market,Referral,Active,Upgraded,0,82,42,Monthly,ACH,Asia Pacific,1-10,Education,Month-to-Month,19,Paid
+2024-06-03,COMP-1001,Enterprise,Scale,396.39,4756.65,CUST-51985,SMB,Paid Search,Active,No Change,1,95,10,Quarterly,Wire Transfer,Middle East & Africa,1-10,Manufacturing,Month-to-Month,0,Paid
+2024-05-10,COMP-1002,Enterprise,Enterprise,8089.79,97077.45,CUST-21197,Startup,Social Media,Active,No Change,6,62,12,Annual,Credit Card,Europe,201-1000,Finance,36 months,0,Paid
+2024-04-24,COMP-1003,Premium,Enterprise,2598.23,31178.73,CUST-82181,SMB,Referral,Active,Upgraded,7,50,13,Monthly,Wire Transfer,Asia Pacific,11-50,Healthcare,Month-to-Month,0,Paid
+2024-06-30,COMP-1004,Professional,Scale,733.0,8795.99,CUST-28255,Enterprise,Email Marketing,Active,No Change,3,40,10,Annual,ACH,North America,51-200,Healthcare,12 months,0,Paid
+2024-07-31,COMP-1005,Premium,Scale,408.21,4898.5,CUST-48663,Enterprise,Content Marketing,Active,No Change,5,84,22,Quarterly,Wire Transfer,Latin America,11-50,Finance,Month-to-Month,0,Paid
+2024-06-09,COMP-1006,Basic,Enterprise,4159.94,49919.28,CUST-81809,Mid-Market,Direct Sales,Active,Upgraded,8,52,12,Annual,Wire Transfer,Europe,201-1000,Real Estate,36 months,0,Paid
+2024-06-08,COMP-1007,Professional,Starter,88.17,1058.06,CUST-51611,Enterprise,Organic Search,Active,No Change,2,74,18,Monthly,PayPal,Middle East & Africa,1000+,Education,Month-to-Month,17,Paid
+2024-03-01,COMP-1008,Basic,Starter,114.21,1370.57,CUST-35849,Mid-Market,Direct Sales,Active,No Change,0,89,15,Quarterly,Credit Card,North America,201-1000,Manufacturing,Month-to-Month,0,Paid
+2024-03-04,COMP-1009,Premium,Starter,448.83,5386.02,CUST-42473,Startup,Organic Search,Active,Upgraded,2,77,40,Quarterly,Wire Transfer,North America,1000+,Education,12 months,0,Paid
+2024-01-01,COMP-1010,Professional,Starter,28.79,345.46,CUST-95515,Enterprise,Social Media,Active,No Change,3,51,8,Quarterly,PayPal,Latin America,11-50,Manufacturing,12 months,0,Paid
+2024-03-24,COMP-1011,Premium,Growth,935.94,11231.23,CUST-10615,SMB,Partner Channel,Active,No Change,0,32,23,Annual,Wire Transfer,Europe,1000+,Manufacturing,Month-to-Month,0,Paid
+2024-02-04,COMP-1012,Premium,Growth,240.67,2888.05,CUST-13094,Mid-Market,Partner Channel,Active,Upgraded,3,43,39,Annual,ACH,Latin America,11-50,Finance,Month-to-Month,0,Paid
+2024-05-23,COMP-1013,Professional,Growth,593.79,7125.5,CUST-75680,SMB,Social Media,Active,Upgraded,0,65,16,Annual,ACH,Asia Pacific,1000+,Technology,12 months,0,Paid
+2024-04-25,COMP-1014,Enterprise,Growth,218.59,2623.14,CUST-99034,Startup,Paid Search,Churned,No Change,1,59,5,Monthly,ACH,Asia Pacific,51-200,Marketing,12 months,0,Failed
+2024-01-16,COMP-1015,Professional,Enterprise,1962.32,23547.82,CUST-74626,Startup,Referral,Active,No Change,6,61,21,Monthly,Wire Transfer,Middle East & Africa,1-10,Consulting,Month-to-Month,0,Paid
+2024-03-22,COMP-1016,Enterprise,Scale,481.78,5781.31,CUST-53841,Mid-Market,Organic Search,Churned,No Change,2,58,1,Monthly,Credit Card,Middle East & Africa,1-10,Manufacturing,Month-to-Month,20,Failed
+2024-02-29,COMP-1017,Premium,Growth,298.93,3587.14,CUST-84398,Enterprise,Paid Search,Active,No Change,3,36,28,Monthly,ACH,North America,51-200,Legal,12 months,0,Paid
+2024-03-14,COMP-1018,Enterprise,Scale,495.04,5940.46,CUST-37019,Enterprise,Partner Channel,Active,No Change,4,38,34,Annual,Wire Transfer,Europe,1-10,Healthcare,Month-to-Month,0,Paid
+2024-02-03,COMP-1019,Enterprise,Enterprise,16589.56,199074.67,CUST-40287,Enterprise,Paid Search,Active,Upgraded,6,75,40,Quarterly,Wire Transfer,North America,1000+,Marketing,24 months,12,Paid
+2024-06-20,COMP-1020,Basic,Scale,4480.43,53765.12,CUST-34145,Mid-Market,Social Media,Active,No Change,1,88,17,Monthly,Credit Card,Latin America,1000+,Healthcare,36 months,16,Paid
+2024-03-01,COMP-1021,Professional,Growth,407.82,4893.86,CUST-37229,Enterprise,Organic Search,Active,Upgraded,3,46,18,Annual,Credit Card,Asia Pacific,201-1000,Consulting,Month-to-Month,18,Paid
+2024-06-29,COMP-1022,Professional,Growth,856.99,10283.85,CUST-73083,Enterprise,Partner Channel,Active,No Change,2,85,10,Quarterly,Wire Transfer,North America,1000+,Manufacturing,12 months,0,Paid
+2024-07-06,COMP-1023,Enterprise,Growth,193.78,2325.32,CUST-48505,Enterprise,Partner Channel,Active,No Change,0,50,35,Quarterly,ACH,Latin America,51-200,Manufacturing,12 months,0,Paid
+2024-01-10,COMP-1024,Professional,Growth,124.61,1495.36,CUST-63159,SMB,Email Marketing,Active,Upgraded,1,54,16,Monthly,Wire Transfer,Asia Pacific,11-50,Healthcare,12 months,0,Paid
+2024-03-14,COMP-1025,Enterprise,Enterprise,2509.44,30113.26,CUST-47799,Enterprise,Social Media,Churned,No Change,7,57,1,Annual,Credit Card,North America,11-50,Manufacturing,Month-to-Month,0,Failed
+2024-06-21,COMP-1026,Professional,Starter,120.48,1445.71,CUST-10280,Mid-Market,Content Marketing,Active,No Change,3,48,14,Monthly,PayPal,Asia Pacific,201-1000,Legal,Month-to-Month,0,Paid
+2024-02-24,COMP-1027,Premium,Enterprise,2330.87,27970.44,CUST-33345,Mid-Market,Partner Channel,Active,No Change,2,77,23,Annual,Wire Transfer,Latin America,11-50,Real Estate,Month-to-Month,9,Paid
+2024-01-23,COMP-1028,Professional,Scale,1285.94,15431.28,CUST-44801,Mid-Market,Organic Search,Active,No Change,2,88,24,Quarterly,ACH,Asia Pacific,51-200,Manufacturing,Month-to-Month,0,Paid
+2024-01-07,COMP-1029,Enterprise,Scale,914.19,10970.27,CUST-40908,SMB,Referral,Active,No Change,1,69,8,Monthly,Credit Card,Europe,51-200,Retail,Month-to-Month,0,Paid
+2024-03-08,COMP-1030,Enterprise,Enterprise,2815.47,33785.61,CUST-50306,Mid-Market,Email Marketing,Active,No Change,3,61,11,Monthly,PayPal,Middle East & Africa,51-200,Healthcare,12 months,9,Paid
+2024-01-31,COMP-1031,Basic,Scale,338.49,4061.88,CUST-53082,Startup,Referral,Active,No Change,2,48,19,Annual,ACH,North America,1-10,Real Estate,12 months,13,Paid
+2024-07-07,COMP-1032,Premium,Scale,738.75,8865.05,CUST-76942,SMB,Email Marketing,Active,Upgraded,1,61,8,Monthly,ACH,Asia Pacific,11-50,Real Estate,Month-to-Month,15,Paid
+2024-01-29,COMP-1033,Enterprise,Growth,94.93,1139.14,CUST-95411,Enterprise,Organic Search,Active,No Change,3,56,13,Annual,ACH,Latin America,1-10,Healthcare,12 months,15,Paid
+2024-03-09,COMP-1034,Professional,Scale,2611.53,31338.33,CUST-35342,Mid-Market,Content Marketing,Active,No Change,4,69,18,Quarterly,Credit Card,North America,1000+,Healthcare,12 months,0,Paid
+2024-04-08,COMP-1035,Basic,Starter,50.05,600.54,CUST-55498,SMB,Direct Sales,Active,No Change,0,36,17,Monthly,Wire Transfer,Europe,1-10,Healthcare,Month-to-Month,0,Paid
+2024-03-21,COMP-1036,Enterprise,Enterprise,6529.51,78354.16,CUST-32547,Mid-Market,Email Marketing,Active,No Change,3,94,18,Monthly,Wire Transfer,Europe,51-200,Healthcare,Month-to-Month,0,Paid
+2024-05-26,COMP-1037,Basic,Enterprise,6348.64,76183.71,CUST-11768,SMB,Email Marketing,Active,No Change,2,46,24,Quarterly,Credit Card,Europe,51-200,Finance,12 months,12,Paid
+2024-07-13,COMP-1038,Enterprise,Scale,512.1,6145.21,CUST-66810,Mid-Market,Email Marketing,Active,No Change,5,39,45,Annual,ACH,North America,51-200,Real Estate,Month-to-Month,0,Paid
+2024-06-24,COMP-1039,Professional,Enterprise,1869.56,22434.68,CUST-71052,Mid-Market,Email Marketing,Active,No Change,6,46,12,Quarterly,PayPal,North America,1-10,Technology,12 months,0,Paid
+2024-03-16,COMP-1040,Enterprise,Scale,869.48,10433.81,CUST-45511,Mid-Market,Organic Search,Active,No Change,3,51,37,Annual,ACH,Europe,11-50,Technology,Month-to-Month,21,Paid
+2024-07-21,COMP-1041,Professional,Scale,565.48,6785.82,CUST-59861,Mid-Market,Partner Channel,Active,Upgraded,1,78,13,Monthly,PayPal,Middle East & Africa,11-50,Consulting,Month-to-Month,6,Paid
+2024-06-18,COMP-1042,Professional,Growth,244.39,2932.72,CUST-41339,Startup,Content Marketing,Active,No Change,1,37,27,Annual,PayPal,Europe,51-200,Legal,12 months,0,Paid
+2024-02-16,COMP-1043,Basic,Starter,46.52,558.19,CUST-36020,SMB,Content Marketing,Active,No Change,1,54,8,Monthly,PayPal,Asia Pacific,11-50,Legal,12 months,0,Paid
+2024-03-05,COMP-1044,Professional,Enterprise,3712.38,44548.62,CUST-61931,Enterprise,Content Marketing,Active,No Change,5,70,26,Annual,ACH,Middle East & Africa,11-50,Legal,Month-to-Month,0,Paid
+2024-04-22,COMP-1045,Premium,Enterprise,8345.56,100146.71,CUST-72792,SMB,Referral,Active,No Change,8,86,25,Monthly,Credit Card,North America,1000+,Manufacturing,24 months,0,Paid
+2024-04-24,COMP-1046,Basic,Enterprise,1314.63,15775.62,CUST-38033,Enterprise,Social Media,Active,Upgraded,6,86,41,Quarterly,Credit Card,Latin America,11-50,Marketing,12 months,8,Paid
+2024-02-21,COMP-1047,Professional,Scale,1159.24,13910.9,CUST-65818,Mid-Market,Paid Search,Active,No Change,1,66,32,Monthly,Credit Card,Asia Pacific,51-200,Marketing,Month-to-Month,0,Paid
+2024-07-01,COMP-1048,Basic,Scale,1092.44,13109.24,CUST-61291,SMB,Partner Channel,Active,No Change,3,65,37,Annual,PayPal,North America,51-200,Real Estate,12 months,16,Paid
+2024-01-01,COMP-1049,Premium,Growth,353.37,4240.41,CUST-31793,SMB,Email Marketing,Active,No Change,2,49,14,Annual,ACH,Europe,51-200,Retail,Month-to-Month,0,Paid
+2024-05-29,COMP-1050,Premium,Enterprise,5423.29,65079.53,CUST-59684,Mid-Market,Social Media,Active,Upgraded,4,70,43,Annual,Wire Transfer,Asia Pacific,51-200,Real Estate,12 months,17,Paid
+2024-01-12,COMP-1051,Basic,Scale,890.65,10687.8,CUST-28013,Mid-Market,Direct Sales,Active,No Change,2,83,45,Annual,PayPal,Latin America,201-1000,Retail,24 months,0,Paid
+2024-05-31,COMP-1052,Enterprise,Starter,75.6,907.19,CUST-52961,SMB,Content Marketing,Active,No Change,2,47,9,Annual,PayPal,Asia Pacific,51-200,Technology,12 months,0,Paid
+2024-02-15,COMP-1053,Professional,Growth,584.66,7015.9,CUST-75063,SMB,Organic Search,Active,No Change,2,53,23,Quarterly,Credit Card,Europe,1000+,Real Estate,12 months,0,Paid
+2024-05-25,COMP-1054,Enterprise,Growth,194.13,2329.6,CUST-60676,Mid-Market,Partner Channel,Active,No Change,0,40,22,Monthly,Wire Transfer,North America,11-50,Consulting,Month-to-Month,0,Paid
+2024-01-06,COMP-1055,Premium,Scale,1746.78,20961.39,CUST-20716,Startup,Social Media,Active,Upgraded,2,79,9,Monthly,Credit Card,Europe,201-1000,Marketing,36 months,19,Paid
+2024-03-17,COMP-1056,Basic,Scale,670.11,8041.31,CUST-17136,SMB,Partner Channel,Active,No Change,1,51,31,Monthly,ACH,Latin America,51-200,Consulting,Month-to-Month,0,Paid
+2024-05-23,COMP-1057,Basic,Growth,241.94,2903.23,CUST-80745,Mid-Market,Content Marketing,Active,Upgraded,0,86,36,Monthly,Wire Transfer,Asia Pacific,51-200,Legal,Month-to-Month,0,Paid
+2024-02-22,COMP-1058,Basic,Growth,866.56,10398.72,CUST-50009,Mid-Market,Social Media,Active,Upgraded,0,91,30,Quarterly,PayPal,North America,1000+,Manufacturing,12 months,0,Paid
+2024-03-19,COMP-1059,Professional,Scale,380.88,4570.56,CUST-87996,Mid-Market,Email Marketing,Active,Upgraded,1,32,20,Quarterly,ACH,Asia Pacific,1-10,Legal,Month-to-Month,20,Paid
+2024-07-15,COMP-1060,Enterprise,Scale,462.84,5554.09,CUST-64371,Startup,Organic Search,Active,No Change,3,38,42,Monthly,PayPal,Europe,1-10,Finance,12 months,7,Paid
+2024-07-13,COMP-1061,Premium,Scale,532.7,6392.45,CUST-50277,Startup,Referral,Active,Upgraded,4,70,12,Annual,ACH,Latin America,11-50,Finance,Month-to-Month,0,Paid
+2024-02-21,COMP-1062,Professional,Starter,38.74,464.93,CUST-87469,Mid-Market,Referral,Churned,No Change,1,64,1,Annual,Credit Card,Asia Pacific,1-10,Consulting,Month-to-Month,0,Failed
+2024-03-24,COMP-1063,Professional,Growth,495.53,5946.31,CUST-72845,SMB,Email Marketing,Active,No Change,3,34,43,Monthly,PayPal,Europe,51-200,Real Estate,12 months,0,Paid
+2024-06-10,COMP-1064,Professional,Scale,584.68,7016.13,CUST-56454,SMB,Organic Search,Active,Upgraded,3,94,24,Monthly,ACH,Latin America,11-50,Education,Month-to-Month,0,Paid
+2024-07-23,COMP-1065,Professional,Growth,349.84,4198.08,CUST-60261,Mid-Market,Email Marketing,Active,Upgraded,3,45,15,Quarterly,Wire Transfer,Asia Pacific,51-200,Healthcare,Month-to-Month,0,Paid
+2024-06-08,COMP-1066,Basic,Starter,44.02,528.28,CUST-97051,Startup,Direct Sales,Active,No Change,3,90,32,Annual,ACH,Middle East & Africa,11-50,Education,Month-to-Month,0,Paid
+2024-02-25,COMP-1067,Basic,Growth,374.71,4496.57,CUST-25861,Mid-Market,Paid Search,Active,No Change,2,52,44,Quarterly,Wire Transfer,Latin America,201-1000,Finance,Month-to-Month,0,Paid
+2024-06-02,COMP-1068,Professional,Starter,60.38,724.62,CUST-87799,Enterprise,Content Marketing,Active,No Change,2,67,34,Monthly,ACH,Latin America,51-200,Education,12 months,0,Paid
+2024-04-03,COMP-1069,Professional,Growth,267.23,3206.76,CUST-20808,SMB,Email Marketing,Active,No Change,1,39,36,Quarterly,ACH,Asia Pacific,201-1000,Marketing,Month-to-Month,0,Paid
+2024-04-06,COMP-1070,Enterprise,Scale,409.68,4916.21,CUST-82803,Mid-Market,Referral,Active,No Change,1,59,13,Annual,Wire Transfer,North America,1-10,Retail,12 months,0,Paid
+2024-03-06,COMP-1071,Enterprise,Growth,73.12,877.49,CUST-23145,Mid-Market,Referral,Active,No Change,1,52,23,Quarterly,Credit Card,North America,1-10,Healthcare,12 months,0,Paid
+2024-03-27,COMP-1072,Enterprise,Enterprise,3010.48,36125.76,CUST-70115,Startup,Content Marketing,Active,Upgraded,5,64,12,Monthly,PayPal,Middle East & Africa,1-10,Finance,Month-to-Month,0,Paid
+2024-05-03,COMP-1073,Enterprise,Scale,389.52,4674.27,CUST-39817,Mid-Market,Social Media,Active,Upgraded,4,78,45,Monthly,ACH,Middle East & Africa,51-200,Technology,Month-to-Month,0,Paid
+2024-01-08,COMP-1074,Premium,Scale,271.76,3261.09,CUST-74971,Enterprise,Social Media,Active,Upgraded,3,32,27,Monthly,PayPal,Latin America,1-10,Manufacturing,Month-to-Month,21,Paid
+2024-07-19,COMP-1075,Basic,Scale,661.62,7939.48,CUST-80849,Mid-Market,Referral,Active,Upgraded,2,89,29,Quarterly,ACH,Middle East & Africa,1-10,Retail,12 months,0,Paid
+2024-05-06,COMP-1076,Basic,Enterprise,4628.09,55537.05,CUST-77893,Startup,Content Marketing,Active,No Change,8,67,26,Monthly,Wire Transfer,Middle East & Africa,1000+,Consulting,12 months,0,Paid
+2024-05-20,COMP-1077,Premium,Enterprise,4403.11,52837.34,CUST-72751,SMB,Partner Channel,Active,No Change,6,40,40,Quarterly,PayPal,Europe,201-1000,Healthcare,36 months,0,Paid
+2024-05-07,COMP-1078,Professional,Enterprise,7079.42,84953.07,CUST-24026,Mid-Market,Social Media,Active,No Change,6,67,41,Quarterly,Wire Transfer,North America,201-1000,Education,24 months,12,Paid
+2024-05-02,COMP-1079,Professional,Growth,290.99,3491.83,CUST-66128,SMB,Social Media,Active,No Change,2,88,13,Annual,ACH,North America,11-50,Consulting,12 months,0,Paid
+2024-03-12,COMP-1080,Enterprise,Enterprise,8198.01,98376.18,CUST-97130,SMB,Organic Search,Active,No Change,4,51,27,Monthly,Wire Transfer,Latin America,51-200,Consulting,12 months,0,Paid
+2024-07-24,COMP-1081,Premium,Starter,26.1,313.18,CUST-72091,SMB,Organic Search,Active,Upgraded,3,59,38,Quarterly,PayPal,Latin America,1-10,Technology,12 months,0,Paid
+2024-05-11,COMP-1082,Professional,Starter,117.16,1405.94,CUST-55982,Mid-Market,Content Marketing,Active,No Change,1,78,45,Quarterly,Credit Card,Europe,51-200,Legal,Month-to-Month,0,Paid
+2024-03-11,COMP-1083,Basic,Growth,1357.68,16292.18,CUST-71314,SMB,Social Media,Active,No Change,0,54,24,Quarterly,Credit Card,Middle East & Africa,1000+,Finance,Month-to-Month,0,Paid
+2024-02-08,COMP-1084,Premium,Growth,518.05,6216.64,CUST-93326,Enterprise,Paid Search,Active,No Change,1,72,27,Quarterly,PayPal,Europe,201-1000,Marketing,12 months,0,Paid
+2024-01-11,COMP-1085,Basic,Starter,43.24,518.83,CUST-74621,Mid-Market,Direct Sales,Active,No Change,0,33,25,Quarterly,ACH,Latin America,1-10,Consulting,Month-to-Month,0,Paid
+2024-06-29,COMP-1086,Premium,Growth,316.62,3799.45,CUST-71821,SMB,Direct Sales,Active,No Change,3,63,20,Monthly,PayPal,Latin America,1000+,Consulting,12 months,0,Paid
+2024-04-29,COMP-1087,Enterprise,Scale,1766.35,21196.19,CUST-11641,Mid-Market,Direct Sales,Active,No Change,4,78,26,Annual,PayPal,Asia Pacific,1000+,Legal,36 months,0,Paid
+2024-01-05,COMP-1088,Enterprise,Starter,73.25,879.01,CUST-91911,Startup,Email Marketing,Active,No Change,2,80,13,Monthly,ACH,Europe,201-1000,Legal,Month-to-Month,0,Paid
+2024-01-14,COMP-1089,Basic,Starter,66.75,801.05,CUST-46142,Startup,Direct Sales,Active,No Change,2,34,8,Quarterly,PayPal,Europe,201-1000,Technology,Month-to-Month,0,Paid
+2024-05-14,COMP-1090,Professional,Scale,879.23,10550.75,CUST-83414,Startup,Referral,Active,No Change,2,56,34,Quarterly,Wire Transfer,Latin America,11-50,Technology,Month-to-Month,0,Paid
+2024-01-18,COMP-1091,Professional,Scale,781.53,9378.32,CUST-88844,Mid-Market,Organic Search,Active,No Change,2,51,11,Quarterly,PayPal,Asia Pacific,1-10,Retail,Month-to-Month,16,Paid
+2024-07-30,COMP-1092,Professional,Starter,178.7,2144.38,CUST-65979,SMB,Social Media,Active,Upgraded,1,50,23,Monthly,Wire Transfer,Europe,1000+,Consulting,12 months,0,Paid
+2024-01-01,COMP-1093,Premium,Starter,35.3,423.56,CUST-97138,Mid-Market,Email Marketing,Active,Upgraded,2,60,36,Quarterly,PayPal,Asia Pacific,11-50,Marketing,12 months,0,Paid
+2024-02-18,COMP-1094,Basic,Enterprise,6847.68,82172.11,CUST-72487,SMB,Social Media,Active,No Change,4,34,39,Quarterly,PayPal,Latin America,1000+,Healthcare,36 months,0,Paid
+2024-01-09,COMP-1095,Enterprise,Enterprise,3227.46,38729.58,CUST-89424,SMB,Paid Search,Churned,No Change,7,69,3,Annual,Credit Card,North America,1-10,Retail,12 months,0,Overdue
+2024-03-05,COMP-1096,Basic,Starter,57.33,688.01,CUST-94696,SMB,Referral,Active,No Change,0,46,26,Annual,Wire Transfer,North America,201-1000,Finance,12 months,0,Paid
+2024-06-14,COMP-1097,Premium,Enterprise,5021.75,60260.99,CUST-54967,Enterprise,Email Marketing,Active,No Change,7,69,37,Quarterly,Wire Transfer,Europe,1000+,Finance,36 months,0,Paid
+2024-03-07,COMP-1098,Professional,Starter,142.84,1714.12,CUST-16400,Startup,Email Marketing,Active,Upgraded,0,45,23,Monthly,Wire Transfer,Asia Pacific,201-1000,Legal,12 months,0,Paid
+2024-03-06,COMP-1099,Basic,Scale,2804.88,33658.57,CUST-91215,Mid-Market,Paid Search,Active,No Change,3,87,17,Monthly,ACH,North America,1000+,Real Estate,12 months,13,Paid
+2024-04-28,COMP-1100,Premium,Growth,101.74,1220.93,CUST-82492,Enterprise,Referral,Churned,No Change,2,95,3,Annual,Credit Card,Europe,1-10,Healthcare,12 months,0,Overdue
+2024-04-06,COMP-1101,Professional,Enterprise,3206.78,38481.32,CUST-15033,Enterprise,Referral,Active,No Change,3,83,24,Annual,PayPal,Europe,51-200,Healthcare,12 months,0,Paid
+2024-07-06,COMP-1102,Basic,Growth,209.76,2517.13,CUST-21416,SMB,Content Marketing,Active,Upgraded,0,46,28,Annual,PayPal,North America,11-50,Healthcare,12 months,0,Paid
+2024-02-04,COMP-1103,Professional,Growth,110.41,1324.93,CUST-52649,SMB,Direct Sales,Active,No Change,2,49,27,Monthly,Credit Card,Latin America,11-50,Education,12 months,0,Paid
+2024-04-19,COMP-1104,Premium,Enterprise,15031.76,180381.07,CUST-11115,Startup,Paid Search,Active,No Change,3,63,27,Annual,PayPal,Latin America,1000+,Marketing,12 months,0,Paid
+2024-05-30,COMP-1105,Enterprise,Growth,286.64,3439.7,CUST-73367,Startup,Partner Channel,Active,No Change,1,43,40,Quarterly,PayPal,Middle East & Africa,11-50,Healthcare,Month-to-Month,0,Paid
+2024-03-03,COMP-1106,Basic,Enterprise,7400.62,88807.4,CUST-90293,Enterprise,Social Media,Active,No Change,2,32,38,Quarterly,Wire Transfer,Europe,51-200,Legal,12 months,0,Paid
+2024-03-19,COMP-1107,Basic,Enterprise,1956.56,23478.7,CUST-26875,Startup,Partner Channel,Active,No Change,2,65,41,Quarterly,Wire Transfer,North America,201-1000,Technology,36 months,0,Paid
+2024-06-25,COMP-1108,Enterprise,Enterprise,21589.31,259071.78,CUST-33050,Enterprise,Paid Search,Active,No Change,2,36,13,Annual,ACH,Europe,1000+,Consulting,24 months,8,Paid
+2024-07-29,COMP-1109,Premium,Enterprise,7493.53,89922.34,CUST-46501,Mid-Market,Social Media,Active,Upgraded,4,64,14,Monthly,PayPal,North America,201-1000,Retail,24 months,0,Paid
+2024-05-28,COMP-1110,Enterprise,Starter,119.42,1433.06,CUST-14608,SMB,Social Media,Active,No Change,2,75,28,Monthly,Wire Transfer,Middle East & Africa,51-200,Real Estate,12 months,0,Paid
+2024-06-01,COMP-1111,Basic,Starter,146.01,1752.17,CUST-91666,Startup,Referral,Active,No Change,2,92,9,Quarterly,Credit Card,Asia Pacific,51-200,Technology,Month-to-Month,0,Paid
+2024-05-16,COMP-1112,Premium,Scale,354.81,4257.69,CUST-54828,SMB,Direct Sales,Active,No Change,1,60,10,Monthly,PayPal,Middle East & Africa,1-10,Marketing,12 months,6,Paid
+2024-02-22,COMP-1113,Basic,Growth,772.8,9273.54,CUST-17061,Mid-Market,Organic Search,Active,No Change,0,83,34,Monthly,PayPal,Europe,1000+,Legal,Month-to-Month,0,Paid
+2024-02-27,COMP-1114,Premium,Growth,154.84,1858.07,CUST-38108,Mid-Market,Organic Search,Active,No Change,2,78,26,Annual,ACH,Latin America,51-200,Education,12 months,0,Paid
+2024-01-18,COMP-1115,Premium,Starter,58.31,699.72,CUST-47498,Mid-Market,Direct Sales,Active,No Change,0,36,8,Monthly,Credit Card,Asia Pacific,11-50,Retail,Month-to-Month,0,Paid
+2024-07-21,COMP-1116,Basic,Starter,124.95,1499.39,CUST-22331,Mid-Market,Social Media,Active,No Change,2,77,35,Monthly,Credit Card,Europe,201-1000,Consulting,12 months,0,Paid
+2024-05-09,COMP-1117,Enterprise,Starter,141.92,1703.01,CUST-61455,Startup,Organic Search,Active,No Change,1,32,36,Monthly,Credit Card,Asia Pacific,51-200,Legal,12 months,0,Paid
+2024-04-16,COMP-1118,Professional,Growth,95.86,1150.3,CUST-38472,Enterprise,Organic Search,Active,No Change,3,65,22,Monthly,ACH,Latin America,11-50,Technology,12 months,22,Paid
+2024-04-30,COMP-1119,Enterprise,Starter,87.78,1053.3,CUST-63886,Enterprise,Social Media,Active,No Change,2,80,42,Monthly,Wire Transfer,Middle East & Africa,11-50,Consulting,12 months,0,Paid

@@ -1,0 +1,1051 @@
+Date,Product_ID,Product_Name,Category,Supplier,Units_In_Stock,Units_Sold,Reorder_Level,Unit_Cost,Selling_Price,Profit_Margin,Storage_Location,Expiry_Date,Seasonal_Demand,Promotion_Status,Customer_Rating,Return_Rate
+2024-01-06,PRD-5000,Biography,Books,Fashion Forward Ltd,95,23,39,18.59,33.06,43.79,Outdoor Storage,N/A,5,Buy 2 Get 1,3.2,3.6
+2024-02-21,PRD-5000,Biography,Books,Fashion Forward Ltd,121,29,31,18.59,33.06,43.79,Backroom,N/A,5,BOGO,4.1,2.6
+2024-03-22,PRD-5000,Biography,Books,Fashion Forward Ltd,13,4,3,18.59,33.06,43.79,Warehouse C,N/A,5,Clearance Sale,4.5,4.7
+2024-04-04,PRD-5000,Biography,Books,Fashion Forward Ltd,127,19,28,18.59,33.06,43.79,Outdoor Storage,N/A,5,BOGO,4.7,4.4
+2024-05-14,PRD-5000,Biography,Books,Fashion Forward Ltd,32,20,12,18.59,33.06,43.79,Warehouse C,N/A,5,Clearance Sale,3.1,3.2
+2024-06-23,PRD-5000,Biography,Books,Fashion Forward Ltd,35,6,8,18.59,33.06,43.79,Warehouse B,N/A,5,No Promotion,3.8,1.2
+2024-07-01,PRD-5000,Biography,Books,Fashion Forward Ltd,63,14,17,18.59,33.06,43.79,Backroom,N/A,5,Buy 2 Get 1,4.7,6.6
+2024-01-07,PRD-5001,Moisturizer,Beauty,Book Distributors,87,32,37,17.95,61.01,70.58,Outdoor Storage,2024-09-01,5,Clearance Sale,3.3,3.0
+2024-02-21,PRD-5001,Moisturizer,Beauty,Book Distributors,49,39,17,17.95,61.01,70.58,Store Floor,2026-02-09,5,BOGO,4.9,7.6
+2024-03-23,PRD-5001,Moisturizer,Beauty,Book Distributors,118,22,46,17.95,61.01,70.58,Backroom,2024-10-24,5,No Promotion,3.3,3.5
+2024-04-16,PRD-5001,Moisturizer,Beauty,Book Distributors,42,14,14,17.95,61.01,70.58,Store Floor,2026-02-19,5,BOGO,3.9,2.2
+2024-05-05,PRD-5001,Moisturizer,Beauty,Book Distributors,94,11,31,17.95,61.01,70.58,Backroom,2025-04-07,5,No Promotion,4.5,4.2
+2024-06-10,PRD-5001,Moisturizer,Beauty,Book Distributors,11,17,9,17.95,61.01,70.58,Outdoor Storage,2025-04-28,5,No Promotion,4.2,4.3
+2024-07-02,PRD-5001,Moisturizer,Beauty,Book Distributors,0,26,7,17.95,61.01,70.58,Warehouse C,2025-08-24,5,Clearance Sale,3.3,7.6
+2024-01-15,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,0,18,2,58.29,90.63,35.68,Backroom,N/A,5,BOGO,4.6,5.4
+2024-02-06,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,20,20,13,58.29,90.63,35.68,Cold Storage,N/A,5,Discount 20%,4.8,6.5
+2024-03-09,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,93,4,27,58.29,90.63,35.68,Outdoor Storage,N/A,5,No Promotion,3.9,5.9
+2024-04-02,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,46,10,15,58.29,90.63,35.68,Warehouse B,N/A,5,Buy 2 Get 1,4.3,5.2
+2024-05-24,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,20,18,7,58.29,90.63,35.68,Warehouse A,N/A,5,No Promotion,4.2,5.4
+2024-06-14,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,40,11,14,58.29,90.63,35.68,Warehouse A,N/A,5,Discount 20%,4.9,7.0
+2024-07-16,PRD-5002,Wiper Blades,Automotive,Home Essentials Inc,9,2,3,58.29,90.63,35.68,Cold Storage,N/A,5,No Promotion,3.9,5.9
+2024-01-11,PRD-5003,Nuts,Food & Beverages,Book Distributors,61,29,28,21.42,34.8,38.43,Warehouse C,2025-02-06,5,No Promotion,4.1,0.9
+2024-02-23,PRD-5003,Nuts,Food & Beverages,Book Distributors,221,48,72,21.42,34.8,38.43,Backroom,2024-06-14,5,No Promotion,4.3,1.2
+2024-03-06,PRD-5003,Nuts,Food & Beverages,Book Distributors,216,46,85,21.42,34.8,38.43,Store Floor,2024-11-22,5,BOGO,3.0,1.8
+2024-04-06,PRD-5003,Nuts,Food & Beverages,Book Distributors,131,20,43,21.42,34.8,38.43,Backroom,2025-02-09,5,No Promotion,4.7,2.1
+2024-05-08,PRD-5003,Nuts,Food & Beverages,Book Distributors,168,16,43,21.42,34.8,38.43,Backroom,2026-03-05,5,No Promotion,4.6,2.3
+2024-06-01,PRD-5003,Nuts,Food & Beverages,Book Distributors,314,26,71,21.42,34.8,38.43,Warehouse B,2024-10-09,5,Buy 2 Get 1,3.6,0.8
+2024-07-12,PRD-5003,Nuts,Food & Beverages,Book Distributors,298,18,54,21.42,34.8,38.43,Warehouse A,2026-04-10,5,Seasonal Sale,4.3,1.0
+2024-01-15,PRD-5004,Lipstick,Beauty,Auto Parts Plus,0,39,6,93.72,324.2,71.09,Cold Storage,2025-04-17,5,Discount 20%,4.2,4.5
+2024-02-22,PRD-5004,Lipstick,Beauty,Auto Parts Plus,119,19,24,93.72,324.2,71.09,Store Floor,2024-05-02,5,No Promotion,4.9,1.8
+2024-03-15,PRD-5004,Lipstick,Beauty,Auto Parts Plus,11,11,5,93.72,324.2,71.09,Warehouse C,2025-06-02,5,Buy 2 Get 1,4.2,2.2
+2024-04-24,PRD-5004,Lipstick,Beauty,Auto Parts Plus,77,18,17,93.72,324.2,71.09,Store Floor,2024-11-18,5,No Promotion,4.6,2.0
+2024-05-06,PRD-5004,Lipstick,Beauty,Auto Parts Plus,11,14,5,93.72,324.2,71.09,Warehouse A,2026-03-09,5,Buy 2 Get 1,4.3,4.7
+2024-05-30,PRD-5004,Lipstick,Beauty,Auto Parts Plus,26,8,9,93.72,324.2,71.09,Cold Storage,2025-05-29,5,Discount 20%,4.9,7.8
+2024-07-24,PRD-5004,Lipstick,Beauty,Auto Parts Plus,115,12,36,93.72,324.2,71.09,Outdoor Storage,2025-07-27,5,BOGO,4.1,5.1
+2024-01-09,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,145,36,60,23.98,41.89,42.75,Warehouse C,2024-12-18,5,Buy 2 Get 1,3.8,1.8
+2024-02-19,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,348,7,60,23.98,41.89,42.75,Backroom,2024-08-18,5,Seasonal Sale,3.9,1.3
+2024-03-11,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,181,35,58,23.98,41.89,42.75,Warehouse C,2024-07-11,5,Discount 20%,4.9,1.8
+2024-04-03,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,129,7,36,23.98,41.89,42.75,Warehouse A,2025-03-09,5,No Promotion,4.8,2.8
+2024-05-18,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,370,28,77,23.98,41.89,42.75,Store Floor,2025-03-27,5,Buy 2 Get 1,4.4,2.3
+2024-06-22,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,252,28,96,23.98,41.89,42.75,Store Floor,2026-04-29,5,Buy 2 Get 1,3.6,1.7
+2024-07-22,PRD-5005,Crackers,Food & Beverages,Home Essentials Inc,121,34,41,23.98,41.89,42.75,Outdoor Storage,2026-02-20,5,No Promotion,4.0,2.3
+2024-01-21,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,12,23,10,158.21,283.31,44.16,Warehouse C,N/A,5,No Promotion,4.5,1.8
+2024-02-16,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,25,23,15,158.21,283.31,44.16,Store Floor,N/A,5,Seasonal Sale,3.8,5.3
+2024-03-24,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,21,3,3,158.21,283.31,44.16,Warehouse C,N/A,5,No Promotion,4.0,2.2
+2024-04-22,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,0,25,7,158.21,283.31,44.16,Warehouse B,N/A,8,No Promotion,4.0,4.9
+2024-05-22,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,65,22,24,158.21,283.31,44.16,Warehouse C,N/A,6,No Promotion,3.3,2.7
+2024-06-19,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,66,29,17,158.21,283.31,44.16,Cold Storage,N/A,8,Seasonal Sale,3.7,2.0
+2024-07-10,PRD-5006,Bedding,Home & Garden,Fashion Forward Ltd,70,25,20,158.21,283.31,44.16,Cold Storage,N/A,7,Clearance Sale,4.2,7.9
+2024-01-21,PRD-5007,Yoga Mat,Sports,Health First,101,12,37,92.19,167.26,44.88,Cold Storage,N/A,5,Discount 20%,4.8,7.5
+2024-02-18,PRD-5007,Yoga Mat,Sports,Health First,24,23,13,92.19,167.26,44.88,Store Floor,N/A,5,Buy 2 Get 1,4.6,7.3
+2024-03-24,PRD-5007,Yoga Mat,Sports,Health First,43,21,18,92.19,167.26,44.88,Cold Storage,N/A,5,No Promotion,4.5,7.4
+2024-04-04,PRD-5007,Yoga Mat,Sports,Health First,111,11,29,92.19,167.26,44.88,Backroom,N/A,6,Seasonal Sale,3.9,4.7
+2024-05-01,PRD-5007,Yoga Mat,Sports,Health First,80,2,27,92.19,167.26,44.88,Warehouse B,N/A,6,No Promotion,3.8,3.0
+2024-06-19,PRD-5007,Yoga Mat,Sports,Health First,61,21,16,92.19,167.26,44.88,Warehouse B,N/A,7,No Promotion,4.1,2.0
+2024-07-05,PRD-5007,Yoga Mat,Sports,Health First,148,5,45,92.19,167.26,44.88,Store Floor,N/A,7,BOGO,3.6,7.3
+2024-01-08,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,91,11,33,5.12,8.24,37.86,Store Floor,2024-03-19,5,Clearance Sale,4.6,2.6
+2024-02-08,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,171,29,59,5.12,8.24,37.86,Store Floor,2024-05-09,5,Discount 20%,4.9,2.2
+2024-03-01,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,441,30,141,5.12,8.24,37.86,Store Floor,2025-07-25,5,Discount 20%,3.3,1.7
+2024-04-02,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,211,48,85,5.12,8.24,37.86,Store Floor,2024-10-26,5,No Promotion,4.9,2.4
+2024-05-19,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,82,24,27,5.12,8.24,37.86,Warehouse C,2024-09-21,5,Clearance Sale,3.8,2.5
+2024-06-15,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,19,45,14,5.12,8.24,37.86,Store Floor,2024-10-07,5,No Promotion,4.3,1.7
+2024-07-02,PRD-5008,Protein Bar,Food & Beverages,Fashion Forward Ltd,54,28,17,5.12,8.24,37.86,Warehouse A,2025-09-03,5,Buy 2 Get 1,4.5,1.0
+2024-01-05,PRD-5009,Laptop,Electronics,Home Essentials Inc,55,10,15,647.13,1134.51,42.96,Store Floor,N/A,9,BOGO,4.5,3.0
+2024-02-16,PRD-5009,Laptop,Electronics,Home Essentials Inc,68,14,23,647.13,1134.51,42.96,Outdoor Storage,N/A,5,No Promotion,4.4,4.4
+2024-03-03,PRD-5009,Laptop,Electronics,Home Essentials Inc,44,17,10,647.13,1134.51,42.96,Backroom,N/A,5,Discount 20%,4.7,4.7
+2024-04-08,PRD-5009,Laptop,Electronics,Home Essentials Inc,40,9,8,647.13,1134.51,42.96,Backroom,N/A,5,No Promotion,3.3,6.0
+2024-05-19,PRD-5009,Laptop,Electronics,Home Essentials Inc,69,1,17,647.13,1134.51,42.96,Cold Storage,N/A,5,Buy 2 Get 1,4.7,11.0
+2024-06-15,PRD-5009,Laptop,Electronics,Home Essentials Inc,71,14,16,647.13,1134.51,42.96,Cold Storage,N/A,5,Buy 2 Get 1,4.2,5.4
+2024-06-29,PRD-5009,Laptop,Electronics,Home Essentials Inc,93,6,22,647.13,1134.51,42.96,Outdoor Storage,N/A,5,Discount 20%,3.9,10.8
+2024-01-24,PRD-5010,Educational Toy,Toys,Health First,30,7,10,43.73,110.93,60.57,Store Floor,N/A,5,Seasonal Sale,4.5,3.3
+2024-01-31,PRD-5010,Educational Toy,Toys,Health First,130,19,43,43.73,110.93,60.57,Store Floor,N/A,5,No Promotion,3.7,5.2
+2024-03-20,PRD-5010,Educational Toy,Toys,Health First,121,4,34,43.73,110.93,60.57,Warehouse C,N/A,5,Buy 2 Get 1,4.0,2.5
+2024-04-21,PRD-5010,Educational Toy,Toys,Health First,37,8,13,43.73,110.93,60.57,Warehouse A,N/A,5,No Promotion,3.5,1.1
+2024-05-25,PRD-5010,Educational Toy,Toys,Health First,44,8,10,43.73,110.93,60.57,Warehouse A,N/A,5,BOGO,4.0,6.9
+2024-05-31,PRD-5010,Educational Toy,Toys,Health First,18,17,10,43.73,110.93,60.57,Cold Storage,N/A,5,No Promotion,4.4,5.1
+2024-07-17,PRD-5010,Educational Toy,Toys,Health First,63,2,15,43.73,110.93,60.57,Store Floor,N/A,5,Seasonal Sale,4.0,2.5
+2024-01-11,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,199,30,71,6.27,8.24,23.89,Backroom,2024-09-09,5,No Promotion,4.6,2.6
+2024-01-31,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,449,24,110,6.27,8.24,23.89,Warehouse A,2025-06-23,5,Clearance Sale,4.3,0.6
+2024-03-18,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,442,14,155,6.27,8.24,23.89,Store Floor,2025-06-05,5,Seasonal Sale,3.8,1.2
+2024-04-25,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,410,12,144,6.27,8.24,23.89,Warehouse A,2026-02-07,5,No Promotion,3.6,1.4
+2024-05-06,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,132,17,28,6.27,8.24,23.89,Warehouse A,2025-06-17,5,Discount 20%,4.4,1.3
+2024-06-13,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,456,28,121,6.27,8.24,23.89,Warehouse B,2026-03-06,5,No Promotion,3.8,2.3
+2024-07-05,PRD-5011,Protein Bar,Food & Beverages,Home Essentials Inc,212,26,63,6.27,8.24,23.89,Warehouse A,2025-01-02,5,Seasonal Sale,3.3,1.6
+2024-01-16,PRD-5012,Lipstick,Beauty,TechSupply Co,15,39,13,98.23,371.98,73.59,Warehouse A,2024-08-02,5,Discount 20%,4.5,3.6
+2024-02-02,PRD-5012,Lipstick,Beauty,TechSupply Co,24,24,7,98.23,371.98,73.59,Store Floor,2024-07-06,5,Buy 2 Get 1,4.1,2.4
+2024-03-09,PRD-5012,Lipstick,Beauty,TechSupply Co,30,8,9,98.23,371.98,73.59,Warehouse A,2025-06-25,5,Clearance Sale,3.7,3.5
+2024-04-08,PRD-5012,Lipstick,Beauty,TechSupply Co,115,14,40,98.23,371.98,73.59,Outdoor Storage,2026-02-14,5,BOGO,3.7,7.2
+2024-05-20,PRD-5012,Lipstick,Beauty,TechSupply Co,0,34,8,98.23,371.98,73.59,Backroom,2025-02-14,5,Buy 2 Get 1,4.9,4.8
+2024-06-15,PRD-5012,Lipstick,Beauty,TechSupply Co,67,33,26,98.23,371.98,73.59,Outdoor Storage,2024-12-22,5,Clearance Sale,4.6,3.0
+2024-07-07,PRD-5012,Lipstick,Beauty,TechSupply Co,99,45,33,98.23,371.98,73.59,Outdoor Storage,2025-05-14,5,No Promotion,3.4,5.7
+2024-01-10,PRD-5013,Jacket,Clothing,Health First,152,4,38,97.86,196.23,50.13,Warehouse C,N/A,8,Discount 20%,3.1,9.9
+2024-01-31,PRD-5013,Jacket,Clothing,Health First,140,2,36,97.86,196.23,50.13,Cold Storage,N/A,9,No Promotion,4.9,3.6
+2024-03-18,PRD-5013,Jacket,Clothing,Health First,11,15,7,97.86,196.23,50.13,Backroom,N/A,5,Seasonal Sale,4.9,11.9
+2024-04-16,PRD-5013,Jacket,Clothing,Health First,100,24,22,97.86,196.23,50.13,Warehouse C,N/A,5,Seasonal Sale,4.9,11.8
+2024-05-23,PRD-5013,Jacket,Clothing,Health First,145,16,43,97.86,196.23,50.13,Warehouse A,N/A,5,No Promotion,3.2,5.1
+2024-06-10,PRD-5013,Jacket,Clothing,Health First,109,17,23,97.86,196.23,50.13,Warehouse C,N/A,5,Buy 2 Get 1,4.1,10.8
+2024-07-21,PRD-5013,Jacket,Clothing,Health First,105,3,21,97.86,196.23,50.13,Warehouse C,N/A,5,No Promotion,3.5,5.6
+2024-01-20,PRD-5014,Jeans,Clothing,Sports World,156,11,49,32.4,76.13,57.43,Warehouse B,N/A,7,No Promotion,4.6,4.6
+2024-02-20,PRD-5014,Jeans,Clothing,Sports World,154,25,42,32.4,76.13,57.43,Warehouse B,N/A,5,Buy 2 Get 1,3.5,9.6
+2024-03-16,PRD-5014,Jeans,Clothing,Sports World,85,22,16,32.4,76.13,57.43,Warehouse C,N/A,5,No Promotion,4.4,8.8
+2024-04-23,PRD-5014,Jeans,Clothing,Sports World,164,5,37,32.4,76.13,57.43,Warehouse C,N/A,5,No Promotion,3.4,4.9
+2024-05-02,PRD-5014,Jeans,Clothing,Sports World,110,11,29,32.4,76.13,57.43,Warehouse B,N/A,5,Clearance Sale,4.9,11.8
+2024-06-20,PRD-5014,Jeans,Clothing,Sports World,0,29,5,32.4,76.13,57.43,Warehouse B,N/A,5,Clearance Sale,4.9,6.6
+2024-07-02,PRD-5014,Jeans,Clothing,Sports World,20,9,9,32.4,76.13,57.43,Backroom,N/A,5,No Promotion,4.2,10.8
+2024-01-11,PRD-5015,Nail Polish,Beauty,Health First,110,28,47,58.49,202.19,71.07,Warehouse C,2024-07-14,5,Seasonal Sale,4.4,7.7
+2024-02-05,PRD-5015,Nail Polish,Beauty,Health First,43,43,20,58.49,202.19,71.07,Warehouse C,2025-11-28,5,BOGO,4.6,7.5
+2024-03-19,PRD-5015,Nail Polish,Beauty,Health First,40,18,9,58.49,202.19,71.07,Warehouse C,2025-12-08,5,BOGO,3.3,5.1
+2024-04-10,PRD-5015,Nail Polish,Beauty,Health First,6,32,12,58.49,202.19,71.07,Backroom,2024-06-23,5,No Promotion,3.7,5.3
+2024-05-24,PRD-5015,Nail Polish,Beauty,Health First,0,44,7,58.49,202.19,71.07,Backroom,2025-03-23,5,No Promotion,4.3,2.0
+2024-06-19,PRD-5015,Nail Polish,Beauty,Health First,99,8,22,58.49,202.19,71.07,Outdoor Storage,2024-11-07,5,No Promotion,3.6,7.9
+2024-07-01,PRD-5015,Nail Polish,Beauty,Health First,44,34,19,58.49,202.19,71.07,Outdoor Storage,2025-02-10,5,No Promotion,3.1,6.9
+2024-01-07,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,401,9,131,57.88,111.39,48.04,Store Floor,2024-10-20,5,No Promotion,4.8,1.5
+2024-02-15,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,468,27,162,57.88,111.39,48.04,Store Floor,2024-07-24,5,Seasonal Sale,3.5,2.5
+2024-03-19,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,44,9,9,57.88,111.39,48.04,Cold Storage,2024-11-21,5,Discount 20%,3.5,1.5
+2024-04-15,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,109,21,30,57.88,111.39,48.04,Warehouse A,2025-05-03,5,No Promotion,3.7,2.3
+2024-05-24,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,224,20,39,57.88,111.39,48.04,Outdoor Storage,2025-03-04,5,Buy 2 Get 1,3.6,1.2
+2024-06-17,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,372,26,91,57.88,111.39,48.04,Outdoor Storage,2026-06-16,5,No Promotion,4.3,1.6
+2024-07-16,PRD-5016,Blood Pressure Monitor,Health,Food Source Ltd,365,13,67,57.88,111.39,48.04,Store Floor,2025-09-28,5,BOGO,4.8,2.1
+2024-01-14,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,54,7,14,12.38,29.11,57.47,Outdoor Storage,N/A,5,No Promotion,4.3,5.3
+2024-02-09,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,34,20,8,12.38,29.11,57.47,Warehouse B,N/A,5,Seasonal Sale,4.3,5.4
+2024-03-02,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,15,10,7,12.38,29.11,57.47,Cold Storage,N/A,5,No Promotion,3.1,5.0
+2024-04-14,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,39,16,12,12.38,29.11,57.47,Cold Storage,N/A,5,Clearance Sale,3.9,1.3
+2024-05-18,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,5,5,2,12.38,29.11,57.47,Backroom,N/A,5,No Promotion,4.3,3.5
+2024-06-09,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,56,10,22,12.38,29.11,57.47,Warehouse B,N/A,5,Discount 20%,4.5,2.9
+2024-07-17,PRD-5017,Tire Gauge,Automotive,Fashion Forward Ltd,7,10,2,12.38,29.11,57.47,Outdoor Storage,N/A,5,Clearance Sale,3.8,7.8
+2024-01-24,PRD-5018,Monitor,Electronics,Health First,5,7,4,630.36,876.62,28.09,Outdoor Storage,N/A,7,Clearance Sale,5.0,6.5
+2024-02-16,PRD-5018,Monitor,Electronics,Health First,57,14,16,630.36,876.62,28.09,Backroom,N/A,5,Seasonal Sale,3.2,9.9
+2024-03-24,PRD-5018,Monitor,Electronics,Health First,12,2,4,630.36,876.62,28.09,Warehouse A,N/A,5,Clearance Sale,3.5,6.0
+2024-04-16,PRD-5018,Monitor,Electronics,Health First,31,10,11,630.36,876.62,28.09,Warehouse B,N/A,5,No Promotion,4.6,10.2
+2024-05-11,PRD-5018,Monitor,Electronics,Health First,38,18,13,630.36,876.62,28.09,Warehouse C,N/A,5,No Promotion,4.2,11.0
+2024-06-08,PRD-5018,Monitor,Electronics,Health First,2,17,4,630.36,876.62,28.09,Store Floor,N/A,5,BOGO,4.2,6.1
+2024-07-20,PRD-5018,Monitor,Electronics,Health First,13,19,6,630.36,876.62,28.09,Warehouse B,N/A,5,Seasonal Sale,3.7,3.8
+2024-01-21,PRD-5019,Air Freshener,Automotive,Toy Universe,93,2,25,109.53,199.34,45.05,Store Floor,N/A,5,No Promotion,3.6,6.6
+2024-02-19,PRD-5019,Air Freshener,Automotive,Toy Universe,50,8,10,109.53,199.34,45.05,Warehouse B,N/A,5,No Promotion,3.4,5.1
+2024-03-09,PRD-5019,Air Freshener,Automotive,Toy Universe,26,19,13,109.53,199.34,45.05,Warehouse C,N/A,5,Clearance Sale,3.4,2.6
+2024-04-05,PRD-5019,Air Freshener,Automotive,Toy Universe,36,19,15,109.53,199.34,45.05,Warehouse A,N/A,5,BOGO,3.9,7.3
+2024-04-30,PRD-5019,Air Freshener,Automotive,Toy Universe,22,8,7,109.53,199.34,45.05,Outdoor Storage,N/A,5,BOGO,3.9,4.3
+2024-05-31,PRD-5019,Air Freshener,Automotive,Toy Universe,11,5,3,109.53,199.34,45.05,Outdoor Storage,N/A,5,BOGO,3.4,5.4
+2024-07-19,PRD-5019,Air Freshener,Automotive,Toy Universe,0,19,3,109.53,199.34,45.05,Cold Storage,N/A,5,Clearance Sale,3.5,7.9
+2024-01-15,PRD-5020,Building Blocks,Toys,TechSupply Co,80,20,24,75.71,153.21,50.59,Cold Storage,N/A,5,No Promotion,4.8,5.4
+2024-02-24,PRD-5020,Building Blocks,Toys,TechSupply Co,133,4,32,75.71,153.21,50.59,Backroom,N/A,5,Clearance Sale,3.1,1.4
+2024-03-03,PRD-5020,Building Blocks,Toys,TechSupply Co,34,28,20,75.71,153.21,50.59,Outdoor Storage,N/A,5,No Promotion,3.0,3.7
+2024-04-03,PRD-5020,Building Blocks,Toys,TechSupply Co,10,18,5,75.71,153.21,50.59,Outdoor Storage,N/A,5,Clearance Sale,4.9,6.2
+2024-05-04,PRD-5020,Building Blocks,Toys,TechSupply Co,93,16,20,75.71,153.21,50.59,Warehouse A,N/A,5,No Promotion,3.3,1.3
+2024-06-14,PRD-5020,Building Blocks,Toys,TechSupply Co,103,30,21,75.71,153.21,50.59,Cold Storage,N/A,5,BOGO,3.3,7.9
+2024-07-09,PRD-5020,Building Blocks,Toys,TechSupply Co,12,12,6,75.71,153.21,50.59,Warehouse A,N/A,5,Buy 2 Get 1,3.6,6.0
+2024-01-14,PRD-5021,Dress,Clothing,Food Source Ltd,116,26,31,105.4,301.54,65.05,Backroom,N/A,6,No Promotion,3.2,11.3
+2024-02-18,PRD-5021,Dress,Clothing,Food Source Ltd,55,5,10,105.4,301.54,65.05,Store Floor,N/A,5,Seasonal Sale,4.4,6.1
+2024-03-17,PRD-5021,Dress,Clothing,Food Source Ltd,65,16,25,105.4,301.54,65.05,Warehouse A,N/A,5,Discount 20%,3.5,11.5
+2024-04-25,PRD-5021,Dress,Clothing,Food Source Ltd,122,28,51,105.4,301.54,65.05,Warehouse C,N/A,5,Clearance Sale,4.4,9.1
+2024-05-18,PRD-5021,Dress,Clothing,Food Source Ltd,53,23,18,105.4,301.54,65.05,Backroom,N/A,5,Seasonal Sale,4.1,10.8
+2024-06-10,PRD-5021,Dress,Clothing,Food Source Ltd,79,16,22,105.4,301.54,65.05,Backroom,N/A,5,Discount 20%,3.1,11.2
+2024-07-07,PRD-5021,Dress,Clothing,Food Source Ltd,168,13,62,105.4,301.54,65.05,Cold Storage,N/A,5,Discount 20%,3.5,10.4
+2024-01-14,PRD-5022,Wiper Blades,Automotive,Sports World,42,11,14,36.76,79.46,53.74,Warehouse C,N/A,5,Clearance Sale,3.1,6.8
+2024-02-10,PRD-5022,Wiper Blades,Automotive,Sports World,74,20,32,36.76,79.46,53.74,Warehouse A,N/A,5,Buy 2 Get 1,3.1,4.8
+2024-03-11,PRD-5022,Wiper Blades,Automotive,Sports World,1,16,5,36.76,79.46,53.74,Store Floor,N/A,5,No Promotion,4.3,1.7
+2024-04-16,PRD-5022,Wiper Blades,Automotive,Sports World,10,15,6,36.76,79.46,53.74,Store Floor,N/A,5,No Promotion,3.4,5.7
+2024-05-02,PRD-5022,Wiper Blades,Automotive,Sports World,20,11,6,36.76,79.46,53.74,Outdoor Storage,N/A,5,No Promotion,3.8,6.8
+2024-06-24,PRD-5022,Wiper Blades,Automotive,Sports World,78,19,28,36.76,79.46,53.74,Backroom,N/A,5,No Promotion,3.8,5.3
+2024-07-17,PRD-5022,Wiper Blades,Automotive,Sports World,78,2,19,36.76,79.46,53.74,Backroom,N/A,5,Seasonal Sale,3.5,3.5
+2024-01-12,PRD-5023,Bedding,Home & Garden,Beauty Brands,80,12,20,122.22,235.62,48.13,Warehouse C,N/A,5,Clearance Sale,3.7,1.1
+2024-02-09,PRD-5023,Bedding,Home & Garden,Beauty Brands,127,16,43,122.22,235.62,48.13,Store Floor,N/A,5,Clearance Sale,5.0,1.7
+2024-03-15,PRD-5023,Bedding,Home & Garden,Beauty Brands,112,3,37,122.22,235.62,48.13,Cold Storage,N/A,5,Buy 2 Get 1,4.0,5.9
+2024-04-11,PRD-5023,Bedding,Home & Garden,Beauty Brands,75,30,18,122.22,235.62,48.13,Warehouse A,N/A,7,No Promotion,4.1,1.2
+2024-05-17,PRD-5023,Bedding,Home & Garden,Beauty Brands,13,29,13,122.22,235.62,48.13,Outdoor Storage,N/A,7,No Promotion,4.1,5.9
+2024-06-09,PRD-5023,Bedding,Home & Garden,Beauty Brands,66,20,22,122.22,235.62,48.13,Backroom,N/A,8,BOGO,3.8,6.8
+2024-07-21,PRD-5023,Bedding,Home & Garden,Beauty Brands,123,26,38,122.22,235.62,48.13,Warehouse A,N/A,6,Clearance Sale,3.3,3.7
+2024-01-18,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,215,39,53,9.5,18.67,49.1,Warehouse C,2024-12-31,5,BOGO,3.6,1.0
+2024-02-01,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,221,22,54,9.5,18.67,49.1,Outdoor Storage,2024-10-05,5,BOGO,3.0,2.2
+2024-03-05,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,458,27,119,9.5,18.67,49.1,Outdoor Storage,2024-12-15,5,Discount 20%,4.7,1.2
+2024-04-25,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,97,40,36,9.5,18.67,49.1,Warehouse C,2024-11-21,5,No Promotion,4.3,1.9
+2024-05-13,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,481,5,160,9.5,18.67,49.1,Store Floor,2025-08-09,5,No Promotion,3.4,1.0
+2024-06-06,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,400,42,81,9.5,18.67,49.1,Warehouse C,2026-01-15,5,Buy 2 Get 1,4.5,3.0
+2024-06-29,PRD-5024,Nuts,Food & Beverages,Food Source Ltd,89,42,24,9.5,18.67,49.1,Warehouse C,2026-06-09,5,Buy 2 Get 1,4.1,2.9
+2024-01-03,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,59,7,13,188.83,289.66,34.81,Warehouse A,N/A,5,No Promotion,3.2,1.6
+2024-01-31,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,16,6,7,188.83,289.66,34.81,Cold Storage,N/A,5,BOGO,3.9,1.7
+2024-03-02,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,91,13,17,188.83,289.66,34.81,Cold Storage,N/A,5,No Promotion,3.7,2.3
+2024-04-19,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,24,28,10,188.83,289.66,34.81,Warehouse C,N/A,7,Clearance Sale,3.8,7.7
+2024-05-12,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,85,19,17,188.83,289.66,34.81,Cold Storage,N/A,7,Seasonal Sale,3.8,1.4
+2024-06-17,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,69,7,23,188.83,289.66,34.81,Warehouse A,N/A,8,No Promotion,3.3,1.9
+2024-07-16,PRD-5025,Plant Pot,Home & Garden,Beauty Brands,125,9,31,188.83,289.66,34.81,Store Floor,N/A,8,BOGO,3.1,7.2
+2024-01-13,PRD-5026,Children Book,Books,Health First,16,15,9,5.24,11.06,52.59,Backroom,N/A,5,Clearance Sale,3.6,5.1
+2024-02-09,PRD-5026,Children Book,Books,Health First,44,16,19,5.24,11.06,52.59,Backroom,N/A,5,Seasonal Sale,4.1,2.8
+2024-03-26,PRD-5026,Children Book,Books,Health First,64,14,11,5.24,11.06,52.59,Backroom,N/A,5,Discount 20%,3.2,1.3
+2024-04-10,PRD-5026,Children Book,Books,Health First,70,23,27,5.24,11.06,52.59,Backroom,N/A,5,No Promotion,3.5,3.8
+2024-05-12,PRD-5026,Children Book,Books,Health First,113,9,41,5.24,11.06,52.59,Backroom,N/A,5,Discount 20%,4.8,7.6
+2024-05-30,PRD-5026,Children Book,Books,Health First,52,3,9,5.24,11.06,52.59,Backroom,N/A,5,BOGO,3.5,6.5
+2024-07-03,PRD-5026,Children Book,Books,Health First,115,22,31,5.24,11.06,52.59,Outdoor Storage,N/A,5,Buy 2 Get 1,4.0,4.5
+2024-01-25,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,267,18,83,12.22,15.42,20.75,Warehouse A,2024-08-03,5,No Promotion,4.5,1.7
+2024-01-31,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,342,29,82,12.22,15.42,20.75,Warehouse A,2025-01-24,5,Buy 2 Get 1,4.8,2.9
+2024-03-14,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,67,18,19,12.22,15.42,20.75,Backroom,2025-01-18,5,Discount 20%,4.7,0.9
+2024-04-01,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,222,19,53,12.22,15.42,20.75,Cold Storage,2024-10-07,5,Seasonal Sale,4.3,2.3
+2024-05-18,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,124,46,38,12.22,15.42,20.75,Store Floor,2025-08-20,5,Seasonal Sale,4.8,1.2
+2024-06-23,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,402,33,138,12.22,15.42,20.75,Warehouse C,2026-06-11,5,BOGO,4.6,1.3
+2024-07-02,PRD-5027,Vitamin Water,Food & Beverages,Home Essentials Inc,227,26,82,12.22,15.42,20.75,Backroom,2026-01-04,5,Seasonal Sale,3.1,1.7
+2024-01-24,PRD-5028,Board Game,Toys,Toy Universe,45,21,16,32.79,75.16,56.37,Cold Storage,N/A,5,Clearance Sale,4.5,2.0
+2024-02-21,PRD-5028,Board Game,Toys,Toy Universe,34,13,15,32.79,75.16,56.37,Outdoor Storage,N/A,5,Buy 2 Get 1,4.7,7.4
+2024-03-24,PRD-5028,Board Game,Toys,Toy Universe,30,3,9,32.79,75.16,56.37,Cold Storage,N/A,5,Discount 20%,3.8,2.6
+2024-04-03,PRD-5028,Board Game,Toys,Toy Universe,0,28,4,32.79,75.16,56.37,Warehouse C,N/A,5,BOGO,3.2,6.6
+2024-05-15,PRD-5028,Board Game,Toys,Toy Universe,21,6,5,32.79,75.16,56.37,Warehouse B,N/A,5,Seasonal Sale,3.0,3.0
+2024-06-18,PRD-5028,Board Game,Toys,Toy Universe,117,25,33,32.79,75.16,56.37,Store Floor,N/A,5,Seasonal Sale,3.8,3.4
+2024-07-20,PRD-5028,Board Game,Toys,Toy Universe,125,15,34,32.79,75.16,56.37,Warehouse C,N/A,5,BOGO,4.1,1.2
+2024-01-23,PRD-5029,Lipstick,Beauty,Home Essentials Inc,37,43,17,96.19,323.14,70.23,Warehouse C,2024-05-29,5,Seasonal Sale,3.1,7.8
+2024-02-04,PRD-5029,Lipstick,Beauty,Home Essentials Inc,102,41,48,96.19,323.14,70.23,Backroom,2025-11-06,5,Seasonal Sale,4.1,2.8
+2024-03-17,PRD-5029,Lipstick,Beauty,Home Essentials Inc,0,33,8,96.19,323.14,70.23,Outdoor Storage,2026-02-13,5,Seasonal Sale,4.6,7.0
+2024-04-14,PRD-5029,Lipstick,Beauty,Home Essentials Inc,43,33,15,96.19,323.14,70.23,Outdoor Storage,2024-09-25,5,BOGO,4.8,5.2
+2024-05-16,PRD-5029,Lipstick,Beauty,Home Essentials Inc,66,43,17,96.19,323.14,70.23,Store Floor,2024-09-19,5,Seasonal Sale,3.3,2.7
+2024-06-15,PRD-5029,Lipstick,Beauty,Home Essentials Inc,76,45,26,96.19,323.14,70.23,Cold Storage,2025-07-02,5,Discount 20%,4.9,1.8
+2024-07-12,PRD-5029,Lipstick,Beauty,Home Essentials Inc,68,5,13,96.19,323.14,70.23,Cold Storage,2026-02-27,5,BOGO,4.4,6.5
+2024-01-15,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,75,13,22,6.79,12.77,46.84,Warehouse C,N/A,5,No Promotion,4.6,3.2
+2024-02-16,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,26,5,7,6.79,12.77,46.84,Warehouse A,N/A,5,BOGO,3.3,1.6
+2024-03-14,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,53,13,9,6.79,12.77,46.84,Warehouse A,N/A,5,Buy 2 Get 1,3.1,5.6
+2024-04-23,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,18,15,10,6.79,12.77,46.84,Warehouse B,N/A,5,Buy 2 Get 1,3.9,7.4
+2024-05-15,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,58,10,16,6.79,12.77,46.84,Warehouse B,N/A,5,Buy 2 Get 1,3.9,1.4
+2024-06-17,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,45,3,13,6.79,12.77,46.84,Warehouse A,N/A,5,No Promotion,4.7,1.2
+2024-07-11,PRD-5030,Tire Gauge,Automotive,Fashion Forward Ltd,57,1,18,6.79,12.77,46.84,Warehouse B,N/A,5,Buy 2 Get 1,4.2,2.8
+2024-01-21,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,108,27,31,225.15,521.74,56.85,Cold Storage,N/A,5,No Promotion,3.6,3.1
+2024-02-20,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,39,19,16,225.15,521.74,56.85,Store Floor,N/A,5,No Promotion,3.4,1.2
+2024-03-26,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,87,8,30,225.15,521.74,56.85,Store Floor,N/A,5,No Promotion,3.1,5.8
+2024-04-04,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,15,5,6,225.15,521.74,56.85,Warehouse C,N/A,6,Buy 2 Get 1,3.7,1.6
+2024-05-22,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,57,27,25,225.15,521.74,56.85,Outdoor Storage,N/A,8,Seasonal Sale,3.8,7.8
+2024-06-22,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,14,15,5,225.15,521.74,56.85,Warehouse B,N/A,8,Buy 2 Get 1,3.1,6.3
+2024-07-22,PRD-5031,Coffee Maker,Home & Garden,Fashion Forward Ltd,117,15,32,225.15,521.74,56.85,Warehouse A,N/A,7,No Promotion,4.5,5.2
+2024-01-07,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,82,22,21,49.97,101.16,50.6,Warehouse C,N/A,5,No Promotion,4.7,7.6
+2024-02-14,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,58,6,20,49.97,101.16,50.6,Warehouse A,N/A,5,Seasonal Sale,3.8,2.8
+2024-03-02,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,49,18,12,49.97,101.16,50.6,Store Floor,N/A,5,Seasonal Sale,3.3,2.4
+2024-04-08,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,125,4,28,49.97,101.16,50.6,Store Floor,N/A,8,No Promotion,3.3,2.9
+2024-05-22,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,94,29,32,49.97,101.16,50.6,Backroom,N/A,6,BOGO,4.1,3.5
+2024-06-23,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,60,12,14,49.97,101.16,50.6,Outdoor Storage,N/A,6,Clearance Sale,4.4,7.5
+2024-07-17,PRD-5032,Coffee Maker,Home & Garden,Beauty Brands,138,8,39,49.97,101.16,50.6,Warehouse A,N/A,8,BOGO,4.1,1.8
+2024-01-14,PRD-5033,Dress,Clothing,Auto Parts Plus,75,2,14,76.11,262.82,71.04,Warehouse C,N/A,9,BOGO,4.8,9.2
+2024-02-22,PRD-5033,Dress,Clothing,Auto Parts Plus,86,12,31,76.11,262.82,71.04,Outdoor Storage,N/A,5,BOGO,3.5,6.5
+2024-03-04,PRD-5033,Dress,Clothing,Auto Parts Plus,48,25,13,76.11,262.82,71.04,Warehouse B,N/A,5,Seasonal Sale,4.6,7.1
+2024-04-12,PRD-5033,Dress,Clothing,Auto Parts Plus,164,26,39,76.11,262.82,71.04,Warehouse C,N/A,5,No Promotion,4.5,2.4
+2024-05-20,PRD-5033,Dress,Clothing,Auto Parts Plus,93,10,20,76.11,262.82,71.04,Backroom,N/A,5,No Promotion,3.1,3.7
+2024-06-03,PRD-5033,Dress,Clothing,Auto Parts Plus,127,13,30,76.11,262.82,71.04,Warehouse C,N/A,5,Discount 20%,3.4,6.4
+2024-07-22,PRD-5033,Dress,Clothing,Auto Parts Plus,117,10,27,76.11,262.82,71.04,Warehouse B,N/A,5,Buy 2 Get 1,4.7,6.7
+2024-01-15,PRD-5034,Sneakers,Clothing,Beauty Brands,62,9,19,16.33,48.34,66.22,Warehouse C,N/A,8,BOGO,4.6,5.0
+2024-02-15,PRD-5034,Sneakers,Clothing,Beauty Brands,131,23,41,16.33,48.34,66.22,Warehouse A,N/A,5,BOGO,3.6,5.2
+2024-03-04,PRD-5034,Sneakers,Clothing,Beauty Brands,38,14,17,16.33,48.34,66.22,Cold Storage,N/A,5,Discount 20%,4.2,10.0
+2024-04-05,PRD-5034,Sneakers,Clothing,Beauty Brands,81,24,17,16.33,48.34,66.22,Cold Storage,N/A,5,BOGO,4.4,10.0
+2024-05-07,PRD-5034,Sneakers,Clothing,Beauty Brands,47,16,12,16.33,48.34,66.22,Warehouse C,N/A,5,Clearance Sale,5.0,10.0
+2024-06-12,PRD-5034,Sneakers,Clothing,Beauty Brands,105,26,45,16.33,48.34,66.22,Store Floor,N/A,5,No Promotion,4.2,5.0
+2024-07-06,PRD-5034,Sneakers,Clothing,Beauty Brands,10,30,10,16.33,48.34,66.22,Store Floor,N/A,5,BOGO,3.9,8.1
+2024-01-16,PRD-5035,Action Figure,Toys,Health First,17,17,10,12.77,35.04,63.54,Backroom,N/A,5,Discount 20%,3.7,1.8
+2024-02-12,PRD-5035,Action Figure,Toys,Health First,78,14,26,12.77,35.04,63.54,Backroom,N/A,5,No Promotion,4.2,1.3
+2024-03-07,PRD-5035,Action Figure,Toys,Health First,38,3,6,12.77,35.04,63.54,Warehouse A,N/A,5,No Promotion,3.0,5.7
+2024-04-12,PRD-5035,Action Figure,Toys,Health First,90,18,22,12.77,35.04,63.54,Outdoor Storage,N/A,5,No Promotion,3.5,6.2
+2024-05-08,PRD-5035,Action Figure,Toys,Health First,124,12,46,12.77,35.04,63.54,Warehouse C,N/A,5,Clearance Sale,3.7,3.0
+2024-06-14,PRD-5035,Action Figure,Toys,Health First,127,15,39,12.77,35.04,63.54,Cold Storage,N/A,5,Discount 20%,4.3,6.3
+2024-07-22,PRD-5035,Action Figure,Toys,Health First,23,26,16,12.77,35.04,63.54,Warehouse A,N/A,5,No Promotion,4.6,8.0
+2024-01-15,PRD-5036,Lipstick,Beauty,Book Distributors,38,34,16,56.6,205.07,72.4,Warehouse A,2025-02-13,5,Discount 20%,4.3,5.6
+2024-02-14,PRD-5036,Lipstick,Beauty,Book Distributors,65,17,12,56.6,205.07,72.4,Outdoor Storage,2025-11-03,5,No Promotion,4.8,1.8
+2024-03-09,PRD-5036,Lipstick,Beauty,Book Distributors,114,34,25,56.6,205.07,72.4,Outdoor Storage,2024-11-06,5,No Promotion,4.1,4.3
+2024-04-03,PRD-5036,Lipstick,Beauty,Book Distributors,11,30,12,56.6,205.07,72.4,Warehouse C,2024-08-30,5,BOGO,4.3,7.6
+2024-04-30,PRD-5036,Lipstick,Beauty,Book Distributors,27,15,9,56.6,205.07,72.4,Backroom,2025-12-21,5,No Promotion,3.9,6.1
+2024-06-12,PRD-5036,Lipstick,Beauty,Book Distributors,0,28,5,56.6,205.07,72.4,Cold Storage,2025-01-06,5,Buy 2 Get 1,4.8,1.8
+2024-07-16,PRD-5036,Lipstick,Beauty,Book Distributors,88,23,22,56.6,205.07,72.4,Backroom,2026-03-04,5,No Promotion,3.5,7.6
+2024-01-09,PRD-5037,Protein Powder,Health,Sports World,313,29,78,11.39,30.91,63.16,Warehouse A,2024-08-11,5,Seasonal Sale,4.9,2.1
+2024-01-31,PRD-5037,Protein Powder,Health,Sports World,223,9,40,11.39,30.91,63.16,Store Floor,2025-01-13,5,Seasonal Sale,3.9,0.6
+2024-03-13,PRD-5037,Protein Powder,Health,Sports World,362,7,82,11.39,30.91,63.16,Warehouse A,2025-07-15,5,Buy 2 Get 1,3.8,2.5
+2024-04-01,PRD-5037,Protein Powder,Health,Sports World,122,26,38,11.39,30.91,63.16,Outdoor Storage,2025-12-19,5,Clearance Sale,3.5,2.8
+2024-05-01,PRD-5037,Protein Powder,Health,Sports World,124,2,42,11.39,30.91,63.16,Cold Storage,2025-03-20,5,BOGO,3.0,0.6
+2024-06-19,PRD-5037,Protein Powder,Health,Sports World,455,14,116,11.39,30.91,63.16,Warehouse B,2025-08-13,5,No Promotion,3.5,1.8
+2024-07-21,PRD-5037,Protein Powder,Health,Sports World,387,8,110,11.39,30.91,63.16,Warehouse C,2026-02-14,5,BOGO,5.0,1.8
+2024-01-22,PRD-5038,Hand Sanitizer,Health,Sports World,209,28,76,88.07,214.05,58.85,Warehouse B,2024-06-30,5,No Promotion,3.9,1.7
+2024-02-06,PRD-5038,Hand Sanitizer,Health,Sports World,470,24,118,88.07,214.05,58.85,Cold Storage,2024-08-06,5,No Promotion,3.2,2.0
+2024-03-25,PRD-5038,Hand Sanitizer,Health,Sports World,160,2,44,88.07,214.05,58.85,Warehouse C,2025-08-11,5,Seasonal Sale,3.9,1.2
+2024-04-16,PRD-5038,Hand Sanitizer,Health,Sports World,406,25,68,88.07,214.05,58.85,Warehouse A,2025-08-10,5,Discount 20%,4.6,2.7
+2024-05-08,PRD-5038,Hand Sanitizer,Health,Sports World,267,9,95,88.07,214.05,58.85,Warehouse C,2025-07-02,5,Buy 2 Get 1,4.4,2.1
+2024-05-30,PRD-5038,Hand Sanitizer,Health,Sports World,200,15,60,88.07,214.05,58.85,Outdoor Storage,2025-12-12,5,Clearance Sale,3.7,1.2
+2024-07-18,PRD-5038,Hand Sanitizer,Health,Sports World,310,18,56,88.07,214.05,58.85,Warehouse C,2025-10-21,5,Buy 2 Get 1,3.2,0.8
+2024-01-14,PRD-5039,Helmet,Sports,Home Essentials Inc,35,5,9,42.9,80.28,46.56,Warehouse C,N/A,5,BOGO,3.4,2.5
+2024-02-09,PRD-5039,Helmet,Sports,Home Essentials Inc,99,26,37,42.9,80.28,46.56,Warehouse B,N/A,5,Discount 20%,3.7,3.4
+2024-03-26,PRD-5039,Helmet,Sports,Home Essentials Inc,93,6,29,42.9,80.28,46.56,Warehouse B,N/A,5,No Promotion,3.0,3.0
+2024-04-12,PRD-5039,Helmet,Sports,Home Essentials Inc,58,21,23,42.9,80.28,46.56,Store Floor,N/A,8,BOGO,4.4,6.3
+2024-05-11,PRD-5039,Helmet,Sports,Home Essentials Inc,25,23,15,42.9,80.28,46.56,Warehouse C,N/A,6,Buy 2 Get 1,3.7,6.8
+2024-06-06,PRD-5039,Helmet,Sports,Home Essentials Inc,38,11,9,42.9,80.28,46.56,Warehouse A,N/A,8,Clearance Sale,4.0,5.7
+2024-06-29,PRD-5039,Helmet,Sports,Home Essentials Inc,118,9,30,42.9,80.28,46.56,Warehouse A,N/A,7,BOGO,3.4,3.5
+2024-01-13,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,94,19,36,19.27,34.18,43.62,Store Floor,2026-01-03,5,No Promotion,4.8,0.8
+2024-02-25,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,274,12,84,19.27,34.18,43.62,Warehouse C,2024-07-27,5,Seasonal Sale,4.4,1.1
+2024-03-25,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,69,47,19,19.27,34.18,43.62,Backroom,2025-02-04,5,No Promotion,4.3,0.8
+2024-04-01,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,191,37,63,19.27,34.18,43.62,Warehouse C,2025-01-01,5,Buy 2 Get 1,4.8,1.7
+2024-05-17,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,157,9,35,19.27,34.18,43.62,Store Floor,2025-03-02,5,Clearance Sale,3.4,1.0
+2024-06-23,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,183,17,67,19.27,34.18,43.62,Cold Storage,2026-02-25,5,No Promotion,3.2,2.0
+2024-07-14,PRD-5040,Protein Bar,Food & Beverages,Fashion Forward Ltd,446,49,147,19.27,34.18,43.62,Outdoor Storage,2025-09-27,5,No Promotion,4.3,2.8
+2024-01-15,PRD-5041,Face Mask,Health,Food Source Ltd,354,24,77,82.92,224.59,63.08,Warehouse B,2024-08-14,5,Clearance Sale,4.4,0.5
+2024-01-31,PRD-5041,Face Mask,Health,Food Source Ltd,479,18,95,82.92,224.59,63.08,Warehouse B,2024-12-05,5,Clearance Sale,3.6,2.6
+2024-03-07,PRD-5041,Face Mask,Health,Food Source Ltd,98,30,40,82.92,224.59,63.08,Outdoor Storage,2025-03-12,5,Seasonal Sale,4.7,1.2
+2024-04-16,PRD-5041,Face Mask,Health,Food Source Ltd,248,22,90,82.92,224.59,63.08,Store Floor,2025-12-26,5,No Promotion,4.1,1.3
+2024-05-11,PRD-5041,Face Mask,Health,Food Source Ltd,71,28,20,82.92,224.59,63.08,Warehouse C,2025-04-13,5,No Promotion,4.4,2.2
+2024-06-16,PRD-5041,Face Mask,Health,Food Source Ltd,152,4,44,82.92,224.59,63.08,Warehouse C,2026-04-04,5,Clearance Sale,4.1,0.6
+2024-07-22,PRD-5041,Face Mask,Health,Food Source Ltd,83,19,20,82.92,224.59,63.08,Store Floor,2025-08-27,5,No Promotion,4.0,1.8
+2024-01-24,PRD-5042,Lamp,Home & Garden,Food Source Ltd,46,18,21,57.64,136.66,57.83,Backroom,N/A,5,Seasonal Sale,5.0,5.1
+2024-02-24,PRD-5042,Lamp,Home & Garden,Food Source Ltd,52,8,15,57.64,136.66,57.83,Cold Storage,N/A,5,Buy 2 Get 1,4.8,6.4
+2024-03-21,PRD-5042,Lamp,Home & Garden,Food Source Ltd,29,26,13,57.64,136.66,57.83,Outdoor Storage,N/A,5,Seasonal Sale,4.3,5.4
+2024-04-24,PRD-5042,Lamp,Home & Garden,Food Source Ltd,62,3,17,57.64,136.66,57.83,Warehouse C,N/A,6,No Promotion,4.3,4.9
+2024-05-12,PRD-5042,Lamp,Home & Garden,Food Source Ltd,50,25,22,57.64,136.66,57.83,Warehouse C,N/A,6,Buy 2 Get 1,3.2,3.2
+2024-06-22,PRD-5042,Lamp,Home & Garden,Food Source Ltd,46,29,24,57.64,136.66,57.83,Warehouse B,N/A,8,Discount 20%,3.9,4.8
+2024-07-23,PRD-5042,Lamp,Home & Garden,Food Source Ltd,29,23,13,57.64,136.66,57.83,Cold Storage,N/A,6,Buy 2 Get 1,4.2,3.6
+2024-01-16,PRD-5043,Oil Filter,Automotive,Food Source Ltd,91,9,28,29.88,64.88,53.95,Warehouse A,N/A,5,No Promotion,3.8,2.5
+2024-02-20,PRD-5043,Oil Filter,Automotive,Food Source Ltd,3,17,3,29.88,64.88,53.95,Store Floor,N/A,5,Buy 2 Get 1,3.6,4.9
+2024-03-06,PRD-5043,Oil Filter,Automotive,Food Source Ltd,65,4,17,29.88,64.88,53.95,Warehouse A,N/A,5,Clearance Sale,4.1,5.2
+2024-04-19,PRD-5043,Oil Filter,Automotive,Food Source Ltd,47,19,17,29.88,64.88,53.95,Warehouse B,N/A,5,Buy 2 Get 1,4.1,5.4
+2024-05-15,PRD-5043,Oil Filter,Automotive,Food Source Ltd,12,11,4,29.88,64.88,53.95,Backroom,N/A,5,Seasonal Sale,4.2,4.8
+2024-06-09,PRD-5043,Oil Filter,Automotive,Food Source Ltd,21,7,8,29.88,64.88,53.95,Warehouse C,N/A,5,Clearance Sale,3.5,1.9
+2024-07-12,PRD-5043,Oil Filter,Automotive,Food Source Ltd,31,1,6,29.88,64.88,53.95,Outdoor Storage,N/A,5,No Promotion,3.8,6.9
+2024-01-13,PRD-5044,Thermometer,Health,Book Distributors,486,2,140,98.46,238.66,58.74,Warehouse B,2025-07-22,5,Discount 20%,3.4,2.5
+2024-01-31,PRD-5044,Thermometer,Health,Book Distributors,316,24,91,98.46,238.66,58.74,Cold Storage,2024-07-13,5,Buy 2 Get 1,4.8,2.4
+2024-03-01,PRD-5044,Thermometer,Health,Book Distributors,420,28,80,98.46,238.66,58.74,Backroom,2025-12-20,5,Seasonal Sale,3.1,1.9
+2024-04-05,PRD-5044,Thermometer,Health,Book Distributors,106,11,33,98.46,238.66,58.74,Warehouse C,2025-08-31,5,No Promotion,4.7,0.6
+2024-05-23,PRD-5044,Thermometer,Health,Book Distributors,465,8,81,98.46,238.66,58.74,Cold Storage,2025-05-17,5,Discount 20%,4.8,2.2
+2024-06-16,PRD-5044,Thermometer,Health,Book Distributors,468,29,92,98.46,238.66,58.74,Warehouse A,2025-08-31,5,Seasonal Sale,4.9,1.0
+2024-07-01,PRD-5044,Thermometer,Health,Book Distributors,479,16,153,98.46,238.66,58.74,Outdoor Storage,2025-01-03,5,No Promotion,5.0,2.4
+2024-01-22,PRD-5045,Tool Set,Home & Garden,TechSupply Co,131,5,42,152.24,352.71,56.84,Backroom,N/A,5,No Promotion,3.7,6.1
+2024-02-14,PRD-5045,Tool Set,Home & Garden,TechSupply Co,63,7,13,152.24,352.71,56.84,Warehouse A,N/A,5,Seasonal Sale,3.9,3.3
+2024-03-15,PRD-5045,Tool Set,Home & Garden,TechSupply Co,53,7,14,152.24,352.71,56.84,Store Floor,N/A,5,No Promotion,4.3,5.9
+2024-04-13,PRD-5045,Tool Set,Home & Garden,TechSupply Co,14,28,12,152.24,352.71,56.84,Warehouse C,N/A,6,Buy 2 Get 1,4.6,3.0
+2024-05-17,PRD-5045,Tool Set,Home & Garden,TechSupply Co,57,13,21,152.24,352.71,56.84,Cold Storage,N/A,8,Buy 2 Get 1,4.4,4.3
+2024-06-17,PRD-5045,Tool Set,Home & Garden,TechSupply Co,99,10,25,152.24,352.71,56.84,Warehouse A,N/A,6,Seasonal Sale,3.5,4.5
+2024-07-13,PRD-5045,Tool Set,Home & Garden,TechSupply Co,57,9,22,152.24,352.71,56.84,Outdoor Storage,N/A,7,Buy 2 Get 1,4.7,8.0
+2024-01-16,PRD-5046,Thermometer,Health,Food Source Ltd,108,9,26,17.12,47.64,64.07,Cold Storage,2024-11-23,5,BOGO,3.5,2.7
+2024-02-08,PRD-5046,Thermometer,Health,Food Source Ltd,259,27,46,17.12,47.64,64.07,Cold Storage,2024-05-07,5,BOGO,3.8,2.9
+2024-03-16,PRD-5046,Thermometer,Health,Food Source Ltd,106,15,23,17.12,47.64,64.07,Outdoor Storage,2025-04-27,5,No Promotion,3.1,1.8
+2024-04-05,PRD-5046,Thermometer,Health,Food Source Ltd,297,8,85,17.12,47.64,64.07,Outdoor Storage,2025-06-23,5,Seasonal Sale,3.5,0.9
+2024-05-05,PRD-5046,Thermometer,Health,Food Source Ltd,444,19,104,17.12,47.64,64.07,Cold Storage,2024-07-17,5,Seasonal Sale,4.0,0.7
+2024-06-10,PRD-5046,Thermometer,Health,Food Source Ltd,85,2,13,17.12,47.64,64.07,Warehouse C,2025-11-03,5,Seasonal Sale,3.1,2.2
+2024-07-15,PRD-5046,Thermometer,Health,Food Source Ltd,391,15,87,17.12,47.64,64.07,Warehouse B,2024-11-20,5,No Promotion,3.2,2.4
+2024-01-01,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,63,11,18,137.35,310.51,55.77,Store Floor,N/A,5,Discount 20%,3.2,7.8
+2024-02-22,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,143,2,25,137.35,310.51,55.77,Outdoor Storage,N/A,5,No Promotion,4.1,5.0
+2024-03-24,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,69,9,22,137.35,310.51,55.77,Cold Storage,N/A,5,Discount 20%,4.7,4.8
+2024-04-10,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,79,24,23,137.35,310.51,55.77,Outdoor Storage,N/A,6,BOGO,4.0,3.1
+2024-05-25,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,66,6,16,137.35,310.51,55.77,Warehouse B,N/A,6,Buy 2 Get 1,4.3,6.2
+2024-06-09,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,22,2,7,137.35,310.51,55.77,Store Floor,N/A,7,Buy 2 Get 1,4.6,2.7
+2024-07-22,PRD-5047,Tool Set,Home & Garden,Home Essentials Inc,59,28,26,137.35,310.51,55.77,Outdoor Storage,N/A,8,No Promotion,3.4,5.1
+2024-01-17,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,29,44,19,10.86,39.64,72.6,Backroom,2025-08-03,5,No Promotion,3.3,7.6
+2024-01-31,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,103,46,47,10.86,39.64,72.6,Cold Storage,2025-12-27,5,No Promotion,4.0,2.7
+2024-03-15,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,74,33,19,10.86,39.64,72.6,Backroom,2024-09-06,5,BOGO,3.1,1.2
+2024-03-31,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,108,17,41,10.86,39.64,72.6,Warehouse A,2024-12-09,5,No Promotion,3.6,4.1
+2024-05-09,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,85,37,19,10.86,39.64,72.6,Warehouse B,2024-08-31,5,Buy 2 Get 1,3.4,6.6
+2024-06-18,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,101,34,34,10.86,39.64,72.6,Warehouse A,2026-03-12,5,No Promotion,4.5,2.7
+2024-06-29,PRD-5048,Nail Polish,Beauty,Auto Parts Plus,43,19,15,10.86,39.64,72.6,Warehouse A,2026-05-20,5,Buy 2 Get 1,5.0,6.4
+2024-01-14,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,240,32,46,13.57,26.52,48.84,Warehouse C,2024-11-27,5,No Promotion,4.0,2.3
+2024-02-25,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,267,26,94,13.57,26.52,48.84,Warehouse B,2024-11-17,5,BOGO,3.6,2.5
+2024-03-10,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,415,16,115,13.57,26.52,48.84,Warehouse B,2026-02-08,5,Buy 2 Get 1,4.0,2.2
+2024-04-23,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,131,15,46,13.57,26.52,48.84,Store Floor,2025-06-08,5,Buy 2 Get 1,5.0,2.1
+2024-05-13,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,353,30,118,13.57,26.52,48.84,Backroom,2024-09-17,5,Seasonal Sale,3.7,2.6
+2024-06-23,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,361,37,83,13.57,26.52,48.84,Outdoor Storage,2025-07-31,5,No Promotion,3.1,1.5
+2024-07-10,PRD-5049,Vitamin Water,Food & Beverages,Book Distributors,427,47,131,13.57,26.52,48.84,Warehouse B,2025-04-21,5,BOGO,4.6,1.1
+2024-01-02,PRD-5050,Children Book,Books,Home Essentials Inc,86,9,16,15.13,28.21,46.36,Backroom,N/A,5,Discount 20%,3.3,2.7
+2024-02-02,PRD-5050,Children Book,Books,Home Essentials Inc,61,25,28,15.13,28.21,46.36,Cold Storage,N/A,5,No Promotion,3.6,7.1
+2024-03-22,PRD-5050,Children Book,Books,Home Essentials Inc,91,24,36,15.13,28.21,46.36,Warehouse A,N/A,5,No Promotion,4.2,5.0
+2024-04-06,PRD-5050,Children Book,Books,Home Essentials Inc,23,30,9,15.13,28.21,46.36,Warehouse A,N/A,5,No Promotion,5.0,3.6
+2024-05-24,PRD-5050,Children Book,Books,Home Essentials Inc,52,21,16,15.13,28.21,46.36,Store Floor,N/A,5,BOGO,3.9,4.5
+2024-06-22,PRD-5050,Children Book,Books,Home Essentials Inc,88,26,23,15.13,28.21,46.36,Backroom,N/A,5,Seasonal Sale,3.1,5.4
+2024-07-15,PRD-5050,Children Book,Books,Home Essentials Inc,102,8,36,15.13,28.21,46.36,Backroom,N/A,5,Discount 20%,3.5,6.8
+2024-01-01,PRD-5051,Water Bottle,Sports,Toy Universe,131,10,30,183.94,472.97,61.11,Warehouse C,N/A,5,No Promotion,3.3,2.3
+2024-02-19,PRD-5051,Water Bottle,Sports,Toy Universe,61,6,22,183.94,472.97,61.11,Cold Storage,N/A,5,Discount 20%,3.0,4.9
+2024-03-17,PRD-5051,Water Bottle,Sports,Toy Universe,136,6,41,183.94,472.97,61.11,Warehouse B,N/A,5,No Promotion,3.5,5.7
+2024-04-24,PRD-5051,Water Bottle,Sports,Toy Universe,99,14,22,183.94,472.97,61.11,Warehouse B,N/A,8,BOGO,3.0,5.9
+2024-05-03,PRD-5051,Water Bottle,Sports,Toy Universe,156,30,59,183.94,472.97,61.11,Outdoor Storage,N/A,8,Discount 20%,3.2,2.8
+2024-05-31,PRD-5051,Water Bottle,Sports,Toy Universe,75,26,31,183.94,472.97,61.11,Store Floor,N/A,7,No Promotion,4.0,5.7
+2024-07-06,PRD-5051,Water Bottle,Sports,Toy Universe,82,23,25,183.94,472.97,61.11,Backroom,N/A,6,Seasonal Sale,3.6,4.4
+2024-01-26,PRD-5052,Snack Mix,Food & Beverages,Health First,360,9,109,24.1,38.21,36.93,Store Floor,2025-06-01,5,No Promotion,4.2,1.3
+2024-02-13,PRD-5052,Snack Mix,Food & Beverages,Health First,476,24,149,24.1,38.21,36.93,Warehouse B,2024-09-29,5,No Promotion,3.2,1.8
+2024-03-10,PRD-5052,Snack Mix,Food & Beverages,Health First,50,47,15,24.1,38.21,36.93,Outdoor Storage,2025-04-25,5,No Promotion,4.8,2.0
+2024-04-16,PRD-5052,Snack Mix,Food & Beverages,Health First,34,49,22,24.1,38.21,36.93,Warehouse C,2025-04-16,5,No Promotion,4.8,2.0
+2024-05-23,PRD-5052,Snack Mix,Food & Beverages,Health First,455,26,106,24.1,38.21,36.93,Backroom,2025-01-08,5,Clearance Sale,3.3,2.6
+2024-05-30,PRD-5052,Snack Mix,Food & Beverages,Health First,225,41,44,24.1,38.21,36.93,Warehouse C,2026-04-23,5,Seasonal Sale,3.0,2.5
+2024-07-13,PRD-5052,Snack Mix,Food & Beverages,Health First,445,16,96,24.1,38.21,36.93,Store Floor,2025-05-05,5,Clearance Sale,3.1,2.3
+2024-01-06,PRD-5053,Lipstick,Beauty,Book Distributors,93,12,30,46.18,154.99,70.21,Cold Storage,2024-09-01,5,Discount 20%,3.8,6.7
+2024-02-16,PRD-5053,Lipstick,Beauty,Book Distributors,89,32,23,46.18,154.99,70.21,Outdoor Storage,2025-12-26,5,Buy 2 Get 1,3.9,1.0
+2024-03-07,PRD-5053,Lipstick,Beauty,Book Distributors,96,33,27,46.18,154.99,70.21,Backroom,2025-11-14,5,Buy 2 Get 1,4.3,2.8
+2024-04-24,PRD-5053,Lipstick,Beauty,Book Distributors,116,17,38,46.18,154.99,70.21,Warehouse C,2025-11-09,5,Seasonal Sale,3.3,2.1
+2024-05-13,PRD-5053,Lipstick,Beauty,Book Distributors,73,49,27,46.18,154.99,70.21,Warehouse B,2025-09-13,5,Buy 2 Get 1,4.6,6.0
+2024-06-21,PRD-5053,Lipstick,Beauty,Book Distributors,53,43,23,46.18,154.99,70.21,Warehouse A,2025-11-26,5,Clearance Sale,4.5,7.4
+2024-07-15,PRD-5053,Lipstick,Beauty,Book Distributors,36,45,16,46.18,154.99,70.21,Outdoor Storage,2025-02-14,5,No Promotion,3.2,2.9
+2024-01-03,PRD-5054,Smartphone,Electronics,Home Essentials Inc,81,1,14,292.89,571.11,48.72,Store Floor,N/A,8,Discount 20%,3.4,7.9
+2024-02-23,PRD-5054,Smartphone,Electronics,Home Essentials Inc,29,14,8,292.89,571.11,48.72,Warehouse C,N/A,5,BOGO,3.9,9.6
+2024-03-26,PRD-5054,Smartphone,Electronics,Home Essentials Inc,2,15,3,292.89,571.11,48.72,Outdoor Storage,N/A,5,Buy 2 Get 1,4.2,10.7
+2024-04-09,PRD-5054,Smartphone,Electronics,Home Essentials Inc,19,19,8,292.89,571.11,48.72,Cold Storage,N/A,5,Seasonal Sale,3.7,9.0
+2024-05-05,PRD-5054,Smartphone,Electronics,Home Essentials Inc,21,3,4,292.89,571.11,48.72,Backroom,N/A,5,Discount 20%,4.6,9.2
+2024-06-19,PRD-5054,Smartphone,Electronics,Home Essentials Inc,18,14,10,292.89,571.11,48.72,Outdoor Storage,N/A,5,No Promotion,4.2,8.2
+2024-07-09,PRD-5054,Smartphone,Electronics,Home Essentials Inc,57,17,15,292.89,571.11,48.72,Outdoor Storage,N/A,5,No Promotion,3.1,6.9
+2024-01-15,PRD-5055,Sweater,Clothing,Toy Universe,113,7,29,10.21,26.57,61.56,Backroom,N/A,7,No Promotion,3.1,7.1
+2024-02-17,PRD-5055,Sweater,Clothing,Toy Universe,145,19,25,10.21,26.57,61.56,Cold Storage,N/A,5,Discount 20%,3.1,2.7
+2024-03-22,PRD-5055,Sweater,Clothing,Toy Universe,141,5,43,10.21,26.57,61.56,Warehouse A,N/A,5,No Promotion,3.9,2.8
+2024-04-23,PRD-5055,Sweater,Clothing,Toy Universe,189,10,36,10.21,26.57,61.56,Store Floor,N/A,5,No Promotion,3.7,11.2
+2024-05-06,PRD-5055,Sweater,Clothing,Toy Universe,100,6,25,10.21,26.57,61.56,Warehouse C,N/A,5,BOGO,3.4,7.6
+2024-06-04,PRD-5055,Sweater,Clothing,Toy Universe,132,2,45,10.21,26.57,61.56,Warehouse B,N/A,5,Discount 20%,4.8,5.9
+2024-07-10,PRD-5055,Sweater,Clothing,Toy Universe,170,12,42,10.21,26.57,61.56,Cold Storage,N/A,5,Clearance Sale,3.8,7.3
+2024-01-12,PRD-5056,Action Figure,Toys,Book Distributors,86,17,26,7.53,15.59,51.69,Warehouse A,N/A,5,Seasonal Sale,4.5,1.4
+2024-02-04,PRD-5056,Action Figure,Toys,Book Distributors,11,4,4,7.53,15.59,51.69,Backroom,N/A,5,Buy 2 Get 1,4.3,5.5
+2024-03-14,PRD-5056,Action Figure,Toys,Book Distributors,62,29,26,7.53,15.59,51.69,Store Floor,N/A,5,Buy 2 Get 1,4.7,5.1
+2024-04-20,PRD-5056,Action Figure,Toys,Book Distributors,1,27,7,7.53,15.59,51.69,Backroom,N/A,5,Seasonal Sale,3.8,5.5
+2024-05-04,PRD-5056,Action Figure,Toys,Book Distributors,128,16,25,7.53,15.59,51.69,Warehouse C,N/A,5,Clearance Sale,5.0,4.9
+2024-06-12,PRD-5056,Action Figure,Toys,Book Distributors,25,5,6,7.53,15.59,51.69,Backroom,N/A,5,No Promotion,4.9,3.7
+2024-07-07,PRD-5056,Action Figure,Toys,Book Distributors,59,29,28,7.53,15.59,51.69,Warehouse A,N/A,5,No Promotion,3.8,6.7
+2024-01-04,PRD-5057,Bedding,Home & Garden,Toy Universe,66,19,18,267.71,578.86,53.75,Warehouse B,N/A,5,Buy 2 Get 1,4.2,2.0
+2024-02-18,PRD-5057,Bedding,Home & Garden,Toy Universe,100,19,36,267.71,578.86,53.75,Outdoor Storage,N/A,5,No Promotion,4.6,5.2
+2024-03-20,PRD-5057,Bedding,Home & Garden,Toy Universe,59,13,21,267.71,578.86,53.75,Warehouse B,N/A,5,No Promotion,3.1,5.3
+2024-04-25,PRD-5057,Bedding,Home & Garden,Toy Universe,108,18,27,267.71,578.86,53.75,Outdoor Storage,N/A,6,Clearance Sale,3.4,3.0
+2024-05-14,PRD-5057,Bedding,Home & Garden,Toy Universe,140,6,48,267.71,578.86,53.75,Outdoor Storage,N/A,6,Seasonal Sale,4.9,3.8
+2024-06-07,PRD-5057,Bedding,Home & Garden,Toy Universe,27,16,9,267.71,578.86,53.75,Cold Storage,N/A,6,Buy 2 Get 1,3.4,7.6
+2024-07-04,PRD-5057,Bedding,Home & Garden,Toy Universe,97,24,19,267.71,578.86,53.75,Backroom,N/A,6,Discount 20%,3.5,7.3
+2024-01-24,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,63,28,25,3.86,8.51,54.65,Backroom,N/A,5,Seasonal Sale,5.0,1.5
+2024-02-10,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,22,28,14,3.86,8.51,54.65,Warehouse A,N/A,5,No Promotion,4.1,6.1
+2024-03-22,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,78,30,27,3.86,8.51,54.65,Warehouse A,N/A,5,Discount 20%,4.5,4.3
+2024-04-05,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,117,12,34,3.86,8.51,54.65,Warehouse B,N/A,5,BOGO,4.9,2.2
+2024-05-02,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,8,7,2,3.86,8.51,54.65,Warehouse C,N/A,5,No Promotion,4.1,3.1
+2024-06-19,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,52,11,19,3.86,8.51,54.65,Cold Storage,N/A,5,BOGO,4.5,2.8
+2024-07-07,PRD-5058,Educational Toy,Toys,Fashion Forward Ltd,74,13,18,3.86,8.51,54.65,Outdoor Storage,N/A,5,Clearance Sale,3.8,7.1
+2024-01-01,PRD-5059,Jeans,Clothing,Sports World,77,18,28,60.56,161.46,62.49,Warehouse A,N/A,9,Discount 20%,3.8,3.6
+2024-02-02,PRD-5059,Jeans,Clothing,Sports World,63,13,26,60.56,161.46,62.49,Store Floor,N/A,5,Discount 20%,3.7,4.4
+2024-03-04,PRD-5059,Jeans,Clothing,Sports World,147,7,39,60.56,161.46,62.49,Warehouse B,N/A,5,No Promotion,4.8,5.2
+2024-04-04,PRD-5059,Jeans,Clothing,Sports World,26,2,9,60.56,161.46,62.49,Backroom,N/A,5,BOGO,3.3,8.1
+2024-05-16,PRD-5059,Jeans,Clothing,Sports World,39,24,21,60.56,161.46,62.49,Store Floor,N/A,5,Clearance Sale,4.3,7.8
+2024-06-11,PRD-5059,Jeans,Clothing,Sports World,131,24,30,60.56,161.46,62.49,Warehouse B,N/A,5,Discount 20%,3.9,3.7
+2024-07-04,PRD-5059,Jeans,Clothing,Sports World,162,23,41,60.56,161.46,62.49,Backroom,N/A,5,No Promotion,4.5,5.1
+2024-01-16,PRD-5060,Shorts,Clothing,Toy Universe,146,12,51,126.94,365.57,65.28,Warehouse A,N/A,8,Clearance Sale,4.3,3.9
+2024-02-17,PRD-5060,Shorts,Clothing,Toy Universe,150,9,49,126.94,365.57,65.28,Warehouse C,N/A,5,No Promotion,3.5,2.4
+2024-03-02,PRD-5060,Shorts,Clothing,Toy Universe,180,5,32,126.94,365.57,65.28,Backroom,N/A,5,Clearance Sale,3.7,11.4
+2024-04-23,PRD-5060,Shorts,Clothing,Toy Universe,62,8,13,126.94,365.57,65.28,Warehouse C,N/A,5,No Promotion,3.3,7.8
+2024-05-21,PRD-5060,Shorts,Clothing,Toy Universe,182,18,51,126.94,365.57,65.28,Cold Storage,N/A,5,No Promotion,3.4,9.0
+2024-06-08,PRD-5060,Shorts,Clothing,Toy Universe,108,21,35,126.94,365.57,65.28,Cold Storage,N/A,5,Discount 20%,4.4,9.2
+2024-07-23,PRD-5060,Shorts,Clothing,Toy Universe,61,8,21,126.94,365.57,65.28,Cold Storage,N/A,5,BOGO,3.1,11.0
+2024-01-10,PRD-5061,Water Bottle,Sports,Auto Parts Plus,153,2,50,30.56,79.7,61.65,Warehouse A,N/A,5,Buy 2 Get 1,3.8,4.8
+2024-02-22,PRD-5061,Water Bottle,Sports,Auto Parts Plus,90,8,23,30.56,79.7,61.65,Warehouse A,N/A,5,Buy 2 Get 1,3.8,2.1
+2024-03-13,PRD-5061,Water Bottle,Sports,Auto Parts Plus,140,27,43,30.56,79.7,61.65,Backroom,N/A,5,No Promotion,4.0,1.7
+2024-04-07,PRD-5061,Water Bottle,Sports,Auto Parts Plus,131,19,24,30.56,79.7,61.65,Outdoor Storage,N/A,8,No Promotion,4.1,4.3
+2024-05-19,PRD-5061,Water Bottle,Sports,Auto Parts Plus,131,9,24,30.56,79.7,61.65,Cold Storage,N/A,6,No Promotion,3.3,7.4
+2024-05-30,PRD-5061,Water Bottle,Sports,Auto Parts Plus,164,10,29,30.56,79.7,61.65,Warehouse B,N/A,8,Buy 2 Get 1,3.5,6.1
+2024-07-04,PRD-5061,Water Bottle,Sports,Auto Parts Plus,166,10,52,30.56,79.7,61.65,Cold Storage,N/A,6,No Promotion,4.5,5.8
+2024-01-16,PRD-5062,Car Cover,Automotive,TechSupply Co,58,18,13,126.82,263.36,51.84,Outdoor Storage,N/A,5,Clearance Sale,3.2,2.3
+2024-02-07,PRD-5062,Car Cover,Automotive,TechSupply Co,16,20,11,126.82,263.36,51.84,Store Floor,N/A,5,Clearance Sale,5.0,2.2
+2024-03-13,PRD-5062,Car Cover,Automotive,TechSupply Co,0,14,3,126.82,263.36,51.84,Warehouse C,N/A,5,Clearance Sale,4.4,5.4
+2024-04-11,PRD-5062,Car Cover,Automotive,TechSupply Co,72,15,13,126.82,263.36,51.84,Cold Storage,N/A,5,No Promotion,4.9,1.4
+2024-05-06,PRD-5062,Car Cover,Automotive,TechSupply Co,83,16,16,126.82,263.36,51.84,Warehouse B,N/A,5,Clearance Sale,3.5,6.4
+2024-06-12,PRD-5062,Car Cover,Automotive,TechSupply Co,43,8,15,126.82,263.36,51.84,Backroom,N/A,5,Seasonal Sale,3.8,2.5
+2024-07-24,PRD-5062,Car Cover,Automotive,TechSupply Co,77,12,13,126.82,263.36,51.84,Store Floor,N/A,5,Seasonal Sale,3.5,6.8
+2024-01-19,PRD-5063,Supplements,Health,Toy Universe,285,2,45,98.04,190.13,48.43,Outdoor Storage,2025-09-30,5,No Promotion,4.9,1.5
+2024-02-21,PRD-5063,Supplements,Health,Toy Universe,361,16,99,98.04,190.13,48.43,Backroom,2025-08-30,5,No Promotion,3.5,1.2
+2024-03-14,PRD-5063,Supplements,Health,Toy Universe,208,17,46,98.04,190.13,48.43,Backroom,2024-07-20,5,No Promotion,3.2,2.6
+2024-04-09,PRD-5063,Supplements,Health,Toy Universe,273,13,100,98.04,190.13,48.43,Backroom,2024-11-27,5,No Promotion,4.3,1.5
+2024-05-15,PRD-5063,Supplements,Health,Toy Universe,254,12,49,98.04,190.13,48.43,Warehouse A,2025-03-21,5,Clearance Sale,4.4,0.5
+2024-06-18,PRD-5063,Supplements,Health,Toy Universe,74,25,32,98.04,190.13,48.43,Store Floor,2025-11-25,5,Discount 20%,3.5,1.0
+2024-07-24,PRD-5063,Supplements,Health,Toy Universe,410,5,117,98.04,190.13,48.43,Backroom,2025-11-01,5,BOGO,4.8,2.0
+2024-01-04,PRD-5064,Camera,Electronics,Fashion Forward Ltd,94,6,33,700.82,1398.35,49.88,Warehouse A,N/A,6,No Promotion,3.3,5.6
+2024-02-03,PRD-5064,Camera,Electronics,Fashion Forward Ltd,0,19,2,700.82,1398.35,49.88,Warehouse B,N/A,5,BOGO,4.6,8.5
+2024-03-09,PRD-5064,Camera,Electronics,Fashion Forward Ltd,50,8,18,700.82,1398.35,49.88,Store Floor,N/A,5,Clearance Sale,5.0,9.3
+2024-03-31,PRD-5064,Camera,Electronics,Fashion Forward Ltd,69,2,19,700.82,1398.35,49.88,Outdoor Storage,N/A,5,No Promotion,4.8,11.4
+2024-05-12,PRD-5064,Camera,Electronics,Fashion Forward Ltd,94,5,28,700.82,1398.35,49.88,Backroom,N/A,5,Discount 20%,4.0,3.9
+2024-06-12,PRD-5064,Camera,Electronics,Fashion Forward Ltd,32,9,10,700.82,1398.35,49.88,Backroom,N/A,5,Clearance Sale,3.1,5.2
+2024-07-08,PRD-5064,Camera,Electronics,Fashion Forward Ltd,52,19,21,700.82,1398.35,49.88,Store Floor,N/A,5,Seasonal Sale,3.7,5.9
+2024-01-25,PRD-5065,Running Shoes,Sports,Auto Parts Plus,63,28,29,104.45,216.57,51.77,Backroom,N/A,5,BOGO,3.4,1.6
+2024-02-08,PRD-5065,Running Shoes,Sports,Auto Parts Plus,67,16,24,104.45,216.57,51.77,Store Floor,N/A,5,Buy 2 Get 1,3.4,2.2
+2024-03-03,PRD-5065,Running Shoes,Sports,Auto Parts Plus,126,14,24,104.45,216.57,51.77,Warehouse C,N/A,5,No Promotion,3.5,1.8
+2024-04-04,PRD-5065,Running Shoes,Sports,Auto Parts Plus,55,30,12,104.45,216.57,51.77,Warehouse B,N/A,8,No Promotion,3.0,5.0
+2024-05-10,PRD-5065,Running Shoes,Sports,Auto Parts Plus,5,30,8,104.45,216.57,51.77,Backroom,N/A,6,Buy 2 Get 1,4.3,7.0
+2024-06-17,PRD-5065,Running Shoes,Sports,Auto Parts Plus,17,17,9,104.45,216.57,51.77,Warehouse C,N/A,8,Seasonal Sale,3.2,7.4
+2024-07-01,PRD-5065,Running Shoes,Sports,Auto Parts Plus,98,25,21,104.45,216.57,51.77,Warehouse A,N/A,6,Seasonal Sale,4.2,7.8
+2024-01-19,PRD-5066,Perfume,Beauty,Toy Universe,1,23,6,23.5,69.75,66.31,Backroom,2025-07-14,5,Seasonal Sale,4.5,7.2
+2024-02-03,PRD-5066,Perfume,Beauty,Toy Universe,44,14,12,23.5,69.75,66.31,Warehouse A,2025-07-21,5,No Promotion,4.9,1.2
+2024-03-13,PRD-5066,Perfume,Beauty,Toy Universe,54,17,20,23.5,69.75,66.31,Warehouse B,2025-12-17,5,BOGO,3.4,4.5
+2024-04-07,PRD-5066,Perfume,Beauty,Toy Universe,66,14,15,23.5,69.75,66.31,Warehouse C,2026-01-18,5,Buy 2 Get 1,4.3,7.5
+2024-05-23,PRD-5066,Perfume,Beauty,Toy Universe,18,50,20,23.5,69.75,66.31,Outdoor Storage,2026-01-03,5,Seasonal Sale,4.7,5.9
+2024-06-16,PRD-5066,Perfume,Beauty,Toy Universe,60,12,15,23.5,69.75,66.31,Cold Storage,2025-08-19,5,No Promotion,3.5,4.8
+2024-06-30,PRD-5066,Perfume,Beauty,Toy Universe,34,45,15,23.5,69.75,66.31,Backroom,2025-04-17,5,Seasonal Sale,4.4,7.5
+2024-01-21,PRD-5067,Perfume,Beauty,Toy Universe,13,38,13,5.92,15.56,61.95,Store Floor,2024-05-09,5,BOGO,4.4,7.9
+2024-02-10,PRD-5067,Perfume,Beauty,Toy Universe,23,26,11,5.92,15.56,61.95,Outdoor Storage,2025-11-24,5,Buy 2 Get 1,4.9,2.7
+2024-03-25,PRD-5067,Perfume,Beauty,Toy Universe,53,22,19,5.92,15.56,61.95,Warehouse A,2025-03-15,5,No Promotion,4.1,7.3
+2024-04-03,PRD-5067,Perfume,Beauty,Toy Universe,50,17,13,5.92,15.56,61.95,Backroom,2025-11-30,5,Clearance Sale,4.9,7.0
+2024-05-25,PRD-5067,Perfume,Beauty,Toy Universe,134,6,25,5.92,15.56,61.95,Outdoor Storage,2024-12-22,5,Discount 20%,3.5,5.7
+2024-06-06,PRD-5067,Perfume,Beauty,Toy Universe,50,31,16,5.92,15.56,61.95,Cold Storage,2025-05-09,5,No Promotion,4.1,4.8
+2024-06-30,PRD-5067,Perfume,Beauty,Toy Universe,88,12,33,5.92,15.56,61.95,Outdoor Storage,2025-04-02,5,No Promotion,4.5,2.4
+2024-01-08,PRD-5068,Skincare Set,Beauty,Sports World,33,7,12,16.09,53.35,69.83,Cold Storage,2024-09-01,5,No Promotion,3.5,2.2
+2024-02-05,PRD-5068,Skincare Set,Beauty,Sports World,15,14,5,16.09,53.35,69.83,Warehouse A,2025-02-14,5,Discount 20%,3.4,5.7
+2024-03-26,PRD-5068,Skincare Set,Beauty,Sports World,56,14,21,16.09,53.35,69.83,Cold Storage,2025-03-08,5,Seasonal Sale,3.5,3.5
+2024-04-09,PRD-5068,Skincare Set,Beauty,Sports World,80,39,29,16.09,53.35,69.83,Cold Storage,2024-06-19,5,Discount 20%,4.3,6.5
+2024-05-01,PRD-5068,Skincare Set,Beauty,Sports World,130,5,28,16.09,53.35,69.83,Store Floor,2024-10-22,5,No Promotion,4.1,6.2
+2024-06-15,PRD-5068,Skincare Set,Beauty,Sports World,84,35,32,16.09,53.35,69.83,Warehouse B,2025-02-11,5,Discount 20%,3.0,4.5
+2024-07-13,PRD-5068,Skincare Set,Beauty,Sports World,65,17,23,16.09,53.35,69.83,Store Floor,2026-05-20,5,Seasonal Sale,3.3,2.7
+2024-01-16,PRD-5069,Protein Powder,Health,TechSupply Co,51,3,17,111.55,297.27,62.48,Warehouse C,2025-04-08,5,No Promotion,5.0,1.9
+2024-02-25,PRD-5069,Protein Powder,Health,TechSupply Co,368,13,70,111.55,297.27,62.48,Backroom,2024-10-31,5,No Promotion,4.1,2.1
+2024-03-04,PRD-5069,Protein Powder,Health,TechSupply Co,449,15,102,111.55,297.27,62.48,Store Floor,2025-12-13,5,No Promotion,4.6,2.6
+2024-04-03,PRD-5069,Protein Powder,Health,TechSupply Co,330,3,64,111.55,297.27,62.48,Outdoor Storage,2024-08-06,5,Clearance Sale,4.2,1.5
+2024-05-17,PRD-5069,Protein Powder,Health,TechSupply Co,256,10,54,111.55,297.27,62.48,Store Floor,2026-02-13,5,Clearance Sale,3.5,2.7
+2024-06-07,PRD-5069,Protein Powder,Health,TechSupply Co,261,30,60,111.55,297.27,62.48,Outdoor Storage,2025-11-09,5,Clearance Sale,4.0,0.8
+2024-07-22,PRD-5069,Protein Powder,Health,TechSupply Co,287,15,63,111.55,297.27,62.48,Warehouse B,2026-04-26,5,Clearance Sale,3.8,2.4
+2024-01-26,PRD-5070,Jeans,Clothing,Sports World,60,20,25,56.38,191.78,70.6,Outdoor Storage,N/A,9,BOGO,4.7,4.1
+2024-02-24,PRD-5070,Jeans,Clothing,Sports World,28,29,13,56.38,191.78,70.6,Store Floor,N/A,5,Buy 2 Get 1,4.4,11.1
+2024-03-18,PRD-5070,Jeans,Clothing,Sports World,106,17,36,56.38,191.78,70.6,Cold Storage,N/A,5,No Promotion,3.2,11.7
+2024-04-01,PRD-5070,Jeans,Clothing,Sports World,13,20,7,56.38,191.78,70.6,Cold Storage,N/A,5,No Promotion,3.4,5.4
+2024-05-02,PRD-5070,Jeans,Clothing,Sports World,193,4,41,56.38,191.78,70.6,Warehouse A,N/A,5,No Promotion,4.8,8.6
+2024-06-22,PRD-5070,Jeans,Clothing,Sports World,178,6,39,56.38,191.78,70.6,Store Floor,N/A,5,BOGO,4.5,3.4
+2024-07-12,PRD-5070,Jeans,Clothing,Sports World,8,19,7,56.38,191.78,70.6,Cold Storage,N/A,5,Buy 2 Get 1,3.6,10.7
+2024-01-19,PRD-5071,T-Shirt,Clothing,Sports World,18,17,5,41.77,126.73,67.04,Warehouse A,N/A,8,Seasonal Sale,3.7,7.5
+2024-02-12,PRD-5071,T-Shirt,Clothing,Sports World,69,3,12,41.77,126.73,67.04,Store Floor,N/A,5,No Promotion,4.4,9.6
+2024-03-09,PRD-5071,T-Shirt,Clothing,Sports World,159,18,59,41.77,126.73,67.04,Warehouse B,N/A,5,Buy 2 Get 1,4.2,6.2
+2024-04-02,PRD-5071,T-Shirt,Clothing,Sports World,130,14,41,41.77,126.73,67.04,Backroom,N/A,5,Clearance Sale,4.4,6.1
+2024-05-14,PRD-5071,T-Shirt,Clothing,Sports World,141,25,25,41.77,126.73,67.04,Store Floor,N/A,5,Clearance Sale,4.6,4.6
+2024-05-30,PRD-5071,T-Shirt,Clothing,Sports World,100,29,37,41.77,126.73,67.04,Warehouse C,N/A,5,No Promotion,4.2,10.4
+2024-07-06,PRD-5071,T-Shirt,Clothing,Sports World,38,8,11,41.77,126.73,67.04,Warehouse B,N/A,5,No Promotion,3.5,5.5
+2024-01-03,PRD-5072,Phone Mount,Automotive,TechSupply Co,91,6,31,80.12,183.87,56.43,Warehouse A,N/A,5,Buy 2 Get 1,4.3,6.3
+2024-02-24,PRD-5072,Phone Mount,Automotive,TechSupply Co,55,17,23,80.12,183.87,56.43,Warehouse C,N/A,5,No Promotion,3.8,1.4
+2024-03-24,PRD-5072,Phone Mount,Automotive,TechSupply Co,76,14,14,80.12,183.87,56.43,Warehouse A,N/A,5,BOGO,4.6,2.8
+2024-04-07,PRD-5072,Phone Mount,Automotive,TechSupply Co,42,10,13,80.12,183.87,56.43,Backroom,N/A,5,No Promotion,3.6,4.4
+2024-05-19,PRD-5072,Phone Mount,Automotive,TechSupply Co,12,8,3,80.12,183.87,56.43,Outdoor Storage,N/A,5,Seasonal Sale,4.8,6.9
+2024-06-20,PRD-5072,Phone Mount,Automotive,TechSupply Co,92,6,28,80.12,183.87,56.43,Warehouse C,N/A,5,Clearance Sale,3.2,1.1
+2024-07-05,PRD-5072,Phone Mount,Automotive,TechSupply Co,16,1,4,80.12,183.87,56.43,Warehouse C,N/A,5,Buy 2 Get 1,4.8,4.9
+2024-01-26,PRD-5073,Action Figure,Toys,Auto Parts Plus,33,9,13,45.26,127.68,64.55,Warehouse A,N/A,5,Discount 20%,4.9,1.5
+2024-02-21,PRD-5073,Action Figure,Toys,Auto Parts Plus,38,19,19,45.26,127.68,64.55,Outdoor Storage,N/A,5,Clearance Sale,3.6,5.4
+2024-03-05,PRD-5073,Action Figure,Toys,Auto Parts Plus,65,27,18,45.26,127.68,64.55,Cold Storage,N/A,5,Discount 20%,4.6,4.9
+2024-04-19,PRD-5073,Action Figure,Toys,Auto Parts Plus,10,16,4,45.26,127.68,64.55,Outdoor Storage,N/A,5,No Promotion,4.2,4.8
+2024-05-21,PRD-5073,Action Figure,Toys,Auto Parts Plus,30,29,15,45.26,127.68,64.55,Warehouse C,N/A,5,No Promotion,4.7,7.0
+2024-06-12,PRD-5073,Action Figure,Toys,Auto Parts Plus,52,13,15,45.26,127.68,64.55,Backroom,N/A,5,Buy 2 Get 1,3.7,6.4
+2024-07-07,PRD-5073,Action Figure,Toys,Auto Parts Plus,42,20,18,45.26,127.68,64.55,Store Floor,N/A,5,No Promotion,4.8,6.8
+2024-01-02,PRD-5074,Building Blocks,Toys,Home Essentials Inc,91,18,27,37.79,81.38,53.56,Store Floor,N/A,5,Clearance Sale,3.1,1.2
+2024-02-05,PRD-5074,Building Blocks,Toys,Home Essentials Inc,60,28,21,37.79,81.38,53.56,Outdoor Storage,N/A,5,Clearance Sale,4.1,7.6
+2024-03-16,PRD-5074,Building Blocks,Toys,Home Essentials Inc,102,24,33,37.79,81.38,53.56,Warehouse C,N/A,5,Seasonal Sale,3.9,5.0
+2024-04-24,PRD-5074,Building Blocks,Toys,Home Essentials Inc,106,10,20,37.79,81.38,53.56,Warehouse A,N/A,5,Clearance Sale,4.5,3.8
+2024-05-17,PRD-5074,Building Blocks,Toys,Home Essentials Inc,122,26,41,37.79,81.38,53.56,Cold Storage,N/A,5,No Promotion,3.1,5.6
+2024-06-16,PRD-5074,Building Blocks,Toys,Home Essentials Inc,51,30,16,37.79,81.38,53.56,Warehouse C,N/A,5,Buy 2 Get 1,3.8,2.0
+2024-07-07,PRD-5074,Building Blocks,Toys,Home Essentials Inc,13,22,10,37.79,81.38,53.56,Cold Storage,N/A,5,Buy 2 Get 1,3.8,3.6
+2024-01-10,PRD-5075,Curtains,Home & Garden,Food Source Ltd,111,19,39,244.62,383.72,36.25,Warehouse A,N/A,5,No Promotion,3.7,2.2
+2024-02-01,PRD-5075,Curtains,Home & Garden,Food Source Ltd,130,12,40,244.62,383.72,36.25,Warehouse C,N/A,5,Discount 20%,3.2,4.9
+2024-03-23,PRD-5075,Curtains,Home & Garden,Food Source Ltd,136,12,46,244.62,383.72,36.25,Warehouse A,N/A,5,No Promotion,4.3,6.7
+2024-04-07,PRD-5075,Curtains,Home & Garden,Food Source Ltd,52,13,18,244.62,383.72,36.25,Cold Storage,N/A,7,No Promotion,4.6,4.5
+2024-05-19,PRD-5075,Curtains,Home & Garden,Food Source Ltd,80,15,32,244.62,383.72,36.25,Warehouse C,N/A,8,No Promotion,3.3,3.3
+2024-05-31,PRD-5075,Curtains,Home & Garden,Food Source Ltd,0,30,7,244.62,383.72,36.25,Warehouse C,N/A,8,No Promotion,3.3,7.4
+2024-07-21,PRD-5075,Curtains,Home & Garden,Food Source Ltd,60,26,16,244.62,383.72,36.25,Warehouse C,N/A,7,Clearance Sale,4.0,4.8
+2024-01-22,PRD-5076,Magazine,Books,Auto Parts Plus,1,27,7,34.99,59.68,41.37,Store Floor,N/A,5,Seasonal Sale,4.0,4.3
+2024-01-31,PRD-5076,Magazine,Books,Auto Parts Plus,71,19,23,34.99,59.68,41.37,Store Floor,N/A,5,No Promotion,4.8,4.8
+2024-03-20,PRD-5076,Magazine,Books,Auto Parts Plus,39,20,13,34.99,59.68,41.37,Backroom,N/A,5,No Promotion,4.8,2.4
+2024-04-16,PRD-5076,Magazine,Books,Auto Parts Plus,109,11,27,34.99,59.68,41.37,Backroom,N/A,5,Buy 2 Get 1,3.7,7.5
+2024-05-04,PRD-5076,Magazine,Books,Auto Parts Plus,0,28,4,34.99,59.68,41.37,Backroom,N/A,5,No Promotion,3.4,2.4
+2024-06-22,PRD-5076,Magazine,Books,Auto Parts Plus,60,30,30,34.99,59.68,41.37,Backroom,N/A,5,No Promotion,4.0,4.4
+2024-07-23,PRD-5076,Magazine,Books,Auto Parts Plus,26,13,7,34.99,59.68,41.37,Warehouse C,N/A,5,Buy 2 Get 1,3.7,3.3
+2024-01-08,PRD-5077,Textbook,Books,Health First,105,13,28,13.01,22.75,42.81,Warehouse C,N/A,5,No Promotion,3.5,2.4
+2024-02-13,PRD-5077,Textbook,Books,Health First,35,15,13,13.01,22.75,42.81,Warehouse B,N/A,5,Seasonal Sale,3.5,5.2
+2024-03-08,PRD-5077,Textbook,Books,Health First,62,22,19,13.01,22.75,42.81,Backroom,N/A,5,Seasonal Sale,4.6,7.7
+2024-04-18,PRD-5077,Textbook,Books,Health First,55,23,20,13.01,22.75,42.81,Store Floor,N/A,5,Buy 2 Get 1,5.0,6.3
+2024-05-15,PRD-5077,Textbook,Books,Health First,13,26,6,13.01,22.75,42.81,Warehouse C,N/A,5,Seasonal Sale,3.6,1.7
+2024-06-17,PRD-5077,Textbook,Books,Health First,91,22,23,13.01,22.75,42.81,Backroom,N/A,5,BOGO,4.7,2.8
+2024-07-22,PRD-5077,Textbook,Books,Health First,58,10,18,13.01,22.75,42.81,Outdoor Storage,N/A,5,Seasonal Sale,3.2,5.9
+2024-01-25,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,157,27,48,60.72,148.18,59.02,Backroom,2024-09-22,5,Discount 20%,3.0,2.5
+2024-02-23,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,418,4,126,60.72,148.18,59.02,Outdoor Storage,2024-05-24,5,Buy 2 Get 1,3.9,1.3
+2024-03-24,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,325,2,112,60.72,148.18,59.02,Cold Storage,2025-11-17,5,No Promotion,3.3,2.4
+2024-04-24,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,209,16,68,60.72,148.18,59.02,Outdoor Storage,2026-04-01,5,Clearance Sale,4.3,2.2
+2024-05-24,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,353,9,110,60.72,148.18,59.02,Backroom,2026-04-07,5,No Promotion,3.6,2.1
+2024-05-30,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,408,10,88,60.72,148.18,59.02,Warehouse A,2024-11-27,5,Seasonal Sale,4.8,1.9
+2024-07-23,PRD-5078,First Aid Kit,Health,Fashion Forward Ltd,200,4,63,60.72,148.18,59.02,Store Floor,2025-08-26,5,Seasonal Sale,4.2,2.0
+2024-01-01,PRD-5079,Speaker,Electronics,Toy Universe,81,9,18,413.79,724.33,42.87,Backroom,N/A,6,Clearance Sale,4.1,6.0
+2024-01-31,PRD-5079,Speaker,Electronics,Toy Universe,41,10,9,413.79,724.33,42.87,Backroom,N/A,9,BOGO,3.9,7.4
+2024-03-05,PRD-5079,Speaker,Electronics,Toy Universe,49,4,13,413.79,724.33,42.87,Warehouse A,N/A,5,Seasonal Sale,3.6,11.8
+2024-04-05,PRD-5079,Speaker,Electronics,Toy Universe,63,11,25,413.79,724.33,42.87,Warehouse C,N/A,5,BOGO,3.3,9.5
+2024-05-11,PRD-5079,Speaker,Electronics,Toy Universe,38,3,6,413.79,724.33,42.87,Outdoor Storage,N/A,5,BOGO,4.7,7.0
+2024-06-13,PRD-5079,Speaker,Electronics,Toy Universe,67,20,27,413.79,724.33,42.87,Outdoor Storage,N/A,5,No Promotion,4.0,11.0
+2024-07-20,PRD-5079,Speaker,Electronics,Toy Universe,26,3,8,413.79,724.33,42.87,Store Floor,N/A,5,BOGO,4.3,10.9
+2024-01-25,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,12,9,5,146.7,289.11,49.26,Cold Storage,N/A,5,BOGO,4.6,6.6
+2024-02-12,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,48,30,21,146.7,289.11,49.26,Warehouse C,N/A,5,No Promotion,3.1,7.8
+2024-03-24,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,112,23,43,146.7,289.11,49.26,Outdoor Storage,N/A,5,Clearance Sale,3.1,7.0
+2024-04-03,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,57,23,14,146.7,289.11,49.26,Backroom,N/A,7,Discount 20%,4.5,4.9
+2024-05-25,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,68,23,19,146.7,289.11,49.26,Warehouse B,N/A,6,No Promotion,4.5,3.7
+2024-06-02,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,47,12,10,146.7,289.11,49.26,Cold Storage,N/A,8,Seasonal Sale,3.9,7.5
+2024-07-11,PRD-5080,Coffee Maker,Home & Garden,Fashion Forward Ltd,47,19,10,146.7,289.11,49.26,Cold Storage,N/A,7,Discount 20%,4.6,7.0
+2024-01-06,PRD-5081,Dictionary,Books,Health First,49,28,12,19.48,29.17,33.21,Warehouse A,N/A,5,Seasonal Sale,3.9,6.6
+2024-02-22,PRD-5081,Dictionary,Books,Health First,20,11,6,19.48,29.17,33.21,Cold Storage,N/A,5,No Promotion,4.6,2.5
+2024-03-19,PRD-5081,Dictionary,Books,Health First,101,16,25,19.48,29.17,33.21,Warehouse A,N/A,5,BOGO,4.6,7.2
+2024-04-01,PRD-5081,Dictionary,Books,Health First,53,30,18,19.48,29.17,33.21,Warehouse B,N/A,5,No Promotion,4.5,5.2
+2024-05-19,PRD-5081,Dictionary,Books,Health First,92,8,28,19.48,29.17,33.21,Warehouse B,N/A,5,Discount 20%,3.9,3.1
+2024-06-10,PRD-5081,Dictionary,Books,Health First,17,17,8,19.48,29.17,33.21,Store Floor,N/A,5,No Promotion,4.3,6.8
+2024-07-07,PRD-5081,Dictionary,Books,Health First,41,15,10,19.48,29.17,33.21,Warehouse C,N/A,5,Clearance Sale,3.1,1.6
+2024-01-13,PRD-5082,Helmet,Sports,Sports World,130,27,46,102.42,228.94,55.26,Store Floor,N/A,5,No Promotion,3.8,2.7
+2024-02-02,PRD-5082,Helmet,Sports,Sports World,84,30,21,102.42,228.94,55.26,Store Floor,N/A,5,Seasonal Sale,4.9,7.2
+2024-03-08,PRD-5082,Helmet,Sports,Sports World,83,8,16,102.42,228.94,55.26,Cold Storage,N/A,5,No Promotion,3.8,1.9
+2024-04-11,PRD-5082,Helmet,Sports,Sports World,46,17,15,102.42,228.94,55.26,Store Floor,N/A,6,No Promotion,4.5,2.4
+2024-05-11,PRD-5082,Helmet,Sports,Sports World,63,24,25,102.42,228.94,55.26,Outdoor Storage,N/A,8,Clearance Sale,3.1,4.0
+2024-06-04,PRD-5082,Helmet,Sports,Sports World,38,10,12,102.42,228.94,55.26,Warehouse B,N/A,7,Seasonal Sale,5.0,7.7
+2024-07-18,PRD-5082,Helmet,Sports,Sports World,153,28,62,102.42,228.94,55.26,Warehouse A,N/A,8,Discount 20%,4.4,5.0
+2024-01-13,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,9,46,19,19.89,31.54,36.95,Cold Storage,2024-05-13,5,No Promotion,3.4,1.3
+2024-02-06,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,309,15,97,19.89,31.54,36.95,Store Floor,2024-04-06,5,No Promotion,4.8,2.9
+2024-03-09,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,302,41,98,19.89,31.54,36.95,Warehouse A,2024-11-14,5,No Promotion,3.6,1.5
+2024-04-25,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,310,30,58,19.89,31.54,36.95,Store Floor,2024-12-13,5,No Promotion,4.4,1.6
+2024-05-07,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,125,11,34,19.89,31.54,36.95,Warehouse C,2025-05-23,5,No Promotion,3.9,1.1
+2024-06-08,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,306,48,81,19.89,31.54,36.95,Backroom,2026-05-04,5,Discount 20%,4.5,1.0
+2024-07-15,PRD-5083,Crackers,Food & Beverages,Home Essentials Inc,434,49,160,19.89,31.54,36.95,Outdoor Storage,2025-10-01,5,No Promotion,3.6,1.1
+2024-01-24,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,141,36,57,12.09,22.05,45.18,Warehouse A,2025-10-07,5,No Promotion,4.9,1.2
+2024-02-01,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,17,43,10,12.09,22.05,45.18,Store Floor,2026-01-14,5,No Promotion,4.0,1.9
+2024-03-02,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,57,17,14,12.09,22.05,45.18,Store Floor,2025-05-27,5,Seasonal Sale,4.4,1.6
+2024-04-21,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,62,25,19,12.09,22.05,45.18,Store Floor,2024-07-13,5,No Promotion,3.7,1.5
+2024-05-08,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,171,39,54,12.09,22.05,45.18,Warehouse A,2025-04-24,5,Buy 2 Get 1,4.5,1.6
+2024-06-06,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,307,42,103,12.09,22.05,45.18,Warehouse B,2026-02-16,5,Seasonal Sale,3.8,1.1
+2024-07-05,PRD-5084,Crackers,Food & Beverages,Food Source Ltd,132,48,30,12.09,22.05,45.18,Cold Storage,2025-01-09,5,No Promotion,4.9,2.0
+2024-01-18,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,100,32,20,70.23,232.18,69.75,Warehouse C,2025-12-14,5,Seasonal Sale,4.2,6.5
+2024-02-24,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,88,30,30,70.23,232.18,69.75,Warehouse A,2024-06-08,5,Buy 2 Get 1,3.4,1.4
+2024-03-26,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,51,21,19,70.23,232.18,69.75,Warehouse B,2024-08-02,5,Discount 20%,4.2,2.8
+2024-04-25,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,89,27,21,70.23,232.18,69.75,Warehouse A,2026-01-21,5,No Promotion,4.7,7.7
+2024-05-13,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,102,38,22,70.23,232.18,69.75,Outdoor Storage,2026-01-15,5,Clearance Sale,4.8,6.3
+2024-06-02,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,9,28,9,70.23,232.18,69.75,Cold Storage,2024-09-23,5,No Promotion,3.3,2.1
+2024-07-18,PRD-5085,Moisturizer,Beauty,Fashion Forward Ltd,0,49,12,70.23,232.18,69.75,Cold Storage,2025-06-24,5,No Promotion,3.3,2.1
+2024-01-03,PRD-5086,Smart Watch,Electronics,Sports World,2,14,2,452.18,709.3,36.25,Warehouse B,N/A,8,Buy 2 Get 1,5.0,4.1
+2024-02-16,PRD-5086,Smart Watch,Electronics,Sports World,18,15,10,452.18,709.3,36.25,Cold Storage,N/A,5,No Promotion,4.4,3.9
+2024-03-20,PRD-5086,Smart Watch,Electronics,Sports World,73,9,16,452.18,709.3,36.25,Outdoor Storage,N/A,5,No Promotion,3.6,2.8
+2024-04-22,PRD-5086,Smart Watch,Electronics,Sports World,68,2,20,452.18,709.3,36.25,Backroom,N/A,5,Seasonal Sale,3.8,6.3
+2024-05-23,PRD-5086,Smart Watch,Electronics,Sports World,22,9,4,452.18,709.3,36.25,Warehouse C,N/A,5,No Promotion,3.3,6.5
+2024-06-07,PRD-5086,Smart Watch,Electronics,Sports World,85,2,25,452.18,709.3,36.25,Warehouse B,N/A,5,Clearance Sale,4.1,8.3
+2024-07-06,PRD-5086,Smart Watch,Electronics,Sports World,28,10,12,452.18,709.3,36.25,Backroom,N/A,5,No Promotion,4.5,8.4
+2024-01-10,PRD-5087,Action Figure,Toys,Auto Parts Plus,79,4,12,10.65,23.82,55.3,Warehouse B,N/A,5,BOGO,4.7,2.5
+2024-02-18,PRD-5087,Action Figure,Toys,Auto Parts Plus,73,17,23,10.65,23.82,55.3,Warehouse A,N/A,5,Seasonal Sale,3.7,5.8
+2024-03-23,PRD-5087,Action Figure,Toys,Auto Parts Plus,93,21,17,10.65,23.82,55.3,Warehouse C,N/A,5,Seasonal Sale,3.9,4.5
+2024-04-05,PRD-5087,Action Figure,Toys,Auto Parts Plus,101,8,21,10.65,23.82,55.3,Backroom,N/A,5,Clearance Sale,3.7,6.3
+2024-05-13,PRD-5087,Action Figure,Toys,Auto Parts Plus,88,24,19,10.65,23.82,55.3,Warehouse A,N/A,5,Seasonal Sale,3.0,5.2
+2024-05-30,PRD-5087,Action Figure,Toys,Auto Parts Plus,29,28,17,10.65,23.82,55.3,Warehouse B,N/A,5,Discount 20%,4.2,3.0
+2024-06-30,PRD-5087,Action Figure,Toys,Auto Parts Plus,72,13,28,10.65,23.82,55.3,Warehouse B,N/A,5,No Promotion,4.4,3.7
+2024-01-17,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,130,9,23,99.28,178.63,44.42,Warehouse C,N/A,5,No Promotion,4.7,7.4
+2024-02-25,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,71,18,30,99.28,178.63,44.42,Backroom,N/A,5,Discount 20%,4.8,1.4
+2024-03-21,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,0,20,5,99.28,178.63,44.42,Warehouse C,N/A,5,Discount 20%,4.9,7.4
+2024-04-16,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,37,9,8,99.28,178.63,44.42,Warehouse C,N/A,8,BOGO,4.7,5.8
+2024-05-12,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,106,11,21,99.28,178.63,44.42,Store Floor,N/A,7,Buy 2 Get 1,3.0,6.2
+2024-06-10,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,14,26,7,99.28,178.63,44.42,Cold Storage,N/A,6,Clearance Sale,3.2,1.5
+2024-07-03,PRD-5088,Coffee Maker,Home & Garden,Home Essentials Inc,49,13,14,99.28,178.63,44.42,Backroom,N/A,6,No Promotion,3.0,7.2
+2024-01-09,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,13,40,16,3.23,5.95,45.68,Cold Storage,2024-06-09,5,Seasonal Sale,3.7,1.6
+2024-02-06,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,186,32,63,3.23,5.95,45.68,Backroom,2025-12-16,5,Clearance Sale,3.2,2.5
+2024-03-02,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,423,13,127,3.23,5.95,45.68,Warehouse C,2026-02-13,5,Buy 2 Get 1,4.6,1.4
+2024-04-14,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,275,20,60,3.23,5.95,45.68,Warehouse A,2024-10-01,5,No Promotion,3.8,1.7
+2024-05-03,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,74,13,28,3.23,5.95,45.68,Warehouse C,2026-02-05,5,Discount 20%,3.3,2.3
+2024-06-08,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,42,49,17,3.23,5.95,45.68,Warehouse B,2024-12-27,5,Clearance Sale,4.9,0.7
+2024-07-06,PRD-5089,Crackers,Food & Beverages,Food Source Ltd,86,29,37,3.23,5.95,45.68,Warehouse A,2025-07-08,5,Discount 20%,4.2,2.2
+2024-01-04,PRD-5090,Lamp,Home & Garden,Sports World,98,26,30,45.94,109.53,58.05,Backroom,N/A,5,No Promotion,3.7,6.7
+2024-02-21,PRD-5090,Lamp,Home & Garden,Sports World,100,7,37,45.94,109.53,58.05,Backroom,N/A,5,No Promotion,3.3,4.3
+2024-03-23,PRD-5090,Lamp,Home & Garden,Sports World,60,13,13,45.94,109.53,58.05,Cold Storage,N/A,5,No Promotion,4.5,4.6
+2024-04-22,PRD-5090,Lamp,Home & Garden,Sports World,111,18,27,45.94,109.53,58.05,Outdoor Storage,N/A,8,BOGO,4.1,5.3
+2024-05-24,PRD-5090,Lamp,Home & Garden,Sports World,72,29,17,45.94,109.53,58.05,Store Floor,N/A,7,Seasonal Sale,3.5,4.7
+2024-06-11,PRD-5090,Lamp,Home & Garden,Sports World,84,9,21,45.94,109.53,58.05,Warehouse C,N/A,7,Discount 20%,4.5,5.5
+2024-07-07,PRD-5090,Lamp,Home & Garden,Sports World,113,8,19,45.94,109.53,58.05,Store Floor,N/A,8,Seasonal Sale,4.3,7.6
+2024-01-26,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,32,5,6,122.47,214.15,42.81,Warehouse A,N/A,5,BOGO,4.6,3.9
+2024-02-16,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,23,3,5,122.47,214.15,42.81,Warehouse A,N/A,5,No Promotion,3.3,5.3
+2024-03-04,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,44,5,10,122.47,214.15,42.81,Backroom,N/A,5,Buy 2 Get 1,4.9,5.7
+2024-04-07,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,66,5,15,122.47,214.15,42.81,Warehouse C,N/A,5,No Promotion,4.3,2.3
+2024-05-09,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,38,1,7,122.47,214.15,42.81,Store Floor,N/A,5,Buy 2 Get 1,4.4,4.4
+2024-06-05,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,77,19,25,122.47,214.15,42.81,Warehouse B,N/A,5,BOGO,4.7,7.9
+2024-07-05,PRD-5091,Seat Cover,Automotive,Home Essentials Inc,31,2,11,122.47,214.15,42.81,Warehouse B,N/A,5,No Promotion,4.8,6.5
+2024-01-21,PRD-5092,Air Freshener,Automotive,TechSupply Co,89,7,30,116.72,219.67,46.87,Warehouse B,N/A,5,No Promotion,3.3,1.6
+2024-02-23,PRD-5092,Air Freshener,Automotive,TechSupply Co,71,7,22,116.72,219.67,46.87,Warehouse A,N/A,5,Discount 20%,4.6,4.0
+2024-03-13,PRD-5092,Air Freshener,Automotive,TechSupply Co,26,4,7,116.72,219.67,46.87,Cold Storage,N/A,5,No Promotion,4.0,1.7
+2024-04-09,PRD-5092,Air Freshener,Automotive,TechSupply Co,27,19,7,116.72,219.67,46.87,Outdoor Storage,N/A,5,No Promotion,3.2,3.1
+2024-05-05,PRD-5092,Air Freshener,Automotive,TechSupply Co,36,11,15,116.72,219.67,46.87,Backroom,N/A,5,Buy 2 Get 1,4.3,7.6
+2024-05-31,PRD-5092,Air Freshener,Automotive,TechSupply Co,50,15,18,116.72,219.67,46.87,Cold Storage,N/A,5,Discount 20%,4.3,7.1
+2024-07-22,PRD-5092,Air Freshener,Automotive,TechSupply Co,4,13,5,116.72,219.67,46.87,Warehouse C,N/A,5,Discount 20%,3.2,2.6
+2024-01-10,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,89,3,14,99.89,232.83,57.1,Warehouse A,N/A,9,Discount 20%,4.2,8.8
+2024-02-13,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,186,5,53,99.89,232.83,57.1,Store Floor,N/A,5,No Promotion,4.5,5.2
+2024-03-01,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,143,28,58,99.89,232.83,57.1,Warehouse B,N/A,5,No Promotion,3.9,2.4
+2024-04-19,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,76,24,30,99.89,232.83,57.1,Warehouse B,N/A,5,Buy 2 Get 1,4.2,7.2
+2024-05-13,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,30,5,8,99.89,232.83,57.1,Store Floor,N/A,5,No Promotion,4.3,9.5
+2024-06-16,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,158,9,51,99.89,232.83,57.1,Store Floor,N/A,5,Discount 20%,3.3,3.1
+2024-07-13,PRD-5093,T-Shirt,Clothing,Fashion Forward Ltd,83,21,19,99.89,232.83,57.1,Store Floor,N/A,5,BOGO,4.4,7.9
+2024-01-17,PRD-5094,Novel,Books,Beauty Brands,142,7,51,6.83,13.6,49.81,Store Floor,N/A,5,Buy 2 Get 1,4.4,1.4
+2024-02-24,PRD-5094,Novel,Books,Beauty Brands,75,7,19,6.83,13.6,49.81,Warehouse A,N/A,5,No Promotion,3.9,7.9
+2024-03-08,PRD-5094,Novel,Books,Beauty Brands,85,12,18,6.83,13.6,49.81,Store Floor,N/A,5,No Promotion,4.9,6.2
+2024-04-20,PRD-5094,Novel,Books,Beauty Brands,92,18,19,6.83,13.6,49.81,Store Floor,N/A,5,No Promotion,5.0,8.0
+2024-05-24,PRD-5094,Novel,Books,Beauty Brands,26,26,7,6.83,13.6,49.81,Store Floor,N/A,5,No Promotion,4.6,3.0
+2024-06-12,PRD-5094,Novel,Books,Beauty Brands,61,30,19,6.83,13.6,49.81,Backroom,N/A,5,BOGO,3.7,2.3
+2024-06-30,PRD-5094,Novel,Books,Beauty Brands,50,18,11,6.83,13.6,49.81,Store Floor,N/A,5,Clearance Sale,3.2,3.8
+2024-01-04,PRD-5095,Novel,Books,Toy Universe,42,22,19,47.29,92.46,48.85,Store Floor,N/A,5,Discount 20%,4.9,2.3
+2024-02-04,PRD-5095,Novel,Books,Toy Universe,17,30,9,47.29,92.46,48.85,Store Floor,N/A,5,No Promotion,4.4,1.1
+2024-03-15,PRD-5095,Novel,Books,Toy Universe,12,13,7,47.29,92.46,48.85,Warehouse C,N/A,5,Clearance Sale,4.4,4.6
+2024-04-08,PRD-5095,Novel,Books,Toy Universe,88,10,16,47.29,92.46,48.85,Outdoor Storage,N/A,5,No Promotion,3.4,3.6
+2024-05-24,PRD-5095,Novel,Books,Toy Universe,93,14,36,47.29,92.46,48.85,Warehouse C,N/A,5,No Promotion,3.7,3.5
+2024-06-05,PRD-5095,Novel,Books,Toy Universe,0,30,6,47.29,92.46,48.85,Outdoor Storage,N/A,5,Buy 2 Get 1,4.7,6.9
+2024-07-21,PRD-5095,Novel,Books,Toy Universe,95,21,38,47.29,92.46,48.85,Warehouse C,N/A,5,Seasonal Sale,3.0,1.8
+2024-01-11,PRD-5096,Puzzle,Toys,Auto Parts Plus,40,13,11,41.19,91.58,55.02,Backroom,N/A,5,No Promotion,3.8,1.4
+2024-02-10,PRD-5096,Puzzle,Toys,Auto Parts Plus,86,27,22,41.19,91.58,55.02,Cold Storage,N/A,5,Clearance Sale,3.7,3.7
+2024-03-03,PRD-5096,Puzzle,Toys,Auto Parts Plus,11,16,9,41.19,91.58,55.02,Outdoor Storage,N/A,5,No Promotion,3.7,1.4
+2024-04-20,PRD-5096,Puzzle,Toys,Auto Parts Plus,28,3,9,41.19,91.58,55.02,Store Floor,N/A,5,No Promotion,4.8,7.2
+2024-05-05,PRD-5096,Puzzle,Toys,Auto Parts Plus,30,29,15,41.19,91.58,55.02,Warehouse A,N/A,5,Seasonal Sale,4.0,8.0
+2024-06-08,PRD-5096,Puzzle,Toys,Auto Parts Plus,141,5,43,41.19,91.58,55.02,Outdoor Storage,N/A,5,Seasonal Sale,4.1,7.8
+2024-07-01,PRD-5096,Puzzle,Toys,Auto Parts Plus,104,25,26,41.19,91.58,55.02,Warehouse C,N/A,5,BOGO,4.7,2.1
+2024-01-13,PRD-5097,Sweater,Clothing,Health First,120,18,30,75.07,219.17,65.75,Backroom,N/A,6,Discount 20%,3.9,4.3
+2024-02-21,PRD-5097,Sweater,Clothing,Health First,17,10,9,75.07,219.17,65.75,Store Floor,N/A,5,BOGO,4.5,2.1
+2024-03-14,PRD-5097,Sweater,Clothing,Health First,44,13,12,75.07,219.17,65.75,Warehouse C,N/A,5,Buy 2 Get 1,4.9,4.1
+2024-04-07,PRD-5097,Sweater,Clothing,Health First,110,5,32,75.07,219.17,65.75,Backroom,N/A,5,Discount 20%,3.5,11.3
+2024-05-14,PRD-5097,Sweater,Clothing,Health First,160,23,32,75.07,219.17,65.75,Outdoor Storage,N/A,5,No Promotion,3.7,6.7
+2024-06-08,PRD-5097,Sweater,Clothing,Health First,38,15,17,75.07,219.17,65.75,Warehouse A,N/A,5,Discount 20%,4.6,5.6
+2024-07-17,PRD-5097,Sweater,Clothing,Health First,142,29,26,75.07,219.17,65.75,Warehouse A,N/A,5,BOGO,3.3,3.7
+2024-01-05,PRD-5098,Tire Gauge,Automotive,Health First,75,4,24,15.27,29.76,48.67,Warehouse A,N/A,5,No Promotion,4.0,7.3
+2024-01-31,PRD-5098,Tire Gauge,Automotive,Health First,29,16,11,15.27,29.76,48.67,Backroom,N/A,5,Discount 20%,4.9,3.1
+2024-03-03,PRD-5098,Tire Gauge,Automotive,Health First,38,20,8,15.27,29.76,48.67,Backroom,N/A,5,Discount 20%,4.2,1.5
+2024-04-05,PRD-5098,Tire Gauge,Automotive,Health First,57,12,14,15.27,29.76,48.67,Store Floor,N/A,5,Buy 2 Get 1,3.5,1.7
+2024-05-08,PRD-5098,Tire Gauge,Automotive,Health First,22,6,5,15.27,29.76,48.67,Store Floor,N/A,5,Clearance Sale,3.4,4.2
+2024-06-10,PRD-5098,Tire Gauge,Automotive,Health First,11,14,7,15.27,29.76,48.67,Store Floor,N/A,5,Seasonal Sale,3.3,3.1
+2024-07-12,PRD-5098,Tire Gauge,Automotive,Health First,22,6,7,15.27,29.76,48.67,Backroom,N/A,5,Seasonal Sale,4.2,1.3
+2024-01-16,PRD-5099,Organic Juice,Food & Beverages,Health First,435,39,122,4.6,7.19,35.99,Cold Storage,2024-08-21,5,No Promotion,4.3,2.2
+2024-02-09,PRD-5099,Organic Juice,Food & Beverages,Health First,236,19,49,4.6,7.19,35.99,Store Floor,2025-09-26,5,No Promotion,4.9,0.8
+2024-03-11,PRD-5099,Organic Juice,Food & Beverages,Health First,303,28,52,4.6,7.19,35.99,Warehouse A,2025-06-06,5,Discount 20%,3.2,0.8
+2024-04-23,PRD-5099,Organic Juice,Food & Beverages,Health First,42,26,10,4.6,7.19,35.99,Backroom,2024-11-21,5,BOGO,3.6,1.5
+2024-05-08,PRD-5099,Organic Juice,Food & Beverages,Health First,302,6,90,4.6,7.19,35.99,Warehouse B,2025-12-22,5,BOGO,4.2,1.7
+2024-06-13,PRD-5099,Organic Juice,Food & Beverages,Health First,410,25,135,4.6,7.19,35.99,Outdoor Storage,2025-08-09,5,No Promotion,4.9,1.3
+2024-07-12,PRD-5099,Organic Juice,Food & Beverages,Health First,96,40,28,4.6,7.19,35.99,Outdoor Storage,2025-06-13,5,BOGO,3.7,2.1
+2024-01-16,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,455,27,108,14.38,30.78,53.27,Warehouse C,2025-05-20,5,Clearance Sale,3.4,2.7
+2024-02-11,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,291,30,58,14.38,30.78,53.27,Outdoor Storage,2024-10-03,5,No Promotion,3.4,1.2
+2024-03-05,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,299,5,101,14.38,30.78,53.27,Store Floor,2025-09-18,5,BOGO,4.0,0.9
+2024-04-10,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,430,29,127,14.38,30.78,53.27,Backroom,2024-08-21,5,Clearance Sale,3.5,2.9
+2024-04-30,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,229,11,75,14.38,30.78,53.27,Warehouse B,2026-01-06,5,Seasonal Sale,3.9,2.9
+2024-06-18,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,337,22,96,14.38,30.78,53.27,Warehouse C,2026-02-28,5,Buy 2 Get 1,4.1,1.0
+2024-07-19,PRD-5100,Blood Pressure Monitor,Health,TechSupply Co,215,29,67,14.38,30.78,53.27,Cold Storage,2026-03-17,5,No Promotion,4.9,0.6
+2024-01-16,PRD-5101,Thermometer,Health,Fashion Forward Ltd,242,17,48,13.7,31.16,56.03,Warehouse C,2025-11-22,5,Seasonal Sale,3.4,1.2
+2024-02-22,PRD-5101,Thermometer,Health,Fashion Forward Ltd,409,3,74,13.7,31.16,56.03,Warehouse C,2026-01-01,5,No Promotion,4.1,2.5
+2024-03-18,PRD-5101,Thermometer,Health,Fashion Forward Ltd,250,21,50,13.7,31.16,56.03,Warehouse A,2026-01-07,5,Clearance Sale,3.2,0.7
+2024-04-20,PRD-5101,Thermometer,Health,Fashion Forward Ltd,187,16,34,13.7,31.16,56.03,Backroom,2025-11-09,5,Seasonal Sale,3.9,2.5
+2024-05-20,PRD-5101,Thermometer,Health,Fashion Forward Ltd,271,27,65,13.7,31.16,56.03,Backroom,2025-08-11,5,Buy 2 Get 1,3.1,3.0
+2024-06-03,PRD-5101,Thermometer,Health,Fashion Forward Ltd,264,21,65,13.7,31.16,56.03,Warehouse B,2025-03-20,5,Seasonal Sale,3.2,1.6
+2024-07-22,PRD-5101,Thermometer,Health,Fashion Forward Ltd,50,3,12,13.7,31.16,56.03,Warehouse A,2025-11-04,5,Seasonal Sale,3.8,2.1
+2024-01-02,PRD-5102,Skincare Set,Beauty,Book Distributors,18,20,9,14.06,44.88,68.68,Warehouse C,2025-12-22,5,No Promotion,4.8,6.7
+2024-02-16,PRD-5102,Skincare Set,Beauty,Book Distributors,14,33,10,14.06,44.88,68.68,Store Floor,2025-08-13,5,No Promotion,4.7,6.8
+2024-03-10,PRD-5102,Skincare Set,Beauty,Book Distributors,36,46,24,14.06,44.88,68.68,Warehouse A,2025-10-29,5,Clearance Sale,3.0,5.1
+2024-04-23,PRD-5102,Skincare Set,Beauty,Book Distributors,61,37,21,14.06,44.88,68.68,Store Floor,2025-01-10,5,BOGO,4.3,3.6
+2024-05-14,PRD-5102,Skincare Set,Beauty,Book Distributors,16,34,10,14.06,44.88,68.68,Backroom,2026-05-06,5,Seasonal Sale,4.8,7.9
+2024-06-12,PRD-5102,Skincare Set,Beauty,Book Distributors,78,19,18,14.06,44.88,68.68,Backroom,2025-05-10,5,Discount 20%,4.1,1.7
+2024-07-09,PRD-5102,Skincare Set,Beauty,Book Distributors,70,15,14,14.06,44.88,68.68,Store Floor,2025-03-24,5,BOGO,3.9,7.3
+2024-01-08,PRD-5103,Yoga Mat,Sports,Book Distributors,75,5,23,178.1,426.6,58.25,Outdoor Storage,N/A,5,No Promotion,4.6,1.5
+2024-02-02,PRD-5103,Yoga Mat,Sports,Book Distributors,141,6,43,178.1,426.6,58.25,Cold Storage,N/A,5,Buy 2 Get 1,3.3,3.1
+2024-03-06,PRD-5103,Yoga Mat,Sports,Book Distributors,129,28,24,178.1,426.6,58.25,Backroom,N/A,5,Clearance Sale,3.8,5.5
+2024-04-21,PRD-5103,Yoga Mat,Sports,Book Distributors,158,8,56,178.1,426.6,58.25,Warehouse B,N/A,6,No Promotion,4.0,7.5
+2024-05-24,PRD-5103,Yoga Mat,Sports,Book Distributors,138,3,36,178.1,426.6,58.25,Backroom,N/A,6,No Promotion,4.9,6.8
+2024-06-16,PRD-5103,Yoga Mat,Sports,Book Distributors,124,25,30,178.1,426.6,58.25,Cold Storage,N/A,8,Discount 20%,4.9,3.8
+2024-07-06,PRD-5103,Yoga Mat,Sports,Book Distributors,13,25,10,178.1,426.6,58.25,Backroom,N/A,8,BOGO,3.5,2.9
+2024-01-01,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,20,39,16,20.84,69.05,69.82,Warehouse B,2024-09-18,5,Buy 2 Get 1,4.0,6.2
+2024-02-13,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,11,38,16,20.84,69.05,69.82,Store Floor,2025-06-22,5,No Promotion,4.9,2.8
+2024-03-25,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,64,29,19,20.84,69.05,69.82,Cold Storage,2025-10-24,5,Seasonal Sale,3.4,6.1
+2024-03-31,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,13,15,4,20.84,69.05,69.82,Warehouse A,2025-06-27,5,BOGO,3.1,4.9
+2024-05-01,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,97,41,45,20.84,69.05,69.82,Warehouse C,2025-12-09,5,BOGO,3.6,5.4
+2024-06-01,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,105,15,40,20.84,69.05,69.82,Warehouse C,2025-09-18,5,No Promotion,5.0,6.4
+2024-07-05,PRD-5104,Moisturizer,Beauty,Auto Parts Plus,23,32,18,20.84,69.05,69.82,Store Floor,2025-03-29,5,Discount 20%,4.5,5.1
+2024-01-02,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,49,18,13,71.65,146.36,51.04,Cold Storage,N/A,5,Buy 2 Get 1,4.4,5.3
+2024-02-16,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,16,20,6,71.65,146.36,51.04,Warehouse B,N/A,5,No Promotion,4.1,7.9
+2024-03-06,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,16,16,7,71.65,146.36,51.04,Cold Storage,N/A,5,BOGO,4.0,5.2
+2024-04-02,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,6,7,3,71.65,146.36,51.04,Warehouse B,N/A,5,No Promotion,4.2,6.1
+2024-05-08,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,77,16,31,71.65,146.36,51.04,Store Floor,N/A,5,No Promotion,3.7,2.3
+2024-06-08,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,0,19,3,71.65,146.36,51.04,Warehouse C,N/A,5,Seasonal Sale,4.7,7.0
+2024-07-03,PRD-5105,Phone Mount,Automotive,Home Essentials Inc,45,10,9,71.65,146.36,51.04,Warehouse B,N/A,5,No Promotion,4.0,5.6
+2024-01-22,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,158,18,55,18.73,29.14,35.74,Outdoor Storage,2024-04-28,5,Buy 2 Get 1,3.6,1.7
+2024-02-18,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,44,46,23,18.73,29.14,35.74,Backroom,2025-08-27,5,Clearance Sale,3.3,2.2
+2024-03-20,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,320,23,74,18.73,29.14,35.74,Warehouse A,2025-02-12,5,Clearance Sale,3.6,3.0
+2024-04-13,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,58,14,22,18.73,29.14,35.74,Warehouse C,2025-10-01,5,BOGO,3.1,2.0
+2024-05-20,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,303,29,97,18.73,29.14,35.74,Store Floor,2025-09-19,5,BOGO,4.9,2.6
+2024-06-03,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,154,40,31,18.73,29.14,35.74,Outdoor Storage,2024-12-01,5,Clearance Sale,3.9,1.9
+2024-07-15,PRD-5106,Protein Bar,Food & Beverages,Food Source Ltd,116,20,46,18.73,29.14,35.74,Cold Storage,2026-04-20,5,No Promotion,3.5,1.4
+2024-01-13,PRD-5107,Lamp,Home & Garden,Health First,67,12,12,236.14,384.12,38.52,Outdoor Storage,N/A,5,Seasonal Sale,3.2,2.4
+2024-02-23,PRD-5107,Lamp,Home & Garden,Health First,100,21,36,236.14,384.12,38.52,Cold Storage,N/A,5,Buy 2 Get 1,4.7,7.5
+2024-03-25,PRD-5107,Lamp,Home & Garden,Health First,15,4,3,236.14,384.12,38.52,Warehouse C,N/A,5,No Promotion,5.0,1.1
+2024-04-08,PRD-5107,Lamp,Home & Garden,Health First,84,5,17,236.14,384.12,38.52,Warehouse B,N/A,8,Clearance Sale,4.4,6.9
+2024-05-20,PRD-5107,Lamp,Home & Garden,Health First,79,3,13,236.14,384.12,38.52,Outdoor Storage,N/A,8,BOGO,4.3,4.2
+2024-06-14,PRD-5107,Lamp,Home & Garden,Health First,43,2,8,236.14,384.12,38.52,Warehouse B,N/A,6,No Promotion,3.1,2.6
+2024-07-16,PRD-5107,Lamp,Home & Garden,Health First,49,28,21,236.14,384.12,38.52,Backroom,N/A,8,Seasonal Sale,3.2,2.2
+2024-01-26,PRD-5108,Car Cover,Automotive,Home Essentials Inc,21,17,12,19.73,36.82,46.41,Warehouse A,N/A,5,No Promotion,4.2,6.4
+2024-02-20,PRD-5108,Car Cover,Automotive,Home Essentials Inc,12,20,6,19.73,36.82,46.41,Warehouse C,N/A,5,Seasonal Sale,3.3,3.4
+2024-03-17,PRD-5108,Car Cover,Automotive,Home Essentials Inc,29,2,7,19.73,36.82,46.41,Outdoor Storage,N/A,5,Seasonal Sale,3.1,4.3
+2024-04-21,PRD-5108,Car Cover,Automotive,Home Essentials Inc,55,2,12,19.73,36.82,46.41,Backroom,N/A,5,No Promotion,4.5,5.9
+2024-05-02,PRD-5108,Car Cover,Automotive,Home Essentials Inc,51,1,8,19.73,36.82,46.41,Store Floor,N/A,5,BOGO,3.4,2.2
+2024-05-31,PRD-5108,Car Cover,Automotive,Home Essentials Inc,24,18,8,19.73,36.82,46.41,Warehouse C,N/A,5,Seasonal Sale,3.7,3.6
+2024-07-17,PRD-5108,Car Cover,Automotive,Home Essentials Inc,33,4,11,19.73,36.82,46.41,Store Floor,N/A,5,Seasonal Sale,4.1,1.9
+2024-01-24,PRD-5109,Sneakers,Clothing,Food Source Ltd,31,19,14,61.49,145.0,57.59,Warehouse A,N/A,6,No Promotion,4.1,4.9
+2024-02-19,PRD-5109,Sneakers,Clothing,Food Source Ltd,91,14,35,61.49,145.0,57.59,Warehouse C,N/A,5,Seasonal Sale,3.5,9.8
+2024-03-18,PRD-5109,Sneakers,Clothing,Food Source Ltd,145,17,53,61.49,145.0,57.59,Store Floor,N/A,5,Buy 2 Get 1,4.4,7.8
+2024-04-04,PRD-5109,Sneakers,Clothing,Food Source Ltd,73,15,14,61.49,145.0,57.59,Warehouse A,N/A,5,BOGO,4.4,11.8
+2024-05-09,PRD-5109,Sneakers,Clothing,Food Source Ltd,169,24,49,61.49,145.0,57.59,Store Floor,N/A,5,No Promotion,4.2,9.9
+2024-06-24,PRD-5109,Sneakers,Clothing,Food Source Ltd,106,18,22,61.49,145.0,57.59,Store Floor,N/A,5,Buy 2 Get 1,4.1,11.3
+2024-07-20,PRD-5109,Sneakers,Clothing,Food Source Ltd,62,21,23,61.49,145.0,57.59,Outdoor Storage,N/A,5,No Promotion,5.0,9.0
+2024-01-15,PRD-5110,Lipstick,Beauty,Auto Parts Plus,40,13,15,25.12,68.8,63.48,Outdoor Storage,2025-09-17,5,Buy 2 Get 1,4.5,1.8
+2024-02-05,PRD-5110,Lipstick,Beauty,Auto Parts Plus,92,22,19,25.12,68.8,63.48,Warehouse B,2025-04-10,5,No Promotion,3.1,7.3
+2024-03-20,PRD-5110,Lipstick,Beauty,Auto Parts Plus,106,20,28,25.12,68.8,63.48,Outdoor Storage,2025-08-05,5,BOGO,3.0,3.7
+2024-04-12,PRD-5110,Lipstick,Beauty,Auto Parts Plus,68,16,16,25.12,68.8,63.48,Store Floor,2026-02-27,5,Buy 2 Get 1,4.1,2.8
+2024-05-16,PRD-5110,Lipstick,Beauty,Auto Parts Plus,117,33,29,25.12,68.8,63.48,Backroom,2024-08-23,5,Seasonal Sale,3.2,1.0
+2024-06-09,PRD-5110,Lipstick,Beauty,Auto Parts Plus,129,14,21,25.12,68.8,63.48,Backroom,2026-02-18,5,No Promotion,4.2,4.2
+2024-07-09,PRD-5110,Lipstick,Beauty,Auto Parts Plus,96,41,41,25.12,68.8,63.48,Cold Storage,2025-09-30,5,Clearance Sale,3.3,6.6
+2024-01-08,PRD-5111,Tire Gauge,Automotive,Toy Universe,37,6,10,77.94,162.57,52.06,Warehouse B,N/A,5,No Promotion,4.9,7.1
+2024-02-13,PRD-5111,Tire Gauge,Automotive,Toy Universe,22,16,8,77.94,162.57,52.06,Warehouse B,N/A,5,Seasonal Sale,3.5,3.0
+2024-03-10,PRD-5111,Tire Gauge,Automotive,Toy Universe,3,10,4,77.94,162.57,52.06,Backroom,N/A,5,No Promotion,3.5,2.5
+2024-04-03,PRD-5111,Tire Gauge,Automotive,Toy Universe,76,8,23,77.94,162.57,52.06,Outdoor Storage,N/A,5,Seasonal Sale,3.0,6.3
+2024-05-05,PRD-5111,Tire Gauge,Automotive,Toy Universe,29,7,8,77.94,162.57,52.06,Cold Storage,N/A,5,Buy 2 Get 1,3.1,1.1
+2024-06-09,PRD-5111,Tire Gauge,Automotive,Toy Universe,69,18,22,77.94,162.57,52.06,Warehouse A,N/A,5,No Promotion,3.1,1.0
+2024-07-12,PRD-5111,Tire Gauge,Automotive,Toy Universe,3,10,3,77.94,162.57,52.06,Cold Storage,N/A,5,BOGO,4.7,1.2
+2024-01-23,PRD-5112,Dictionary,Books,Fashion Forward Ltd,100,4,15,21.8,42.25,48.39,Backroom,N/A,5,No Promotion,4.5,5.6
+2024-02-12,PRD-5112,Dictionary,Books,Fashion Forward Ltd,87,2,23,21.8,42.25,48.39,Warehouse B,N/A,5,Seasonal Sale,3.1,6.5
+2024-03-24,PRD-5112,Dictionary,Books,Fashion Forward Ltd,57,17,15,21.8,42.25,48.39,Warehouse C,N/A,5,No Promotion,4.0,6.9
+2024-04-10,PRD-5112,Dictionary,Books,Fashion Forward Ltd,143,5,30,21.8,42.25,48.39,Backroom,N/A,5,No Promotion,3.1,4.3
+2024-05-11,PRD-5112,Dictionary,Books,Fashion Forward Ltd,52,20,21,21.8,42.25,48.39,Cold Storage,N/A,5,BOGO,4.0,2.3
+2024-06-01,PRD-5112,Dictionary,Books,Fashion Forward Ltd,20,10,8,21.8,42.25,48.39,Warehouse B,N/A,5,Discount 20%,3.9,7.2
+2024-06-30,PRD-5112,Dictionary,Books,Fashion Forward Ltd,111,16,23,21.8,42.25,48.39,Warehouse B,N/A,5,Clearance Sale,4.7,2.4
+2024-01-02,PRD-5113,Plant Pot,Home & Garden,Sports World,57,13,15,260.12,647.62,59.83,Cold Storage,N/A,5,No Promotion,4.9,6.8
+2024-02-05,PRD-5113,Plant Pot,Home & Garden,Sports World,55,21,11,260.12,647.62,59.83,Backroom,N/A,5,Clearance Sale,4.6,3.9
+2024-03-09,PRD-5113,Plant Pot,Home & Garden,Sports World,12,20,8,260.12,647.62,59.83,Cold Storage,N/A,5,Clearance Sale,3.3,1.0
+2024-04-14,PRD-5113,Plant Pot,Home & Garden,Sports World,121,11,23,260.12,647.62,59.83,Backroom,N/A,7,Seasonal Sale,3.5,1.8
+2024-05-25,PRD-5113,Plant Pot,Home & Garden,Sports World,49,6,16,260.12,647.62,59.83,Warehouse C,N/A,6,Seasonal Sale,3.6,5.0
+2024-06-16,PRD-5113,Plant Pot,Home & Garden,Sports World,61,23,14,260.12,647.62,59.83,Warehouse C,N/A,6,Discount 20%,3.3,3.9
+2024-07-04,PRD-5113,Plant Pot,Home & Garden,Sports World,122,15,31,260.12,647.62,59.83,Warehouse C,N/A,8,No Promotion,3.6,1.6
+2024-01-16,PRD-5114,Basketball,Sports,Toy Universe,121,28,26,59.08,118.75,50.25,Warehouse A,N/A,5,BOGO,4.0,2.4
+2024-02-09,PRD-5114,Basketball,Sports,Toy Universe,161,26,51,59.08,118.75,50.25,Store Floor,N/A,5,No Promotion,3.6,2.2
+2024-03-09,PRD-5114,Basketball,Sports,Toy Universe,103,25,41,59.08,118.75,50.25,Backroom,N/A,5,Clearance Sale,4.6,4.1
+2024-04-14,PRD-5114,Basketball,Sports,Toy Universe,81,30,36,59.08,118.75,50.25,Warehouse B,N/A,8,No Promotion,3.5,1.5
+2024-05-16,PRD-5114,Basketball,Sports,Toy Universe,148,7,29,59.08,118.75,50.25,Store Floor,N/A,7,Clearance Sale,3.1,2.5
+2024-06-20,PRD-5114,Basketball,Sports,Toy Universe,7,20,8,59.08,118.75,50.25,Warehouse C,N/A,7,No Promotion,4.7,2.1
+2024-07-10,PRD-5114,Basketball,Sports,Toy Universe,8,21,9,59.08,118.75,50.25,Warehouse A,N/A,8,No Promotion,3.9,5.6
+2024-01-22,PRD-5115,Shorts,Clothing,TechSupply Co,18,7,6,116.59,305.12,61.79,Cold Storage,N/A,8,No Promotion,5.0,4.7
+2024-02-05,PRD-5115,Shorts,Clothing,TechSupply Co,81,9,22,116.59,305.12,61.79,Backroom,N/A,5,No Promotion,4.5,3.8
+2024-03-04,PRD-5115,Shorts,Clothing,TechSupply Co,94,29,35,116.59,305.12,61.79,Warehouse C,N/A,5,No Promotion,4.7,9.7
+2024-04-19,PRD-5115,Shorts,Clothing,TechSupply Co,71,12,17,116.59,305.12,61.79,Outdoor Storage,N/A,5,No Promotion,4.1,10.9
+2024-05-09,PRD-5115,Shorts,Clothing,TechSupply Co,49,22,22,116.59,305.12,61.79,Warehouse C,N/A,5,Seasonal Sale,4.8,3.9
+2024-05-30,PRD-5115,Shorts,Clothing,TechSupply Co,31,15,9,116.59,305.12,61.79,Warehouse C,N/A,5,Seasonal Sale,3.1,10.9
+2024-07-03,PRD-5115,Shorts,Clothing,TechSupply Co,52,6,11,116.59,305.12,61.79,Warehouse B,N/A,5,No Promotion,4.3,2.7
+2024-01-21,PRD-5116,Textbook,Books,Health First,107,28,39,35.53,63.67,44.2,Store Floor,N/A,5,No Promotion,3.4,1.1
+2024-02-25,PRD-5116,Textbook,Books,Health First,96,28,29,35.53,63.67,44.2,Warehouse C,N/A,5,Clearance Sale,4.3,3.4
+2024-03-03,PRD-5116,Textbook,Books,Health First,65,21,21,35.53,63.67,44.2,Store Floor,N/A,5,Seasonal Sale,3.9,4.5
+2024-04-12,PRD-5116,Textbook,Books,Health First,22,30,14,35.53,63.67,44.2,Backroom,N/A,5,BOGO,4.9,3.9
+2024-05-24,PRD-5116,Textbook,Books,Health First,0,30,5,35.53,63.67,44.2,Warehouse C,N/A,5,BOGO,3.6,6.3
+2024-06-23,PRD-5116,Textbook,Books,Health First,21,30,14,35.53,63.67,44.2,Store Floor,N/A,5,BOGO,4.3,4.3
+2024-07-23,PRD-5116,Textbook,Books,Health First,84,15,17,35.53,63.67,44.2,Outdoor Storage,N/A,5,Discount 20%,3.4,6.3
+2024-01-18,PRD-5117,Face Mask,Health,TechSupply Co,263,7,71,10.11,18.81,46.27,Warehouse C,2024-05-29,5,No Promotion,3.7,2.5
+2024-02-01,PRD-5117,Face Mask,Health,TechSupply Co,101,19,25,10.11,18.81,46.27,Cold Storage,2024-11-23,5,Seasonal Sale,4.0,1.2
+2024-03-10,PRD-5117,Face Mask,Health,TechSupply Co,320,30,107,10.11,18.81,46.27,Warehouse B,2024-06-17,5,Discount 20%,4.3,1.7
+2024-04-25,PRD-5117,Face Mask,Health,TechSupply Co,184,4,43,10.11,18.81,46.27,Backroom,2024-10-08,5,Buy 2 Get 1,3.4,1.9
+2024-05-14,PRD-5117,Face Mask,Health,TechSupply Co,252,29,78,10.11,18.81,46.27,Backroom,2025-11-16,5,Clearance Sale,4.8,1.1
+2024-06-14,PRD-5117,Face Mask,Health,TechSupply Co,239,4,42,10.11,18.81,46.27,Backroom,2024-09-13,5,No Promotion,3.3,1.4
+2024-07-10,PRD-5117,Face Mask,Health,TechSupply Co,383,25,119,10.11,18.81,46.27,Backroom,2025-07-05,5,BOGO,4.3,1.9
+2024-01-02,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,394,10,62,7.03,12.1,41.96,Warehouse C,2025-02-18,5,No Promotion,4.6,3.0
+2024-02-04,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,109,23,31,7.03,12.1,41.96,Store Floor,2025-04-15,5,No Promotion,4.1,2.1
+2024-03-15,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,77,17,29,7.03,12.1,41.96,Warehouse B,2025-10-08,5,Seasonal Sale,4.1,1.0
+2024-04-08,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,267,17,62,7.03,12.1,41.96,Cold Storage,2025-06-16,5,No Promotion,3.9,1.0
+2024-05-07,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,48,11,14,7.03,12.1,41.96,Backroom,2025-11-10,5,Buy 2 Get 1,4.3,2.3
+2024-06-04,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,226,47,88,7.03,12.1,41.96,Backroom,2024-12-12,5,No Promotion,3.2,1.3
+2024-06-29,PRD-5118,Nuts,Food & Beverages,Food Source Ltd,176,32,61,7.03,12.1,41.96,Warehouse B,2024-11-04,5,No Promotion,4.2,2.1
+2024-01-20,PRD-5119,Doll,Toys,Food Source Ltd,64,21,15,59.05,124.9,52.72,Warehouse C,N/A,5,No Promotion,4.8,1.7
+2024-02-08,PRD-5119,Doll,Toys,Food Source Ltd,80,27,36,59.05,124.9,52.72,Warehouse B,N/A,5,No Promotion,3.9,6.4
+2024-03-11,PRD-5119,Doll,Toys,Food Source Ltd,41,18,20,59.05,124.9,52.72,Warehouse A,N/A,5,No Promotion,3.3,1.8
+2024-04-06,PRD-5119,Doll,Toys,Food Source Ltd,80,20,27,59.05,124.9,52.72,Outdoor Storage,N/A,5,Seasonal Sale,4.0,7.0
+2024-05-01,PRD-5119,Doll,Toys,Food Source Ltd,72,30,16,59.05,124.9,52.72,Outdoor Storage,N/A,5,Seasonal Sale,3.9,3.0
+2024-06-22,PRD-5119,Doll,Toys,Food Source Ltd,45,27,13,59.05,124.9,52.72,Store Floor,N/A,5,Discount 20%,4.2,7.1
+2024-07-15,PRD-5119,Doll,Toys,Food Source Ltd,43,19,12,59.05,124.9,52.72,Outdoor Storage,N/A,5,No Promotion,4.9,2.3
+2024-01-06,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,55,7,9,89.64,167.99,46.64,Warehouse C,N/A,5,Discount 20%,3.5,4.3
+2024-02-16,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,87,1,16,89.64,167.99,46.64,Warehouse A,N/A,5,BOGO,3.3,2.1
+2024-03-11,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,8,5,4,89.64,167.99,46.64,Warehouse A,N/A,5,No Promotion,3.5,4.6
+2024-04-13,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,55,6,9,89.64,167.99,46.64,Cold Storage,N/A,5,No Promotion,4.8,5.3
+2024-05-05,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,40,4,6,89.64,167.99,46.64,Cold Storage,N/A,5,No Promotion,4.2,1.3
+2024-06-10,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,29,16,10,89.64,167.99,46.64,Warehouse A,N/A,5,No Promotion,3.8,4.3
+2024-07-07,PRD-5120,Wiper Blades,Automotive,Auto Parts Plus,84,6,27,89.64,167.99,46.64,Warehouse C,N/A,5,Clearance Sale,4.5,6.8
+2024-01-19,PRD-5121,Basketball,Sports,Health First,44,5,14,70.33,144.86,51.45,Cold Storage,N/A,5,Clearance Sale,4.6,5.8
+2024-02-01,PRD-5121,Basketball,Sports,Health First,145,24,29,70.33,144.86,51.45,Warehouse B,N/A,5,BOGO,3.3,1.3
+2024-03-18,PRD-5121,Basketball,Sports,Health First,130,7,38,70.33,144.86,51.45,Warehouse C,N/A,5,Discount 20%,4.6,6.3
+2024-04-11,PRD-5121,Basketball,Sports,Health First,168,10,47,70.33,144.86,51.45,Warehouse A,N/A,7,Seasonal Sale,4.4,3.0
+2024-05-07,PRD-5121,Basketball,Sports,Health First,7,28,8,70.33,144.86,51.45,Warehouse C,N/A,8,BOGO,3.2,3.9
+2024-06-11,PRD-5121,Basketball,Sports,Health First,121,18,44,70.33,144.86,51.45,Warehouse A,N/A,8,No Promotion,4.0,6.3
+2024-07-19,PRD-5121,Basketball,Sports,Health First,21,27,7,70.33,144.86,51.45,Warehouse B,N/A,6,Buy 2 Get 1,4.0,5.6
+2024-01-21,PRD-5122,Monitor,Electronics,Home Essentials Inc,69,14,18,421.01,681.49,38.22,Warehouse C,N/A,7,Discount 20%,3.3,11.9
+2024-02-12,PRD-5122,Monitor,Electronics,Home Essentials Inc,46,10,10,421.01,681.49,38.22,Outdoor Storage,N/A,5,Discount 20%,3.7,9.7
+2024-03-23,PRD-5122,Monitor,Electronics,Home Essentials Inc,36,16,8,421.01,681.49,38.22,Store Floor,N/A,5,Seasonal Sale,3.2,10.2
+2024-04-09,PRD-5122,Monitor,Electronics,Home Essentials Inc,50,18,13,421.01,681.49,38.22,Warehouse B,N/A,5,Discount 20%,4.6,7.0
+2024-05-16,PRD-5122,Monitor,Electronics,Home Essentials Inc,32,16,15,421.01,681.49,38.22,Backroom,N/A,5,Discount 20%,3.3,11.6
+2024-06-08,PRD-5122,Monitor,Electronics,Home Essentials Inc,34,18,13,421.01,681.49,38.22,Store Floor,N/A,5,No Promotion,3.3,5.6
+2024-07-06,PRD-5122,Monitor,Electronics,Home Essentials Inc,15,9,3,421.01,681.49,38.22,Warehouse C,N/A,5,Clearance Sale,4.9,2.8
+2024-01-11,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,16,39,10,8.43,11.89,29.12,Warehouse A,2024-10-16,5,Clearance Sale,3.2,1.7
+2024-02-10,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,149,28,41,8.43,11.89,29.12,Cold Storage,2024-07-08,5,No Promotion,3.3,1.8
+2024-03-11,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,177,22,64,8.43,11.89,29.12,Warehouse C,2025-06-07,5,No Promotion,3.2,1.9
+2024-04-15,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,325,31,72,8.43,11.89,29.12,Backroom,2025-09-02,5,Clearance Sale,4.8,2.7
+2024-05-11,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,233,20,50,8.43,11.89,29.12,Store Floor,2025-10-29,5,Discount 20%,4.1,2.8
+2024-06-15,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,35,38,22,8.43,11.89,29.12,Warehouse C,2025-02-23,5,No Promotion,3.1,2.1
+2024-07-08,PRD-5123,Energy Drink,Food & Beverages,Food Source Ltd,125,13,47,8.43,11.89,29.12,Backroom,2026-04-19,5,Seasonal Sale,4.8,1.6
+2024-01-15,PRD-5124,Doll,Toys,Food Source Ltd,60,2,11,65.23,192.36,66.09,Warehouse A,N/A,5,Clearance Sale,3.3,4.7
+2024-02-05,PRD-5124,Doll,Toys,Food Source Ltd,125,22,40,65.23,192.36,66.09,Backroom,N/A,5,No Promotion,4.5,2.7
+2024-03-11,PRD-5124,Doll,Toys,Food Source Ltd,15,30,10,65.23,192.36,66.09,Outdoor Storage,N/A,5,Seasonal Sale,4.0,4.1
+2024-04-15,PRD-5124,Doll,Toys,Food Source Ltd,12,26,8,65.23,192.36,66.09,Warehouse C,N/A,5,Seasonal Sale,4.1,3.0
+2024-05-01,PRD-5124,Doll,Toys,Food Source Ltd,127,4,22,65.23,192.36,66.09,Warehouse C,N/A,5,BOGO,4.9,1.9
+2024-06-22,PRD-5124,Doll,Toys,Food Source Ltd,24,25,9,65.23,192.36,66.09,Warehouse A,N/A,5,BOGO,4.5,1.5
+2024-07-15,PRD-5124,Doll,Toys,Food Source Ltd,11,7,6,65.23,192.36,66.09,Warehouse B,N/A,5,Seasonal Sale,3.6,5.3
+2024-01-16,PRD-5125,Face Mask,Health,Fashion Forward Ltd,282,13,95,113.62,276.94,58.97,Backroom,2025-06-27,5,BOGO,4.7,1.4
+2024-02-05,PRD-5125,Face Mask,Health,Fashion Forward Ltd,213,4,56,113.62,276.94,58.97,Store Floor,2024-08-05,5,Seasonal Sale,4.7,1.1
+2024-03-10,PRD-5125,Face Mask,Health,Fashion Forward Ltd,109,14,32,113.62,276.94,58.97,Outdoor Storage,2025-07-14,5,No Promotion,3.6,1.1
+2024-04-03,PRD-5125,Face Mask,Health,Fashion Forward Ltd,430,22,69,113.62,276.94,58.97,Backroom,2025-06-05,5,Buy 2 Get 1,3.4,2.1
+2024-05-24,PRD-5125,Face Mask,Health,Fashion Forward Ltd,78,22,24,113.62,276.94,58.97,Warehouse B,2026-03-13,5,No Promotion,3.3,2.4
+2024-06-14,PRD-5125,Face Mask,Health,Fashion Forward Ltd,374,25,83,113.62,276.94,58.97,Store Floor,2025-04-14,5,No Promotion,3.9,2.5
+2024-07-24,PRD-5125,Face Mask,Health,Fashion Forward Ltd,199,7,67,113.62,276.94,58.97,Backroom,2026-04-16,5,Clearance Sale,3.8,0.9
+2024-01-15,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,325,21,93,16.61,22.17,25.08,Warehouse B,2025-06-14,5,Clearance Sale,3.9,2.2
+2024-02-17,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,384,37,135,16.61,22.17,25.08,Store Floor,2025-07-14,5,No Promotion,4.9,1.3
+2024-03-06,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,390,40,104,16.61,22.17,25.08,Warehouse B,2025-04-20,5,No Promotion,3.1,1.5
+2024-04-02,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,99,34,43,16.61,22.17,25.08,Warehouse B,2025-10-03,5,No Promotion,3.7,0.9
+2024-05-24,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,260,7,66,16.61,22.17,25.08,Store Floor,2025-08-14,5,No Promotion,3.3,1.6
+2024-06-24,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,390,41,85,16.61,22.17,25.08,Backroom,2025-06-02,5,No Promotion,4.3,2.7
+2024-07-15,PRD-5126,Protein Bar,Food & Beverages,Auto Parts Plus,300,27,57,16.61,22.17,25.08,Warehouse C,2026-05-18,5,No Promotion,3.4,1.5
+2024-01-16,PRD-5127,Tennis Racket,Sports,Sports World,143,2,43,102.37,235.69,56.57,Warehouse A,N/A,5,BOGO,4.4,7.3
+2024-01-31,PRD-5127,Tennis Racket,Sports,Sports World,153,19,29,102.37,235.69,56.57,Warehouse A,N/A,5,Discount 20%,4.2,1.5
+2024-03-20,PRD-5127,Tennis Racket,Sports,Sports World,37,4,11,102.37,235.69,56.57,Backroom,N/A,5,Buy 2 Get 1,3.7,4.3
+2024-04-16,PRD-5127,Tennis Racket,Sports,Sports World,180,20,65,102.37,235.69,56.57,Backroom,N/A,6,BOGO,4.7,3.9
+2024-05-06,PRD-5127,Tennis Racket,Sports,Sports World,71,8,13,102.37,235.69,56.57,Backroom,N/A,7,No Promotion,4.7,7.0
+2024-06-04,PRD-5127,Tennis Racket,Sports,Sports World,91,25,39,102.37,235.69,56.57,Store Floor,N/A,7,No Promotion,4.3,4.5
+2024-07-18,PRD-5127,Tennis Racket,Sports,Sports World,119,13,33,102.37,235.69,56.57,Warehouse C,N/A,7,No Promotion,4.0,7.2
+2024-01-17,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,43,18,12,131.8,256.08,48.53,Store Floor,N/A,5,No Promotion,3.6,5.3
+2024-02-08,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,44,13,10,131.8,256.08,48.53,Outdoor Storage,N/A,5,Clearance Sale,4.9,2.2
+2024-03-02,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,95,18,29,131.8,256.08,48.53,Warehouse A,N/A,5,No Promotion,4.5,2.6
+2024-04-13,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,49,24,15,131.8,256.08,48.53,Warehouse C,N/A,8,Discount 20%,4.4,3.3
+2024-05-24,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,14,9,4,131.8,256.08,48.53,Warehouse C,N/A,6,Seasonal Sale,3.4,1.1
+2024-06-12,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,43,14,10,131.8,256.08,48.53,Warehouse B,N/A,8,Discount 20%,3.6,6.6
+2024-07-07,PRD-5128,Coffee Maker,Home & Garden,Auto Parts Plus,121,19,21,131.8,256.08,48.53,Cold Storage,N/A,8,Seasonal Sale,4.4,7.7
+2024-01-25,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,254,5,85,23.06,38.28,39.76,Warehouse A,2025-08-23,5,No Promotion,4.9,2.2
+2024-02-23,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,166,31,36,23.06,38.28,39.76,Warehouse B,2025-08-23,5,No Promotion,3.8,1.9
+2024-03-13,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,292,35,52,23.06,38.28,39.76,Cold Storage,2025-12-21,5,No Promotion,4.7,2.1
+2024-04-09,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,451,31,133,23.06,38.28,39.76,Outdoor Storage,2024-06-16,5,No Promotion,4.4,2.6
+2024-05-23,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,330,49,121,23.06,38.28,39.76,Backroom,2025-12-19,5,Buy 2 Get 1,4.6,1.4
+2024-06-21,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,374,18,112,23.06,38.28,39.76,Warehouse B,2025-07-04,5,Discount 20%,3.6,2.6
+2024-07-07,PRD-5129,Protein Bar,Food & Beverages,Toy Universe,30,47,13,23.06,38.28,39.76,Backroom,2025-03-14,5,Buy 2 Get 1,3.2,1.6
+2024-01-25,PRD-5130,Protein Powder,Health,Sports World,50,18,11,68.98,130.33,47.08,Warehouse C,2025-05-10,5,Discount 20%,4.3,2.5
+2024-02-02,PRD-5130,Protein Powder,Health,Sports World,230,17,60,68.98,130.33,47.08,Warehouse A,2024-12-27,5,Buy 2 Get 1,4.2,2.7
+2024-03-15,PRD-5130,Protein Powder,Health,Sports World,164,14,35,68.98,130.33,47.08,Warehouse A,2025-04-28,5,Discount 20%,4.4,2.9
+2024-04-09,PRD-5130,Protein Powder,Health,Sports World,326,5,53,68.98,130.33,47.08,Warehouse B,2025-05-27,5,Seasonal Sale,4.3,0.9
+2024-05-08,PRD-5130,Protein Powder,Health,Sports World,53,17,17,68.98,130.33,47.08,Warehouse C,2025-07-08,5,Seasonal Sale,3.8,1.6
+2024-06-24,PRD-5130,Protein Powder,Health,Sports World,304,28,112,68.98,130.33,47.08,Warehouse B,2024-12-06,5,No Promotion,3.5,1.8
+2024-07-20,PRD-5130,Protein Powder,Health,Sports World,280,22,53,68.98,130.33,47.08,Warehouse C,2025-04-06,5,No Promotion,3.1,2.5
+2024-01-01,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,0,20,4,93.19,184.95,49.61,Outdoor Storage,N/A,5,No Promotion,3.6,2.0
+2024-01-31,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,33,8,12,93.19,184.95,49.61,Warehouse A,N/A,5,No Promotion,4.0,5.0
+2024-03-05,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,52,16,19,93.19,184.95,49.61,Warehouse A,N/A,5,Clearance Sale,3.2,6.6
+2024-04-04,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,56,3,18,93.19,184.95,49.61,Outdoor Storage,N/A,5,No Promotion,3.4,7.3
+2024-05-23,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,21,4,7,93.19,184.95,49.61,Outdoor Storage,N/A,5,No Promotion,3.4,5.9
+2024-06-12,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,77,7,27,93.19,184.95,49.61,Store Floor,N/A,5,Discount 20%,4.7,3.5
+2024-07-21,PRD-5131,Phone Mount,Automotive,Auto Parts Plus,73,18,28,93.19,184.95,49.61,Warehouse C,N/A,5,BOGO,4.5,3.2
+2024-01-11,PRD-5132,Smartphone,Electronics,Home Essentials Inc,78,11,26,660.88,1320.3,49.94,Outdoor Storage,N/A,7,No Promotion,3.6,4.7
+2024-02-10,PRD-5132,Smartphone,Electronics,Home Essentials Inc,59,15,20,660.88,1320.3,49.94,Warehouse A,N/A,5,Clearance Sale,3.8,4.0
+2024-03-22,PRD-5132,Smartphone,Electronics,Home Essentials Inc,64,16,25,660.88,1320.3,49.94,Backroom,N/A,5,No Promotion,4.3,4.7
+2024-04-17,PRD-5132,Smartphone,Electronics,Home Essentials Inc,58,4,11,660.88,1320.3,49.94,Store Floor,N/A,5,Seasonal Sale,4.4,2.6
+2024-05-18,PRD-5132,Smartphone,Electronics,Home Essentials Inc,17,13,8,660.88,1320.3,49.94,Backroom,N/A,5,No Promotion,3.7,3.6
+2024-06-05,PRD-5132,Smartphone,Electronics,Home Essentials Inc,68,12,25,660.88,1320.3,49.94,Backroom,N/A,5,Buy 2 Get 1,5.0,3.0
+2024-07-16,PRD-5132,Smartphone,Electronics,Home Essentials Inc,8,13,6,660.88,1320.3,49.94,Warehouse C,N/A,5,Discount 20%,5.0,6.1
+2024-01-06,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,261,15,56,40.33,100.77,59.98,Cold Storage,2024-06-09,5,No Promotion,3.6,2.2
+2024-02-17,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,367,23,84,40.33,100.77,59.98,Warehouse A,2024-05-04,5,BOGO,3.2,1.4
+2024-03-17,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,60,24,25,40.33,100.77,59.98,Store Floor,2025-11-11,5,BOGO,4.1,3.0
+2024-03-31,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,30,29,18,40.33,100.77,59.98,Outdoor Storage,2025-04-26,5,BOGO,3.6,1.3
+2024-05-10,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,289,17,89,40.33,100.77,59.98,Warehouse B,2026-02-20,5,Seasonal Sale,4.5,2.8
+2024-06-14,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,379,21,67,40.33,100.77,59.98,Outdoor Storage,2025-01-03,5,Discount 20%,3.7,0.6
+2024-07-19,PRD-5133,Hand Sanitizer,Health,Home Essentials Inc,209,15,47,40.33,100.77,59.98,Backroom,2025-04-28,5,Buy 2 Get 1,3.6,2.0
+2024-01-11,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,56,9,19,96.89,277.26,65.06,Cold Storage,2024-05-07,5,Clearance Sale,4.4,2.1
+2024-02-21,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,123,16,33,96.89,277.26,65.06,Warehouse A,2024-07-04,5,No Promotion,4.8,7.8
+2024-03-08,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,0,47,12,96.89,277.26,65.06,Outdoor Storage,2025-05-19,5,Buy 2 Get 1,4.6,6.0
+2024-04-08,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,120,22,48,96.89,277.26,65.06,Backroom,2025-06-16,5,Discount 20%,3.4,1.7
+2024-05-17,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,22,42,15,96.89,277.26,65.06,Warehouse B,2026-05-03,5,No Promotion,3.9,4.4
+2024-06-22,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,60,44,27,96.89,277.26,65.06,Store Floor,2025-11-17,5,BOGO,4.0,2.6
+2024-07-06,PRD-5134,Perfume,Beauty,Fashion Forward Ltd,0,37,4,96.89,277.26,65.06,Warehouse B,2024-12-09,5,Clearance Sale,4.1,2.9
+2024-01-01,PRD-5135,Shorts,Clothing,Food Source Ltd,135,14,44,124.3,260.95,52.37,Store Floor,N/A,6,No Promotion,3.5,10.9
+2024-02-02,PRD-5135,Shorts,Clothing,Food Source Ltd,53,14,19,124.3,260.95,52.37,Warehouse A,N/A,5,Discount 20%,4.5,9.9
+2024-03-08,PRD-5135,Shorts,Clothing,Food Source Ltd,132,19,45,124.3,260.95,52.37,Outdoor Storage,N/A,5,No Promotion,3.6,6.7
+2024-04-22,PRD-5135,Shorts,Clothing,Food Source Ltd,81,2,16,124.3,260.95,52.37,Store Floor,N/A,5,Buy 2 Get 1,3.8,4.5
+2024-05-08,PRD-5135,Shorts,Clothing,Food Source Ltd,15,23,6,124.3,260.95,52.37,Outdoor Storage,N/A,5,No Promotion,4.5,9.2
+2024-06-06,PRD-5135,Shorts,Clothing,Food Source Ltd,12,17,5,124.3,260.95,52.37,Backroom,N/A,5,Seasonal Sale,4.9,4.5
+2024-07-22,PRD-5135,Shorts,Clothing,Food Source Ltd,103,11,29,124.3,260.95,52.37,Warehouse B,N/A,5,Buy 2 Get 1,4.1,5.7
+2024-01-24,PRD-5136,Oil Filter,Automotive,Book Distributors,11,13,6,132.31,251.73,47.44,Backroom,N/A,5,No Promotion,4.7,6.3
+2024-02-01,PRD-5136,Oil Filter,Automotive,Book Distributors,27,4,6,132.31,251.73,47.44,Store Floor,N/A,5,No Promotion,4.8,6.8
+2024-03-18,PRD-5136,Oil Filter,Automotive,Book Distributors,42,1,10,132.31,251.73,47.44,Warehouse A,N/A,5,BOGO,3.3,7.8
+2024-04-10,PRD-5136,Oil Filter,Automotive,Book Distributors,16,8,5,132.31,251.73,47.44,Warehouse B,N/A,5,Clearance Sale,4.3,7.3
+2024-05-20,PRD-5136,Oil Filter,Automotive,Book Distributors,51,13,16,132.31,251.73,47.44,Warehouse C,N/A,5,Discount 20%,4.6,1.7
+2024-06-20,PRD-5136,Oil Filter,Automotive,Book Distributors,74,2,13,132.31,251.73,47.44,Backroom,N/A,5,Seasonal Sale,4.1,5.5
+2024-07-21,PRD-5136,Oil Filter,Automotive,Book Distributors,13,14,4,132.31,251.73,47.44,Outdoor Storage,N/A,5,Discount 20%,3.4,1.6
+2024-01-16,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,146,22,52,101.72,244.88,58.46,Warehouse B,2024-07-27,5,No Promotion,3.6,1.8
+2024-02-17,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,207,13,64,101.72,244.88,58.46,Store Floor,2024-05-26,5,Seasonal Sale,3.9,0.9
+2024-03-09,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,143,30,49,101.72,244.88,58.46,Outdoor Storage,2024-06-30,5,No Promotion,4.2,1.7
+2024-04-24,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,134,2,33,101.72,244.88,58.46,Store Floor,2025-03-15,5,BOGO,4.0,1.2
+2024-05-19,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,338,2,60,101.72,244.88,58.46,Warehouse B,2024-10-15,5,Discount 20%,3.2,2.6
+2024-05-30,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,208,30,83,101.72,244.88,58.46,Warehouse C,2024-09-26,5,No Promotion,4.8,1.5
+2024-07-11,PRD-5137,Blood Pressure Monitor,Health,Auto Parts Plus,327,19,75,101.72,244.88,58.46,Cold Storage,2025-03-10,5,No Promotion,4.9,2.6
+2024-01-22,PRD-5138,Protein Powder,Health,Book Distributors,194,27,33,70.08,156.26,55.15,Warehouse A,2025-08-15,5,Seasonal Sale,3.8,1.8
+2024-02-13,PRD-5138,Protein Powder,Health,Book Distributors,66,5,13,70.08,156.26,55.15,Cold Storage,2025-11-19,5,Seasonal Sale,4.9,1.3
+2024-03-03,PRD-5138,Protein Powder,Health,Book Distributors,392,7,64,70.08,156.26,55.15,Warehouse C,2024-09-18,5,No Promotion,4.2,1.2
+2024-04-04,PRD-5138,Protein Powder,Health,Book Distributors,240,21,65,70.08,156.26,55.15,Warehouse C,2024-08-04,5,Clearance Sale,4.2,1.0
+2024-05-07,PRD-5138,Protein Powder,Health,Book Distributors,67,17,27,70.08,156.26,55.15,Warehouse C,2025-12-07,5,Clearance Sale,3.3,0.9
+2024-06-12,PRD-5138,Protein Powder,Health,Book Distributors,127,27,33,70.08,156.26,55.15,Warehouse A,2024-12-26,5,No Promotion,4.8,2.1
+2024-07-23,PRD-5138,Protein Powder,Health,Book Distributors,52,10,13,70.08,156.26,55.15,Cold Storage,2025-10-31,5,BOGO,3.5,2.7
+2024-01-09,PRD-5139,Textbook,Books,Health First,16,28,11,8.65,12.3,29.65,Warehouse B,N/A,5,Clearance Sale,3.6,8.0
+2024-02-16,PRD-5139,Textbook,Books,Health First,115,25,24,8.65,12.3,29.65,Backroom,N/A,5,Clearance Sale,4.1,3.2
+2024-03-03,PRD-5139,Textbook,Books,Health First,79,7,18,8.65,12.3,29.65,Store Floor,N/A,5,BOGO,4.0,2.3
+2024-04-01,PRD-5139,Textbook,Books,Health First,34,26,20,8.65,12.3,29.65,Warehouse C,N/A,5,BOGO,4.9,3.0
+2024-05-12,PRD-5139,Textbook,Books,Health First,118,3,38,8.65,12.3,29.65,Store Floor,N/A,5,Seasonal Sale,4.4,6.3
+2024-06-07,PRD-5139,Textbook,Books,Health First,71,19,26,8.65,12.3,29.65,Outdoor Storage,N/A,5,Buy 2 Get 1,4.9,4.2
+2024-07-11,PRD-5139,Textbook,Books,Health First,15,28,13,8.65,12.3,29.65,Warehouse A,N/A,5,Buy 2 Get 1,4.6,5.5
+2024-01-10,PRD-5140,Plant Pot,Home & Garden,Health First,20,23,9,277.69,431.85,35.7,Warehouse A,N/A,5,No Promotion,3.6,5.3
+2024-01-31,PRD-5140,Plant Pot,Home & Garden,Health First,13,22,5,277.69,431.85,35.7,Backroom,N/A,5,BOGO,4.3,1.3
+2024-03-20,PRD-5140,Plant Pot,Home & Garden,Health First,98,2,29,277.69,431.85,35.7,Outdoor Storage,N/A,5,Discount 20%,3.7,7.7
+2024-04-12,PRD-5140,Plant Pot,Home & Garden,Health First,107,20,23,277.69,431.85,35.7,Warehouse B,N/A,7,No Promotion,3.1,4.0
+2024-05-04,PRD-5140,Plant Pot,Home & Garden,Health First,81,21,33,277.69,431.85,35.7,Backroom,N/A,8,Seasonal Sale,4.6,4.0
+2024-06-05,PRD-5140,Plant Pot,Home & Garden,Health First,4,24,7,277.69,431.85,35.7,Store Floor,N/A,6,Clearance Sale,3.2,5.7
+2024-07-20,PRD-5140,Plant Pot,Home & Garden,Health First,9,15,7,277.69,431.85,35.7,Backroom,N/A,7,No Promotion,4.9,4.9
+2024-01-12,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,226,33,58,11.41,21.53,47.01,Warehouse A,2025-04-14,5,Buy 2 Get 1,4.1,1.8
+2024-02-15,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,185,30,35,11.41,21.53,47.01,Cold Storage,2024-05-17,5,Discount 20%,3.1,0.6
+2024-03-10,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,64,43,30,11.41,21.53,47.01,Outdoor Storage,2024-11-29,5,No Promotion,3.6,1.1
+2024-04-08,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,241,23,47,11.41,21.53,47.01,Warehouse B,2025-06-29,5,BOGO,4.2,2.9
+2024-05-16,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,465,29,101,11.41,21.53,47.01,Warehouse A,2025-06-11,5,Buy 2 Get 1,4.5,2.6
+2024-05-31,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,424,45,151,11.41,21.53,47.01,Backroom,2024-10-14,5,BOGO,4.2,1.0
+2024-07-18,PRD-5141,Coffee Beans,Food & Beverages,Auto Parts Plus,69,30,25,11.41,21.53,47.01,Warehouse C,2025-09-22,5,No Promotion,3.8,0.5
+2024-01-26,PRD-5142,Foundation,Beauty,Auto Parts Plus,7,24,7,93.67,282.48,66.84,Outdoor Storage,2024-09-08,5,Discount 20%,3.2,4.7
+2024-02-18,PRD-5142,Foundation,Beauty,Auto Parts Plus,20,37,14,93.67,282.48,66.84,Warehouse C,2024-04-28,5,Seasonal Sale,3.3,3.5
+2024-03-18,PRD-5142,Foundation,Beauty,Auto Parts Plus,128,11,22,93.67,282.48,66.84,Backroom,2024-11-23,5,Buy 2 Get 1,4.7,7.2
+2024-04-05,PRD-5142,Foundation,Beauty,Auto Parts Plus,69,40,32,93.67,282.48,66.84,Store Floor,2024-07-02,5,Seasonal Sale,4.0,4.6
+2024-05-05,PRD-5142,Foundation,Beauty,Auto Parts Plus,127,17,33,93.67,282.48,66.84,Backroom,2024-10-30,5,Clearance Sale,3.0,2.9
+2024-05-31,PRD-5142,Foundation,Beauty,Auto Parts Plus,6,48,12,93.67,282.48,66.84,Warehouse B,2025-07-20,5,BOGO,3.3,2.7
+2024-07-22,PRD-5142,Foundation,Beauty,Auto Parts Plus,80,36,27,93.67,282.48,66.84,Backroom,2025-04-11,5,Discount 20%,3.1,5.3
+2024-01-15,PRD-5143,Tablet,Electronics,Book Distributors,95,1,23,719.45,1080.53,33.42,Backroom,N/A,8,BOGO,4.2,6.9
+2024-02-14,PRD-5143,Tablet,Electronics,Book Distributors,23,19,9,719.45,1080.53,33.42,Warehouse A,N/A,5,Seasonal Sale,3.5,6.4
+2024-03-11,PRD-5143,Tablet,Electronics,Book Distributors,3,7,2,719.45,1080.53,33.42,Cold Storage,N/A,5,Clearance Sale,4.0,4.8
+2024-04-04,PRD-5143,Tablet,Electronics,Book Distributors,59,13,20,719.45,1080.53,33.42,Store Floor,N/A,5,No Promotion,3.3,10.2
+2024-05-24,PRD-5143,Tablet,Electronics,Book Distributors,40,16,11,719.45,1080.53,33.42,Warehouse C,N/A,5,Buy 2 Get 1,3.8,10.2
+2024-05-31,PRD-5143,Tablet,Electronics,Book Distributors,49,8,8,719.45,1080.53,33.42,Backroom,N/A,5,No Promotion,4.4,2.4
+2024-07-21,PRD-5143,Tablet,Electronics,Book Distributors,71,13,24,719.45,1080.53,33.42,Warehouse A,N/A,5,Discount 20%,3.1,8.7
+2024-01-21,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,154,10,43,82.33,189.32,56.51,Outdoor Storage,2025-04-20,5,No Promotion,3.2,2.0
+2024-02-25,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,280,5,88,82.33,189.32,56.51,Warehouse C,2026-02-17,5,Buy 2 Get 1,4.2,1.8
+2024-03-22,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,223,27,43,82.33,189.32,56.51,Outdoor Storage,2024-05-23,5,No Promotion,5.0,2.2
+2024-04-01,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,82,3,23,82.33,189.32,56.51,Warehouse B,2024-07-25,5,No Promotion,3.3,0.7
+2024-05-07,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,74,4,24,82.33,189.32,56.51,Backroom,2026-03-15,5,BOGO,4.2,0.9
+2024-06-02,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,323,24,62,82.33,189.32,56.51,Store Floor,2024-12-28,5,Buy 2 Get 1,5.0,0.9
+2024-07-09,PRD-5144,Protein Powder,Health,Fashion Forward Ltd,383,8,61,82.33,189.32,56.51,Warehouse C,2026-06-10,5,Discount 20%,3.3,3.0
+2024-01-06,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,43,29,14,15.1,33.62,55.08,Store Floor,N/A,5,Discount 20%,3.2,2.9
+2024-02-08,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,140,8,44,15.1,33.62,55.08,Cold Storage,N/A,5,Discount 20%,3.3,6.4
+2024-03-07,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,63,24,27,15.1,33.62,55.08,Warehouse C,N/A,5,No Promotion,5.0,3.3
+2024-04-08,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,25,23,9,15.1,33.62,55.08,Backroom,N/A,8,No Promotion,3.4,3.6
+2024-05-09,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,60,13,11,15.1,33.62,55.08,Warehouse A,N/A,6,Buy 2 Get 1,3.8,4.4
+2024-06-03,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,111,17,41,15.1,33.62,55.08,Warehouse B,N/A,7,No Promotion,4.7,5.1
+2024-07-18,PRD-5145,Bedding,Home & Garden,Fashion Forward Ltd,103,18,33,15.1,33.62,55.08,Outdoor Storage,N/A,8,Discount 20%,3.0,5.4
+2024-01-14,PRD-5146,Art Book,Books,Beauty Brands,48,9,16,46.6,75.08,37.92,Warehouse A,N/A,5,No Promotion,3.3,2.3
+2024-02-16,PRD-5146,Art Book,Books,Beauty Brands,65,20,27,46.6,75.08,37.92,Outdoor Storage,N/A,5,Clearance Sale,4.6,2.2
+2024-03-09,PRD-5146,Art Book,Books,Beauty Brands,85,21,28,46.6,75.08,37.92,Warehouse C,N/A,5,Discount 20%,4.9,2.2
+2024-03-31,PRD-5146,Art Book,Books,Beauty Brands,64,23,21,46.6,75.08,37.92,Warehouse C,N/A,5,Buy 2 Get 1,4.1,7.5
+2024-05-02,PRD-5146,Art Book,Books,Beauty Brands,12,5,4,46.6,75.08,37.92,Cold Storage,N/A,5,No Promotion,3.8,7.6
+2024-06-04,PRD-5146,Art Book,Books,Beauty Brands,48,14,17,46.6,75.08,37.92,Outdoor Storage,N/A,5,Clearance Sale,3.8,5.7
+2024-07-08,PRD-5146,Art Book,Books,Beauty Brands,38,19,17,46.6,75.08,37.92,Outdoor Storage,N/A,5,No Promotion,4.1,6.9
+2024-01-24,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,469,21,93,47.7,109.43,56.41,Store Floor,2025-06-08,5,Discount 20%,4.0,1.3
+2024-02-23,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,226,17,48,47.7,109.43,56.41,Warehouse A,2025-06-07,5,Clearance Sale,4.7,1.3
+2024-03-12,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,396,3,114,47.7,109.43,56.41,Backroom,2026-02-28,5,Buy 2 Get 1,4.8,2.8
+2024-04-20,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,288,27,104,47.7,109.43,56.41,Warehouse A,2025-12-10,5,Discount 20%,4.6,0.8
+2024-05-05,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,433,9,94,47.7,109.43,56.41,Cold Storage,2025-11-16,5,No Promotion,4.6,2.5
+2024-06-20,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,308,19,111,47.7,109.43,56.41,Store Floor,2025-01-30,5,Clearance Sale,3.6,1.2
+2024-07-01,PRD-5147,Blood Pressure Monitor,Health,Toy Universe,318,18,107,47.7,109.43,56.41,Warehouse B,2025-05-10,5,Discount 20%,3.1,2.6
+2024-01-14,PRD-5148,Lamp,Home & Garden,Health First,89,28,32,288.96,444.7,35.02,Store Floor,N/A,5,Buy 2 Get 1,3.6,1.8
+2024-02-14,PRD-5148,Lamp,Home & Garden,Health First,75,8,19,288.96,444.7,35.02,Warehouse C,N/A,5,No Promotion,3.2,3.0
+2024-03-25,PRD-5148,Lamp,Home & Garden,Health First,111,25,26,288.96,444.7,35.02,Warehouse C,N/A,5,Seasonal Sale,3.7,1.3
+2024-04-07,PRD-5148,Lamp,Home & Garden,Health First,54,21,22,288.96,444.7,35.02,Warehouse B,N/A,6,Discount 20%,4.7,2.6
+2024-05-15,PRD-5148,Lamp,Home & Garden,Health First,7,30,7,288.96,444.7,35.02,Outdoor Storage,N/A,7,Seasonal Sale,4.3,6.4
+2024-06-03,PRD-5148,Lamp,Home & Garden,Health First,114,20,42,288.96,444.7,35.02,Warehouse B,N/A,8,No Promotion,4.0,4.4
+2024-07-15,PRD-5148,Lamp,Home & Garden,Health First,6,17,4,288.96,444.7,35.02,Store Floor,N/A,6,Buy 2 Get 1,3.1,1.3
+2024-01-17,PRD-5149,Sneakers,Clothing,TechSupply Co,160,16,58,35.14,89.75,60.85,Cold Storage,N/A,7,Discount 20%,3.1,11.1
+2024-02-22,PRD-5149,Sneakers,Clothing,TechSupply Co,89,17,33,35.14,89.75,60.85,Outdoor Storage,N/A,5,Seasonal Sale,3.5,5.7
+2024-03-13,PRD-5149,Sneakers,Clothing,TechSupply Co,125,7,25,35.14,89.75,60.85,Warehouse B,N/A,5,No Promotion,3.3,8.2
+2024-04-25,PRD-5149,Sneakers,Clothing,TechSupply Co,119,24,35,35.14,89.75,60.85,Outdoor Storage,N/A,5,No Promotion,5.0,5.8
+2024-05-25,PRD-5149,Sneakers,Clothing,TechSupply Co,20,21,11,35.14,89.75,60.85,Backroom,N/A,5,No Promotion,3.3,8.1
+2024-05-30,PRD-5149,Sneakers,Clothing,TechSupply Co,74,23,15,35.14,89.75,60.85,Cold Storage,N/A,5,Clearance Sale,4.2,10.9
+2024-07-12,PRD-5149,Sneakers,Clothing,TechSupply Co,128,10,23,35.14,89.75,60.85,Cold Storage,N/A,5,BOGO,3.1,8.9

@@ -1,0 +1,126 @@
+Project_ID,Client_ID,Industry,Project_Type,Start_Date,End_Date,Project_Value,Hours_Worked,Hourly_Rate,Team_Size,Lead_Consultant,Client_Satisfaction,Payment_Terms,Project_Status,Expenses,Profit_Margin,Referral_Source
+PROJ-2000,CLI-6054,Healthcare,Market Analysis,2024-03-20,2024-08-01,70781.15,543,130.35,1,Emily Davis,9,Net 45,In Progress,8433.21,88.09,Partner Network
+PROJ-2001,CLI-1669,Real Estate,Performance Improvement,2024-01-18,2024-06-06,46360.69,210,220.77,1,Robert Kumar,10,4,Completed,6022.58,87.01,Industry Contact
+PROJ-2002,CLI-7829,Real Estate,Digital Transformation,2024-05-02,2024-09-13,336360.03,881,381.79,5,David Rodriguez,7,4,Completed,33099.8,90.16,Existing Client
+PROJ-2003,CLI-6410,Real Estate,Technology Audit,2024-05-21,2024-11-12,25720.47,363,70.86,1,Sarah Johnson,7,4,Completed,3272.83,87.28,Website
+PROJ-2004,CLI-3315,Non-Profit,Market Analysis,2024-01-14,2024-02-14,10207.09,21,295.46,1,Emily Davis,4,4,Cancelled,1038.17,89.83,Cold Outreach
+PROJ-2005,CLI-1377,Energy,Change Management,2024-05-14,2024-09-27,80902.08,742,109.03,2,Kevin Lee,10,4,Completed,9691.15,88.02,Website
+PROJ-2006,CLI-6265,Manufacturing,Change Management,2024-03-20,2024-04-02,36582.27,224,204.44,4,Maria Garcia,4,4,Cancelled,3460.94,90.54,Cold Outreach
+PROJ-2007,CLI-2637,Real Estate,Market Analysis,2024-03-16,2024-08-01,45946.42,368,124.85,2,Robert Kumar,9,4,Completed,4561.98,90.07,Partner Network
+PROJ-2008,CLI-5089,Retail,Change Management,2024-04-20,2024-07-06,161705.67,603,268.17,4,Kevin Lee,10,4,Completed,12086.16,92.53,Conference
+PROJ-2009,CLI-4127,Technology,Digital Transformation,2024-03-28,2024-06-27,767878.28,1660,462.58,3,Sarah Johnson,9,4,Completed,107049.87,86.06,Existing Client
+PROJ-2010,CLI-6029,Finance,Compliance Assessment,2024-01-20,2024-03-10,4709.57,47,201.18,2,Kevin Lee,2,4,Cancelled,702.26,85.09,LinkedIn
+PROJ-2011,CLI-7028,Finance,Digital Transformation,2024-02-18,2024-05-10,487922.52,1051,464.25,6,Michael Chen,9,4,In Progress,35013.5,92.82,Cold Outreach
+PROJ-2012,CLI-7002,Retail,System Implementation,2024-02-16,2024-03-30,166468.45,716,232.5,3,Sarah Johnson,7,4,Completed,10461.49,93.72,LinkedIn
+PROJ-2013,CLI-4444,Energy,Compliance Assessment,2024-04-19,2024-10-15,34401.25,335,102.69,1,Michael Chen,8,4,Completed,3676.6,89.31,Existing Client
+PROJ-2014,CLI-3023,Technology,Digital Transformation,2024-02-19,2024-04-06,132507.1,813,162.99,3,Emily Davis,9,4,Completed,16343.23,87.67,Conference
+PROJ-2015,CLI-5501,Energy,Compliance Assessment,2024-05-24,2024-11-02,172028.11,639,269.21,3,James Wilson,7,4,Completed,17452.15,89.86,Cold Outreach
+PROJ-2016,CLI-7349,Non-Profit,Compliance Assessment,2024-03-15,2024-09-01,26134.47,243,107.55,2,James Wilson,8,4,Completed,2415.24,90.76,Cold Outreach
+PROJ-2017,CLI-7849,Finance,Performance Improvement,2024-01-05,2024-05-13,47513.81,385,123.41,2,Maria Garcia,8,4,In Progress,5282.32,88.88,Existing Client
+PROJ-2018,CLI-5070,Technology,Market Analysis,2024-05-19,2024-06-01,15404.33,149,120.55,3,Maria Garcia,3,4,Cancelled,1895.56,87.69,LinkedIn
+PROJ-2019,CLI-7881,Technology,System Implementation,2024-03-26,2024-09-14,250335.61,2146,116.65,6,Maria Garcia,10,4,Completed,18981.1,92.42,Cold Outreach
+PROJ-2020,CLI-9415,Retail,Performance Improvement,2024-03-22,2024-08-23,37920.22,364,104.18,1,Lisa Thompson,8,4,Completed,3258.51,91.41,Partner Network
+PROJ-2021,CLI-2310,Finance,Market Analysis,2024-03-06,2024-07-23,162674.82,1187,137.05,2,Kevin Lee,7,4,Completed,18411.02,88.68,Conference
+PROJ-2022,CLI-5005,Government,Digital Transformation,2024-05-09,2024-06-29,281732.79,1083,260.14,5,Sarah Johnson,8,4,Completed,36406.32,87.08,Cold Outreach
+PROJ-2023,CLI-7319,Education,Performance Improvement,2024-03-12,2024-08-01,59584.72,477,124.92,2,David Rodriguez,10,4,Completed,5033.58,91.55,LinkedIn
+PROJ-2024,CLI-5158,Retail,Digital Transformation,2024-03-13,2024-06-03,208617.45,1646,126.74,6,Emily Davis,9,4,Completed,24430.03,88.29,Existing Client
+PROJ-2025,CLI-2716,Healthcare,Digital Transformation,2024-02-19,2024-05-15,127793.25,967,132.15,2,Robert Kumar,10,4,Completed,7251.86,94.33,Industry Contact
+PROJ-2026,CLI-8765,Non-Profit,System Implementation,2024-02-10,2024-04-11,78018.59,295,264.47,1,Emily Davis,7,4,Completed,5622.66,92.79,Industry Contact
+PROJ-2027,CLI-7439,Technology,Organizational Restructuring,2024-03-23,2024-04-19,327162.78,1674,195.44,8,Sarah Johnson,9,4,In Progress,26580.73,91.88,Partner Network
+PROJ-2028,CLI-6589,Education,Digital Transformation,2024-05-09,2024-07-29,387617.58,1134,341.81,6,Maria Garcia,10,4,Completed,42514.07,89.03,Conference
+PROJ-2029,CLI-8458,Energy,Change Management,2024-01-29,2024-03-14,70259.98,693,101.39,2,Robert Kumar,7,4,In Progress,7810.71,88.88,Conference
+PROJ-2030,CLI-7521,Government,Technology Audit,2024-03-14,2024-05-03,45815.55,253,181.09,2,Maria Garcia,4,4,On Hold,5040.05,89.0,Website
+PROJ-2031,CLI-5951,Government,Digital Transformation,2024-01-24,2024-05-02,411206.03,1308,314.38,5,Kevin Lee,9,4,In Progress,26133.03,93.64,Existing Client
+PROJ-2032,CLI-1413,Healthcare,Market Analysis,2024-04-29,2024-07-08,74645.77,327,228.27,1,Amanda Brown,6,4,In Progress,10443.96,86.01,LinkedIn
+PROJ-2033,CLI-7384,Energy,System Implementation,2024-05-20,2024-08-13,361056.52,2485,145.29,6,David Rodriguez,7,4,Completed,33051.23,90.85,Referral
+PROJ-2034,CLI-2848,Manufacturing,Performance Improvement,2024-05-08,2024-09-06,121831.78,1169,104.22,4,Emily Davis,9,4,Completed,8049.02,93.39,Existing Client
+PROJ-2035,CLI-3831,Government,Strategy Development,2024-03-07,2024-08-06,187359.91,578,324.15,4,Emily Davis,8,4,Completed,10219.42,94.55,Conference
+PROJ-2036,CLI-9714,Retail,Technology Audit,2024-01-25,2024-07-03,28197.32,133,212.01,1,Michael Chen,9,4,Completed,2576.18,90.86,Website
+PROJ-2037,CLI-7604,Finance,Process Optimization,2024-01-04,2024-03-11,101178.9,1137,88.99,3,James Wilson,9,4,Completed,14653.13,85.52,Referral
+PROJ-2038,CLI-5204,Real Estate,Process Optimization,2024-02-13,2024-04-05,146918.63,635,231.37,4,Maria Garcia,4,4,On Hold,15313.15,89.58,Partner Network
+PROJ-2039,CLI-4959,Energy,Technology Audit,2024-02-20,2024-03-17,96752.6,756,127.98,1,Robert Kumar,6,4,On Hold,6863.66,92.91,Conference
+PROJ-2040,CLI-9366,Energy,Process Optimization,2024-03-06,2024-05-24,38473.85,108,356.24,1,Sarah Johnson,7,4,In Progress,2940.55,92.36,LinkedIn
+PROJ-2041,CLI-1753,Healthcare,Market Analysis,2024-04-23,2024-10-12,137997.54,1193,115.67,2,Michael Chen,9,4,Completed,15645.21,88.66,LinkedIn
+PROJ-2042,CLI-6683,Energy,Market Analysis,2024-04-07,2024-07-05,70123.75,677,103.58,2,Amanda Brown,10,4,Completed,9791.59,86.04,LinkedIn
+PROJ-2043,CLI-3263,Non-Profit,System Implementation,2024-03-01,2024-08-17,104482.27,1121,93.2,3,Amanda Brown,7,4,Completed,13407.24,87.17,Industry Contact
+PROJ-2044,CLI-5449,Retail,Performance Improvement,2024-01-22,2024-05-17,58213.31,432,134.75,1,Michael Chen,7,4,Completed,7924.97,86.39,Partner Network
+PROJ-2045,CLI-4656,Energy,Technology Audit,2024-01-08,2024-02-09,49990.25,336,148.78,2,Amanda Brown,7,4,Completed,4416.61,91.17,Referral
+PROJ-2046,CLI-5923,Technology,Compliance Assessment,2024-01-20,2024-03-18,85356.37,318,268.42,1,Emily Davis,6,4,On Hold,8208.93,90.38,Existing Client
+PROJ-2047,CLI-8292,Finance,Strategy Development,2024-04-16,2024-05-17,78682.94,348,226.1,3,Lisa Thompson,7,4,Completed,10847.19,86.21,Existing Client
+PROJ-2048,CLI-3090,Finance,Market Analysis,2024-03-13,2024-05-25,93742.07,437,214.51,1,Michael Chen,8,4,Completed,10780.97,88.5,Referral
+PROJ-2049,CLI-5014,Manufacturing,Technology Audit,2024-04-21,2024-06-10,64808.92,719,90.14,3,Maria Garcia,6,4,On Hold,4258.7,93.43,LinkedIn
+PROJ-2050,CLI-8748,Real Estate,Process Optimization,2024-03-30,2024-06-23,148711.89,859,173.12,2,Robert Kumar,7,4,Completed,18241.18,87.73,Industry Contact
+PROJ-2051,CLI-2814,Retail,Digital Transformation,2024-03-12,2024-05-05,249231.2,991,251.49,5,Kevin Lee,7,4,Completed,25403.66,89.81,Referral
+PROJ-2052,CLI-9010,Manufacturing,System Implementation,2024-02-20,2024-05-09,28851.17,253,114.04,2,Michael Chen,6,4,In Progress,1841.09,93.62,Industry Contact
+PROJ-2053,CLI-9070,Energy,Market Analysis,2024-05-18,2024-07-05,36675.16,278,131.93,2,James Wilson,8,4,Completed,3253.93,91.13,Conference
+PROJ-2054,CLI-3525,Finance,Market Analysis,2024-04-04,2024-05-14,42875.33,229,187.23,1,James Wilson,4,4,On Hold,3583.51,91.64,Partner Network
+PROJ-2055,CLI-5181,Retail,Strategy Development,2024-02-10,2024-08-06,35280.34,103,342.53,1,Lisa Thompson,10,4,Completed,4728.44,86.6,Cold Outreach
+PROJ-2056,CLI-3945,Manufacturing,Compliance Assessment,2024-04-27,2024-07-12,23001.24,241,95.44,2,Amanda Brown,10,4,Completed,2982.83,87.03,Existing Client
+PROJ-2057,CLI-6789,Energy,Market Analysis,2024-01-13,2024-02-21,12959.32,357,36.3,1,Maria Garcia,7,4,Completed,1670.74,87.11,Industry Contact
+PROJ-2058,CLI-5306,Government,Performance Improvement,2024-03-03,2024-06-11,11089.62,142,78.1,1,Maria Garcia,10,4,Completed,1432.88,87.08,LinkedIn
+PROJ-2059,CLI-5594,Healthcare,Strategy Development,2024-02-29,2024-07-24,225405.23,937,240.56,7,Amanda Brown,8,4,Completed,24163.85,89.28,Existing Client
+PROJ-2060,CLI-9461,Technology,Organizational Restructuring,2024-05-21,2024-07-09,228415.04,2418,94.46,3,David Rodriguez,6,4,In Progress,26990.09,88.18,Industry Contact
+PROJ-2061,CLI-8704,Finance,Change Management,2024-03-07,2024-04-25,123829.98,780,158.76,3,Emily Davis,7,4,Completed,9088.62,92.66,Cold Outreach
+PROJ-2062,CLI-1910,Non-Profit,Compliance Assessment,2024-02-12,2024-06-17,93735.32,282,332.39,2,Emily Davis,9,4,Completed,8678.25,90.74,Industry Contact
+PROJ-2063,CLI-4855,Healthcare,Performance Improvement,2024-01-15,2024-02-19,60337.51,205,294.33,2,Emily Davis,5,4,On Hold,4520.19,92.51,Industry Contact
+PROJ-2064,CLI-1438,Technology,Performance Improvement,2024-04-09,2024-04-27,40151.72,149,140.04,3,Emily Davis,5,4,Cancelled,5766.51,85.64,Cold Outreach
+PROJ-2065,CLI-1532,Education,Digital Transformation,2024-02-05,2024-04-26,102559.3,777,131.99,3,Sarah Johnson,9,4,Completed,9691.25,90.55,Partner Network
+PROJ-2066,CLI-3586,Manufacturing,Market Analysis,2024-04-26,2024-10-20,44873.5,246,182.41,1,David Rodriguez,9,4,Completed,4106.17,90.85,Website
+PROJ-2067,CLI-1672,Technology,Performance Improvement,2024-03-16,2024-08-02,96619.1,315,306.73,3,David Rodriguez,7,4,Completed,10735.4,88.89,Industry Contact
+PROJ-2068,CLI-3246,Real Estate,Compliance Assessment,2024-02-19,2024-04-18,51930.88,562,92.4,3,Amanda Brown,10,4,Completed,2741.33,94.72,Existing Client
+PROJ-2069,CLI-8230,Technology,Technology Audit,2024-05-02,2024-09-12,50609.61,213,237.6,3,Maria Garcia,9,4,Completed,5920.22,88.3,Cold Outreach
+PROJ-2070,CLI-5412,Education,Technology Audit,2024-04-19,2024-05-23,74437.97,563,132.22,2,David Rodriguez,7,4,In Progress,7211.72,90.31,Industry Contact
+PROJ-2071,CLI-8357,Technology,Organizational Restructuring,2024-01-01,2024-05-04,218878.98,851,257.2,7,Lisa Thompson,6,4,In Progress,24873.64,88.64,Existing Client
+PROJ-2072,CLI-7274,Education,Strategy Development,2024-03-17,2024-04-10,159493.8,675,236.29,3,Emily Davis,9,4,In Progress,17840.74,88.81,Existing Client
+PROJ-2073,CLI-1046,Government,Technology Audit,2024-01-10,2024-07-03,19472.35,167,116.6,2,Emily Davis,10,4,Completed,1537.46,92.1,Referral
+PROJ-2074,CLI-8283,Energy,Market Analysis,2024-03-05,2024-03-27,54973.42,359,153.13,1,Kevin Lee,6,4,On Hold,6020.64,89.05,Conference
+PROJ-2075,CLI-1221,Retail,Compliance Assessment,2024-03-02,2024-04-27,22686.09,199,114.0,1,Michael Chen,9,4,Completed,3127.71,86.21,Conference
+PROJ-2076,CLI-4823,Healthcare,Process Optimization,2024-03-23,2024-07-18,135171.72,970,139.35,3,David Rodriguez,9,4,Completed,18542.84,86.28,Website
+PROJ-2077,CLI-7268,Retail,Digital Transformation,2024-02-29,2024-05-25,547231.77,870,629.0,6,James Wilson,8,4,In Progress,60040.35,89.03,Industry Contact
+PROJ-2078,CLI-2820,Finance,Performance Improvement,2024-02-22,2024-04-26,167569.15,1144,146.48,2,Lisa Thompson,8,4,Completed,17820.38,89.37,Referral
+PROJ-2079,CLI-7332,Non-Profit,Strategy Development,2024-01-19,2024-05-15,94607.1,785,120.52,3,Maria Garcia,8,4,Completed,13339.69,85.9,Existing Client
+PROJ-2080,CLI-4620,Education,Strategy Development,2024-01-15,2024-06-17,99188.0,690,143.75,1,Lisa Thompson,10,4,Completed,7439.9,92.5,Cold Outreach
+PROJ-2081,CLI-1623,Real Estate,Process Optimization,2024-04-26,2024-05-27,54682.52,466,117.34,2,Emily Davis,9,4,Completed,6946.09,87.3,Website
+PROJ-2082,CLI-8399,Real Estate,Organizational Restructuring,2024-04-28,2024-06-12,202457.03,1158,174.83,7,David Rodriguez,8,4,In Progress,11382.73,94.38,Conference
+PROJ-2083,CLI-6753,Finance,Compliance Assessment,2024-04-16,2024-06-29,190767.24,889,214.59,4,Michael Chen,6,4,On Hold,23053.04,87.92,Industry Contact
+PROJ-2084,CLI-7163,Government,System Implementation,2024-01-05,2024-02-20,199472.33,841,237.18,2,Kevin Lee,5,4,On Hold,20709.25,89.62,Website
+PROJ-2085,CLI-8237,Manufacturing,Compliance Assessment,2024-02-26,2024-06-30,29191.55,82,355.99,2,James Wilson,7,4,Completed,4041.73,86.15,Referral
+PROJ-2086,CLI-7311,Finance,Change Management,2024-03-24,2024-07-16,154609.34,863,179.15,2,James Wilson,8,4,In Progress,11951.72,92.27,Conference
+PROJ-2087,CLI-3014,Education,Compliance Assessment,2024-03-01,2024-05-10,34017.66,167,203.7,1,Michael Chen,10,4,Completed,3953.33,88.38,Referral
+PROJ-2088,CLI-5438,Technology,System Implementation,2024-03-09,2024-04-19,215082.3,2196,97.94,8,James Wilson,9,4,Completed,11352.46,94.72,Website
+PROJ-2089,CLI-6709,Finance,Compliance Assessment,2024-03-15,2024-05-04,77356.96,770,100.46,3,Robert Kumar,10,4,Completed,10858.54,85.96,Industry Contact
+PROJ-2090,CLI-1327,Manufacturing,Process Optimization,2024-05-12,2024-06-28,125652.89,686,183.17,3,Maria Garcia,9,4,Completed,15100.1,87.98,Cold Outreach
+PROJ-2091,CLI-8369,Technology,Technology Audit,2024-01-12,2024-03-26,18575.13,300,61.92,2,Michael Chen,9,4,Completed,970.03,94.78,LinkedIn
+PROJ-2092,CLI-2528,Healthcare,Strategy Development,2024-01-27,2024-03-10,87337.92,216,404.34,2,James Wilson,6,4,On Hold,5169.55,94.08,Website
+PROJ-2093,CLI-6718,Real Estate,Technology Audit,2024-05-28,2024-11-07,20598.84,213,96.71,2,James Wilson,10,4,Completed,1215.5,94.1,Cold Outreach
+PROJ-2094,CLI-2492,Retail,Performance Improvement,2024-05-09,2024-08-21,76666.52,699,109.68,2,Amanda Brown,7,4,Completed,5163.26,93.27,Conference
+PROJ-2095,CLI-8510,Real Estate,Compliance Assessment,2024-05-07,2024-08-25,25559.47,125,204.48,1,Kevin Lee,9,4,Completed,3221.37,87.4,Existing Client
+PROJ-2096,CLI-2837,Non-Profit,Process Optimization,2024-04-17,2024-07-24,54992.05,235,234.01,1,Sarah Johnson,9,4,Completed,3145.6,94.28,Cold Outreach
+PROJ-2097,CLI-4319,Government,Digital Transformation,2024-03-04,2024-04-05,297476.77,1231,241.65,6,Maria Garcia,7,4,On Hold,22983.72,92.27,LinkedIn
+PROJ-2098,CLI-5696,Government,Technology Audit,2024-03-13,2024-04-20,8109.94,24,481.8,2,Lisa Thompson,2,4,Cancelled,553.16,93.18,Cold Outreach
+PROJ-2099,CLI-1665,Healthcare,Organizational Restructuring,2024-02-05,2024-05-30,98029.37,695,141.05,3,James Wilson,7,4,Completed,10919.19,88.86,Website
+PROJ-2100,CLI-7576,Education,Market Analysis,2024-05-08,2024-07-20,52924.81,649,81.55,3,Lisa Thompson,9,4,Completed,3878.16,92.67,LinkedIn
+PROJ-2101,CLI-3628,Energy,Strategy Development,2024-04-20,2024-05-23,63432.06,560,113.27,1,Lisa Thompson,9,4,Completed,3299.76,94.8,Industry Contact
+PROJ-2102,CLI-6073,Retail,Digital Transformation,2024-03-01,2024-08-08,609030.06,824,739.11,6,Maria Garcia,7,4,Completed,53542.29,91.21,Industry Contact
+PROJ-2103,CLI-4876,Real Estate,Performance Improvement,2024-04-20,2024-10-13,22998.59,289,79.58,1,Amanda Brown,7,4,Completed,2576.49,88.8,Existing Client
+PROJ-2104,CLI-4406,Real Estate,Performance Improvement,2024-02-20,2024-06-26,18573.76,310,59.92,2,Maria Garcia,9,4,In Progress,1026.0,94.48,Conference
+PROJ-2105,CLI-5753,Retail,Compliance Assessment,2024-02-01,2024-03-25,22216.45,141,157.56,1,Michael Chen,5,4,On Hold,2902.41,86.94,LinkedIn
+PROJ-2106,CLI-5445,Energy,Process Optimization,2024-03-27,2024-07-25,168476.5,566,297.66,5,James Wilson,9,4,Completed,10432.94,93.81,Referral
+PROJ-2107,CLI-2268,Government,Compliance Assessment,2024-04-13,2024-05-16,84470.63,793,106.52,3,Kevin Lee,10,4,Completed,11107.77,86.85,Partner Network
+PROJ-2108,CLI-4011,Finance,Market Analysis,2024-03-04,2024-06-20,146839.8,862,170.35,4,Sarah Johnson,7,4,Completed,14248.24,90.3,Referral
+PROJ-2109,CLI-8048,Government,Compliance Assessment,2024-03-16,2024-07-25,21794.83,218,99.98,2,David Rodriguez,8,4,Completed,2793.5,87.18,Referral
+PROJ-2110,CLI-5835,Retail,Compliance Assessment,2024-02-15,2024-05-11,87186.56,522,167.02,1,James Wilson,7,4,In Progress,5332.23,93.88,Referral
+PROJ-2111,CLI-3212,Government,Digital Transformation,2024-04-06,2024-05-16,84523.59,476,177.57,2,Michael Chen,9,4,Completed,10896.62,87.11,Existing Client
+PROJ-2112,CLI-1324,Energy,Organizational Restructuring,2024-05-30,2024-10-11,135526.69,882,153.66,5,Kevin Lee,7,4,Completed,15514.7,88.55,Industry Contact
+PROJ-2113,CLI-5392,Technology,Compliance Assessment,2024-01-20,2024-02-26,37613.62,130,215.15,2,Maria Garcia,3,4,Cancelled,4526.12,87.97,Industry Contact
+PROJ-2114,CLI-4522,Energy,Organizational Restructuring,2024-04-16,2024-08-29,169339.59,1046,161.89,4,Michael Chen,8,4,In Progress,21240.28,87.46,Conference
+PROJ-2115,CLI-1024,Finance,Performance Improvement,2024-04-08,2024-05-18,87703.28,331,264.96,2,Michael Chen,7,4,On Hold,8988.36,89.75,Conference
+PROJ-2116,CLI-9863,Manufacturing,Market Analysis,2024-01-05,2024-04-30,91668.38,520,176.29,3,David Rodriguez,8,4,Completed,8855.18,90.34,Existing Client
+PROJ-2117,CLI-2765,Education,Technology Audit,2024-03-25,2024-08-16,80930.58,500,161.86,3,David Rodriguez,8,4,Completed,9153.41,88.69,Industry Contact
+PROJ-2118,CLI-3182,Real Estate,Performance Improvement,2024-03-30,2024-05-08,36857.54,241,152.94,1,Sarah Johnson,8,4,Completed,3035.12,91.77,Partner Network
+PROJ-2119,CLI-5211,Healthcare,Compliance Assessment,2024-04-01,2024-07-24,108047.26,845,127.87,5,Michael Chen,10,4,Completed,9376.95,91.32,Website
+PROJ-2120,CLI-7111,Non-Profit,Change Management,2024-05-14,2024-07-17,99446.37,662,150.22,3,Michael Chen,10,4,Completed,5091.32,94.88,Conference
+PROJ-2121,CLI-7044,Technology,Digital Transformation,2024-05-07,2024-07-22,299789.47,1383,216.77,6,Maria Garcia,7,4,Completed,32193.38,89.26,Referral
+PROJ-2122,CLI-3471,Non-Profit,Digital Transformation,2024-01-25,2024-03-28,195516.24,765,255.58,2,Maria Garcia,9,4,In Progress,17371.49,91.12,LinkedIn
+PROJ-2123,CLI-1276,Non-Profit,System Implementation,2024-01-04,2024-06-12,57307.12,716,80.04,1,Emily Davis,9,4,Completed,2995.99,94.77,Existing Client
+PROJ-2124,CLI-6002,Real Estate,Digital Transformation,2024-05-14,2024-06-26,500707.73,1943,257.7,3,Michael Chen,7,4,In Progress,26515.28,94.7,Conference
