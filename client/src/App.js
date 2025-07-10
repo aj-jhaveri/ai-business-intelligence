@@ -6,7 +6,7 @@ const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 // Professional sample datasets configuration
 const DEMO_DATASETS = [
   {
-    id: 'ecommerce-sample',
+    id: 'saas-sample',
     name: 'SaaS Sample Dataset',
     icon: '📊',
     description: 'MRR/ARR tracking • 120+ customers • Churn analysis',
@@ -20,7 +20,7 @@ const DEMO_DATASETS = [
     ]
   },
   {
-    id: 'saas-sample',
+    id: 'ecommerce-sample',
     name: 'E-commerce Sample Dataset',
     icon: '🛒',
     description: '$2M+ annual revenue • 6 months • 150+ transactions',
@@ -130,7 +130,8 @@ function App() {
         timestamp: new Date().toISOString()
       };
       
-      setMessages(prev => [...prev, welcomeMessage]);
+      // Clear previous messages when loading new dataset
+      setMessages([welcomeMessage]);
       await fetchDatasets();
       setCurrentDataset(result.datasetId);
       setUploadProgress(100);
@@ -216,7 +217,8 @@ function App() {
         timestamp: new Date().toISOString()
       };
       
-      setMessages(prev => [...prev, successMessage]);
+      // Clear previous messages when uploading new dataset
+      setMessages([successMessage]);
       await fetchDatasets();
       setCurrentDataset(result.datasetId);
       setUploadProgress(100);
@@ -263,7 +265,14 @@ function App() {
       });
 
       if (!response.ok) {
-        throw new Error('Query failed');
+        const errorData = await response.json();
+        if (errorData.isRateLimit) {
+          throw new Error(`Rate limit exceeded. Please wait ${errorData.retryAfter} seconds before making another request.`);
+        }
+        if (errorData.isRetryable) {
+          throw new Error('AI service is busy, retrying automatically...');
+        }
+        throw new Error(errorData.error || 'Query failed');
       }
 
       const result = await response.json();
@@ -333,176 +342,130 @@ function App() {
         
         return (
           <div key={message.id} className="message ai-message">
+            <div className="ai-avatar">🤖</div>
             <div className="message-content">
-              <div className="ai-avatar">🤖</div>
               <div className="message-body">
-                <div className="message-text">
+                {/* Executive Analysis */}
+                {content.answer && (
                   <div className="ai-answer">
-                    <strong>Executive Analysis:</strong> {
-                      typeof content.answer === 'string' 
-                        ? content.answer 
-                        : typeof content.answer === 'object' 
-                          ? JSON.stringify(content.answer) 
-                          : content.answer
-                    }
+                    <h4>Executive Analysis</h4>
+                    <p>{typeof content.answer === 'string' ? content.answer : JSON.stringify(content.answer)}</p>
                   </div>
-                  
-                  {content.insights && content.insights.length > 0 && (
-                    <div className="ai-insights">
-                      <strong>Business Intelligence:</strong>
-                      <ul>
-                        {content.insights.map((insight, idx) => (
-                          <li key={idx}>
-                            {typeof insight === 'string' ? insight : (
-                              typeof insight === 'object' ? JSON.stringify(insight) : insight
-                            )}
-                          </li>
-                        ))}
-                      </ul>
+                )}
+                
+                {/* Business Intelligence */}
+                {content.insights && content.insights.length > 0 && (
+                  <div className="ai-insights">
+                    <h4>📊 Business Intelligence</h4>
+                    <ul>
+                      {content.insights.map((insight, idx) => (
+                        <li key={idx}>
+                          {typeof insight === 'string' ? insight : JSON.stringify(insight)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                
+                {/* Strategic Recommendations */}
+                {content.recommendations && content.recommendations.length > 0 && (
+                  <div className="ai-recommendations">
+                    <h4>💡 Strategic Recommendations</h4>
+                    <ul>
+                      {content.recommendations.map((rec, idx) => (
+                        <li key={idx}>
+                          {typeof rec === 'string' ? rec : JSON.stringify(rec)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                
+                {/* Key Performance Metrics */}
+                {content.calculations && Object.keys(content.calculations).length > 0 && (
+                  <div className="ai-calculations">
+                    <h4>📈 Key Performance Metrics</h4>
+                    <div className="metrics-grid">
+                      {Object.entries(content.calculations).map(([key, value]) => (
+                        <div key={key} className="metric-item">
+                          <span className="metric-label">{key.replace(/_/g, ' ')}</span>
+                          <span className="metric-value">
+                            {typeof value === 'number' ? value.toLocaleString() : value}
+                          </span>
+                        </div>
+                      ))}
                     </div>
-                  )}
-                  
-                  {content.recommendations && content.recommendations.length > 0 && (
-                    <div className="ai-recommendations">
-                      <strong>Strategic Recommendations:</strong>
-                      <ul>
-                        {content.recommendations.map((rec, idx) => (
-                          <li key={idx}>
-                            {typeof rec === 'string' ? rec : (
-                              <div className="recommendation-item">
-                                {rec.action && <div><strong>Action:</strong> {rec.action}</div>}
-                                {rec.roi && <div><strong>ROI:</strong> {rec.roi}</div>}
-                                {rec.steps && (
-                                  <div>
-                                    <strong>Steps:</strong>
-                                    {Array.isArray(rec.steps) ? (
-                                      <ul>
-                                        {rec.steps.map((step, stepIdx) => (
-                                          <li key={stepIdx}>{step}</li>
-                                        ))}
-                                      </ul>
-                                    ) : (
-                                      <span> {rec.steps}</span>
-                                    )}
-                                  </div>
-                                )}
-                                {/* Handle any other object properties */}
-                                {Object.keys(rec).filter(key => !['action', 'roi', 'steps'].includes(key)).map(key => (
-                                  <div key={key}><strong>{key}:</strong> {rec[key]}</div>
-                                ))}
-                              </div>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  
-                  {content.calculations && Object.keys(content.calculations).length > 0 && (
-                    <div className="ai-calculations">
-                      <strong>Key Performance Metrics:</strong>
-                      <div className="metrics-grid">
-                        {Object.entries(content.calculations).map(([key, value]) => (
-                          <div key={key} className="metric-item">
-                            <span className="metric-label">{key.replace(/_/g, ' ').toUpperCase()}:</span>
-                            <span className="metric-value">
-                              {typeof value === 'number' 
-                                ? value.toLocaleString() 
-                                : typeof value === 'string' 
-                                  ? value 
-                                  : typeof value === 'object' 
-                                    ? JSON.stringify(value) 
-                                    : value
-                              }
-                            </span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                  </div>
+                )}
 
-                  {content.risks && content.risks.length > 0 && (
-                    <div className="ai-risks">
-                      <strong>Risk Assessment:</strong>
-                      <ul>
-                        {content.risks.map((risk, idx) => (
-                          <li key={idx}>
-                            {typeof risk === 'string' ? risk : (
-                              typeof risk === 'object' ? JSON.stringify(risk) : risk
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                {/* Risk Assessment */}
+                {content.risks && content.risks.length > 0 && (
+                  <div className="ai-risks">
+                    <h4>⚠️ Risk Assessment</h4>
+                    <ul>
+                      {content.risks.map((risk, idx) => (
+                        <li key={idx}>
+                          {typeof risk === 'string' ? risk : JSON.stringify(risk)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-                  {content.opportunities && content.opportunities.length > 0 && (
-                    <div className="ai-opportunities">
-                      <strong>Strategic Opportunities:</strong>
-                      <ul>
-                        {content.opportunities.map((opp, idx) => (
-                          <li key={idx}>
-                            {typeof opp === 'string' ? opp : (
-                              typeof opp === 'object' ? JSON.stringify(opp) : opp
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                {/* Strategic Opportunities */}
+                {content.opportunities && content.opportunities.length > 0 && (
+                  <div className="ai-opportunities">
+                    <h4>🚀 Strategic Opportunities</h4>
+                    <ul>
+                      {content.opportunities.map((opp, idx) => (
+                        <li key={idx}>
+                          {typeof opp === 'string' ? opp : JSON.stringify(opp)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-                  {content.industryBenchmarks && Object.keys(content.industryBenchmarks).length > 0 && (
-                    <div className="ai-benchmarks">
-                      <strong>Industry Benchmarks:</strong>
-                      <div className="benchmarks-grid">
-                        {Object.entries(content.industryBenchmarks).map(([key, value]) => (
-                          <div key={key} className="benchmark-item">
-                            <span className="benchmark-label">{key.replace(/_/g, ' ').toUpperCase()}:</span>
-                            <span className="benchmark-value">
-                              {typeof value === 'string' 
-                                ? value 
-                                : typeof value === 'object' 
-                                  ? JSON.stringify(value) 
-                                  : value
-                              }
-                            </span>
-                          </div>
-                        ))}
-                      </div>
+                {/* Industry Benchmarks */}
+                {content.industryBenchmarks && Object.keys(content.industryBenchmarks).length > 0 && (
+                  <div className="ai-benchmarks">
+                    <h4>📊 Industry Benchmarks</h4>
+                    <div className="benchmarks-grid">
+                      {Object.entries(content.industryBenchmarks).map(([key, value]) => (
+                        <div key={key} className="benchmark-item">
+                          <span className="benchmark-label">{key.replace(/_/g, ' ')}</span>
+                          <span className="benchmark-value">
+                            {typeof value === 'string' ? value : JSON.stringify(value)}
+                          </span>
+                        </div>
+                      ))}
                     </div>
-                  )}
-                  
-                  {content.followUpQuestions && content.followUpQuestions.length > 0 && (
-                    <div className="ai-suggestions">
-                      <strong>Strategic Follow-up Questions:</strong>
-                      <div className="suggestion-buttons">
-                        {content.followUpQuestions.map((question, idx) => (
-                          <button 
-                            key={idx} 
-                            className="suggestion-btn"
-                            onClick={() => setInputMessage(
-                              typeof question === 'string' 
-                                ? question 
-                                : typeof question === 'object' 
-                                  ? JSON.stringify(question) 
-                                  : question
-                            )}
-                          >
-                            {typeof question === 'string' 
-                              ? question 
-                              : typeof question === 'object' 
-                                ? JSON.stringify(question) 
-                                : question
-                            }
-                          </button>
-                        ))}
-                      </div>
+                  </div>
+                )}
+                
+                {/* Follow-up Questions */}
+                {content.followUpQuestions && content.followUpQuestions.length > 0 && (
+                  <div className="ai-suggestions">
+                    <h4>💭 Suggested Follow-up Questions</h4>
+                    <div className="suggestion-buttons">
+                      {content.followUpQuestions.map((question, idx) => (
+                        <button 
+                          key={idx} 
+                          className="suggestion-btn"
+                          onClick={() => setInputMessage(
+                            typeof question === 'string' ? question : JSON.stringify(question)
+                          )}
+                        >
+                          {typeof question === 'string' ? question : JSON.stringify(question)}
+                        </button>
+                      ))}
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
+                
                 <div className="message-meta">
                   <span className={`confidence ${content.confidence || message.confidence || 'medium'}`}>
-                    Confidence: {content.confidence || message.confidence || 'medium'}
+                    {content.confidence || message.confidence || 'medium'}
                   </span>
                   <span className="message-time">
                     {new Date(message.timestamp).toLocaleTimeString()}
@@ -541,8 +504,13 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content">
-          <h1>AI Business Intelligence Platform</h1>
-          <p>Transform raw data into boardroom-ready insights with natural language queries</p>
+          <div className="header-logo">
+            <div className="header-logo-icon">AI</div>
+            <div>
+              <h1>AI Business Intelligence Platform</h1>
+              <p>Transform raw data into boardroom-ready insights with natural language queries</p>
+            </div>
+          </div>
         </div>
         <div className="header-actions">
           <div className="dataset-selector">
@@ -625,30 +593,6 @@ function App() {
             </div>
           </div>
 
-          <div className="datasets-section">
-            <h3>📊 Active Datasets</h3>
-            <div className="datasets-list">
-              {datasets.length === 0 ? (
-                <p className="no-data">No datasets loaded yet</p>
-              ) : (
-                datasets.map(dataset => (
-                  <div 
-                    key={dataset.id} 
-                    className={`dataset-item ${currentDataset === dataset.id ? 'active' : ''}`}
-                    onClick={() => setCurrentDataset(dataset.id)}
-                  >
-                    <div className="dataset-name">{dataset.name}</div>
-                    <div className="dataset-info">
-                      {dataset.rowCount} rows • {dataset.columnCount} columns
-                    </div>
-                    <div className="dataset-date">
-                      {new Date(dataset.uploadedAt).toLocaleDateString()}
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
-          </div>
         </aside>
 
         <main className="main-content">
@@ -690,7 +634,6 @@ function App() {
                       </div>
                     </div>
                   )}
-                  <div ref={messagesEndRef} />
                 </div>
               )}
             </div>

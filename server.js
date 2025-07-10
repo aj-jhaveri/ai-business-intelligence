@@ -83,6 +83,11 @@ const upload = multer({
 const dataStore = new Map();
 const analysisCache = new Map();
 
+// Rate limiting for API requests
+const requestTimes = new Map();
+const RATE_LIMIT_WINDOW = 60000; // 1 minute
+const MAX_REQUESTS_PER_MINUTE = 10;
+
 // Utility function to parse CSV
 const parseCSVFile = (filePath) => {
   return new Promise((resolve, reject) => {
@@ -261,8 +266,37 @@ app.get('/api/datasets/:id', (req, res) => {
   });
 });
 
+// Rate limiting middleware
+const checkRateLimit = (req, res, next) => {
+  const clientIP = req.ip || req.connection.remoteAddress;
+  const now = Date.now();
+  
+  if (!requestTimes.has(clientIP)) {
+    requestTimes.set(clientIP, []);
+  }
+  
+  const requests = requestTimes.get(clientIP);
+  
+  // Remove old requests outside the window
+  const recentRequests = requests.filter(time => now - time < RATE_LIMIT_WINDOW);
+  
+  if (recentRequests.length >= MAX_REQUESTS_PER_MINUTE) {
+    console.log(`Rate limit exceeded for IP: ${clientIP}`);
+    return res.status(429).json({ 
+      error: 'Rate limit exceeded. Please wait before making another request.',
+      isRateLimit: true,
+      retryAfter: Math.ceil(RATE_LIMIT_WINDOW / 1000)
+    });
+  }
+  
+  recentRequests.push(now);
+  requestTimes.set(clientIP, recentRequests);
+  
+  next();
+};
+
 // AI-powered query endpoint
-app.post('/api/query', async (req, res) => {
+app.post('/api/query', checkRateLimit, async (req, res) => {
   try {
     console.log('=== /api/query REQUEST START ===');
     console.log('Request body:', JSON.stringify(req.body, null, 2));
@@ -320,7 +354,8 @@ app.post('/api/query', async (req, res) => {
         columnTypes: dataset.analysis.columnTypes || {},
         summary: dataset.summary || {}
       },
-      sampleData: dataset.data.slice(0, 5),
+      fullDataset: dataset.data, // FULL dataset for real calculations
+      sampleData: dataset.data.slice(0, 10), // More sample data for context
       previousContext: context || []
     };
     
@@ -353,9 +388,31 @@ app.post('/api/query', async (req, res) => {
 
     console.log('Preparing AI context and prompt...');
     
-    // Create enhanced AI prompt for sophisticated analysis
+    // Enterprise approach: Send full datasets up to 800k tokens (roughly 4000 rows)
+    let datasetSample = dataContext.fullDataset;
+    let datasetSampleSize = dataContext.fullDataset.length;
+    
+    // Only limit if dataset is truly massive (>4000 rows)
+    if (dataContext.fullDataset.length > 4000) {
+      datasetSample = dataContext.fullDataset.slice(0, 1000);
+      datasetSampleSize = 1000;
+      console.log('Massive dataset detected (>4000 rows), using first 1000 rows for analysis');
+    } else {
+      console.log(`Sending full dataset: ${datasetSampleSize} rows (enterprise approach)`);
+    }
+    
+    // Create enhanced AI prompt for sophisticated analysis with REAL CALCULATIONS
     const prompt = `
 You are a seasoned C-suite business consultant with 15+ years of Fortune 500 experience, specializing in ${industrySpecialization}.
+
+CRITICAL: You MUST perform REAL mathematical calculations using the ACTUAL data provided. NEVER use placeholder values like "ARR of $XXX" or "Revenue of $YYY". Calculate exact numbers from the dataset.
+
+MANDATORY CALCULATION REQUIREMENT:
+- Calculate actual totals from this data
+- Do not use placeholders like $XXX
+- Use real numbers only
+- Show your mathematical work
+- Sum, average, and analyze the actual values provided
 
 BUSINESS CONTEXT:
 Dataset: ${dataContext.datasetInfo.name}
@@ -368,58 +425,75 @@ INDUSTRY-SPECIFIC KPIs TO ANALYZE: ${specificKPIs}
 DATA ARCHITECTURE:
 ${Object.entries(dataContext.datasetInfo.columnTypes).map(([col, type]) => `• ${col}: ${type}`).join('\n')}
 
-SAMPLE TRANSACTIONS:
-${JSON.stringify(dataContext.sampleData, null, 2)}
+COMPLETE DATASET FOR CALCULATIONS (All ${datasetSampleSize} rows):
+${JSON.stringify(datasetSample, null, 2)}
+${dataContext.fullDataset.length > datasetSampleSize ? `\n... and ${dataContext.fullDataset.length - datasetSampleSize} more records available for calculations` : ''}
+
+DATASET SUMMARY FOR CALCULATIONS:
+- Total Records: ${dataContext.fullDataset.length}
+- Sample shown above for pattern recognition
+- Full dataset statistics: ${JSON.stringify(dataContext.datasetInfo.summary, null, 2)}
 
 EXECUTIVE SUMMARY METRICS:
 ${JSON.stringify(dataContext.datasetInfo.summary, null, 2)}
 
 EXECUTIVE INQUIRY: "${userQuery}"
 
+MANDATORY CALCULATION REQUIREMENTS:
+- CALCULATE actual totals, averages, percentages from the real data
+- PERFORM mathematical operations on the numeric columns
+- GENERATE specific dollar amounts, percentages, and metrics
+- NEVER use template responses like "$XXX" or "XX%" 
+- SHOW your work with actual numbers from the dataset
+- EXAMPLE: If revenue column has values [1250.00, 890.50, 2100.75], calculate total as $4,241.25
+- EXAMPLE: If 30 out of 100 customers churned, report "30% churn rate" not "XX% churn rate"
+- FORBIDDEN: Any response containing $XXX, XX%, or similar placeholders
+
 RESPONSE FRAMEWORK:
 Provide a comprehensive C-level analysis demonstrating $120k+ strategic consulting expertise:
 
-1. STRATEGIC ANALYSIS: Direct, data-driven answer with quantitative backing
-2. BUSINESS INTELLIGENCE: 3-5 key insights showing deep pattern recognition
-3. EXECUTIVE RECOMMENDATIONS: Specific, actionable steps with expected ROI/impact
-4. OPERATIONAL METRICS: Calculated KPIs with industry benchmarks where relevant
-5. PREDICTIVE INSIGHTS: Forward-looking analysis and trend identification
-6. RISK ASSESSMENT: Potential challenges and mitigation strategies
+1. STRATEGIC ANALYSIS: Direct, data-driven answer with quantitative backing using REAL calculated numbers
+2. BUSINESS INTELLIGENCE: 3-5 key insights with ACTUAL percentages and dollar amounts
+3. EXECUTIVE RECOMMENDATIONS: Specific, actionable steps with REAL ROI projections based on data
+4. OPERATIONAL METRICS: CALCULATED KPIs with exact numbers from the dataset
+5. PREDICTIVE INSIGHTS: Forward-looking analysis using real trend calculations
+6. RISK ASSESSMENT: Quantified risks with actual impact calculations
 
 JSON Response Structure:
 {
-  "answer": "Executive-level strategic answer with specific metrics and percentages",
+  "answer": "Executive-level strategic answer with SPECIFIC calculated metrics (e.g., 'Total revenue is $2,654,892' not '$XXX')",
   "insights": [
-    "Advanced business insight with quantified impact",
-    "Pattern recognition with competitive implications", 
-    "Operational efficiency opportunity with cost/benefit analysis",
-    "Market positioning insight with strategic recommendations",
-    "Risk/opportunity assessment with timeline projections"
+    "Advanced business insight with REAL calculated impact (e.g., '23.4% increase in Q3' not 'XX% increase')",
+    "Pattern recognition with SPECIFIC competitive implications using actual numbers", 
+    "Operational efficiency opportunity with REAL cost/benefit calculations",
+    "Market positioning insight with CALCULATED metrics and percentages",
+    "Risk/opportunity assessment with ACTUAL timeline projections and dollar amounts"
   ],
   "recommendations": [
-    "Immediate tactical action with 30-90 day ROI projection and implementation steps",
-    "Strategic initiative with 6-12 month timeline, resource requirements, and success KPIs", 
-    "Operational optimization with cost-benefit analysis and efficiency gains",
-    "Investment/technology recommendation with financial justification and competitive advantage"
+    "Immediate tactical action with REAL 30-90 day ROI projection calculated from data",
+    "Strategic initiative with SPECIFIC resource requirements based on actual calculations", 
+    "Operational optimization with REAL cost-benefit analysis using dataset numbers",
+    "Investment/technology recommendation with CALCULATED financial justification"
   ],
   "calculations": {
-    "key_metric_1": "Calculated value with business context",
-    "growth_rate": "Percentage with period comparison",
-    "efficiency_ratio": "Metric with industry benchmark",
-    "roi_projection": "Financial impact estimation"
+    "total_revenue": "Actual calculated total (e.g., $2,654,892)",
+    "growth_rate": "Real percentage calculated from data (e.g., 23.4%)",
+    "average_order_value": "Calculated AOV (e.g., $127.53)",
+    "monthly_recurring_revenue": "Actual MRR calculation (e.g., $45,230)",
+    "profit_margin": "Real calculated margin (e.g., 34.7%)"
   },
   "risks": [
-    "Primary business risk with mitigation strategy",
-    "Market/competitive risk with monitoring approach"
+    "Primary business risk with CALCULATED impact (e.g., 'Could reduce revenue by $125,000')",
+    "Market/competitive risk with QUANTIFIED monitoring approach"
   ],
   "opportunities": [
-    "High-impact opportunity with implementation priority",
-    "Strategic advantage with competitive positioning"
+    "High-impact opportunity with REAL implementation priority and calculated value",
+    "Strategic advantage with SPECIFIC competitive positioning metrics"
   ],
   "visualizations": [
-    "Executive dashboard component (trend analysis)",
-    "Performance comparison visualization",
-    "Strategic planning chart recommendation"
+    "Executive dashboard component (trend analysis with real data points)",
+    "Performance comparison visualization with actual calculated metrics",
+    "Strategic planning chart recommendation with real projections"
   ],
   "confidence": "high/medium/low",
   "followUpQuestions": [
@@ -427,28 +501,71 @@ JSON Response Structure:
     "Operational question for implementation planning"
   ],
   "industryBenchmarks": {
-    "benchmark_1": "Industry comparison with percentile ranking",
-    "benchmark_2": "Competitive positioning insight"
+    "benchmark_1": "Industry comparison with REAL percentile ranking calculated from data",
+    "benchmark_2": "Competitive positioning insight with actual calculated metrics"
   }
 }
 
+CALCULATION ENFORCEMENT:
+- MANDATORY: Calculate exact totals from revenue/sales columns
+- MANDATORY: Calculate real percentages from actual data relationships  
+- MANDATORY: Generate specific dollar amounts for all financial metrics
+- MANDATORY: Show growth rates as real percentages (e.g., 23.4%, not XX%)
+- MANDATORY: Calculate actual averages, medians, and statistical measures
+- MANDATORY: Sum all numeric values and show exact results
+- MANDATORY: Count actual records and show specific numbers
+- FORBIDDEN: Using placeholder values like $XXX, XX%, or template responses
+- FORBIDDEN: Generic responses without specific calculated numbers
+- FORBIDDEN: Responses like "Revenue of $XXX" or "Growth of XX%"
+
+CALCULATION EXAMPLES FROM ACTUAL DATA:
+- If you see revenue values like [1250.00, 890.50, 2100.75] in the data, calculate: Total Revenue = $4,241.25
+- If you see 30 churned customers out of 100 total, calculate: Churn Rate = 30%
+- If you see Q1 revenue $100K and Q2 revenue $123K, calculate: Growth Rate = 23%
+
 ANALYSIS STANDARDS:
 - Use sophisticated business terminology appropriate for C-suite presentation
-- Calculate and reference industry-specific KPIs: ${specificKPIs}
-- Include specific percentages, ratios, and financial metrics with context
-- Reference industry best practices and competitive benchmarks
-- Provide actionable recommendations with clear ROI projections and timelines
-- Show advanced analytical thinking with predictive insights and scenario planning
-- Demonstrate strategic business acumen worthy of $120k+ senior-level compensation
-- Include risk assessment with mitigation strategies and opportunity identification
-- Suggest specific next steps with implementation roadmaps and resource requirements
-- Reference industry trends and competitive positioning where relevant
+- Calculate and reference industry-specific KPIs: ${specificKPIs} with REAL numbers
+- Include SPECIFIC percentages, ratios, and financial metrics calculated from data
+- Reference industry best practices with CALCULATED competitive benchmarks
+- Provide actionable recommendations with REAL ROI projections based on data analysis
+- Show advanced analytical thinking with CALCULATED predictive insights
+- Demonstrate strategic business acumen with ACTUAL calculated financial impact
+- Include QUANTIFIED risk assessment with calculated mitigation strategies
+- Suggest specific next steps with REAL resource requirements based on data
+- Reference industry trends with CALCULATED competitive positioning metrics
 
-INDUSTRY CONTEXT: Apply your specialized knowledge in ${industrySpecialization} to provide insights that demonstrate deep sector expertise and strategic thinking that would impress Fortune 500 executives.
+INDUSTRY CONTEXT: Apply your specialized knowledge in ${industrySpecialization} to provide insights with REAL calculated numbers that demonstrate deep sector expertise and strategic thinking that would impress Fortune 500 executives.
 
-Analyze the data with the depth and sophistication expected from a top-tier business intelligence platform used by enterprise clients.
+FINAL REQUIREMENT: Every financial figure, percentage, and metric MUST be calculated from the actual dataset. No placeholders allowed.
 `;
 
+    console.log('=== GEMINI REQUEST DIAGNOSTICS ===');
+    console.log('Prompt length:', prompt.length, 'characters');
+    console.log('Prompt preview (first 500 chars):', prompt.substring(0, 500));
+    console.log('Dataset size being sent:', dataContext.fullDataset.length, 'rows');
+    console.log('Full dataset JSON size:', JSON.stringify(dataContext.fullDataset).length, 'characters');
+    console.log('Sample data JSON size:', JSON.stringify(dataContext.sampleData).length, 'characters');
+    console.log('Timestamp:', new Date().toISOString());
+    
+    // Check if prompt is truly massive (800k tokens = ~3.2M characters)
+    const MAX_PROMPT_SIZE = 3200000; // 3.2M characters (~800k tokens)
+    if (prompt.length > MAX_PROMPT_SIZE) {
+      console.log('WARNING: Prompt size', prompt.length, 'exceeds enterprise limit of', MAX_PROMPT_SIZE);
+      console.log('This may cause token limit errors');
+    } else {
+      console.log('Prompt size within enterprise limits:', prompt.length, 'characters');
+    }
+    console.log('=== END DIAGNOSTICS ===');
+    
+    console.log('=== WHAT GEMINI IS RECEIVING ===');
+    console.log('Prompt preview:', prompt.substring(0, 1000));
+    console.log('Contains actual revenue data:', prompt.includes('revenue') || prompt.includes('Revenue') || prompt.includes('REVENUE'));
+    console.log('Contains actual dollar amounts:', prompt.includes('$') || prompt.includes('.00') || prompt.includes('.50'));
+    console.log('Contains actual numeric data:', /\d+\.\d+/.test(prompt));
+    console.log('First data sample from prompt:', JSON.stringify(datasetSample[0]));
+    console.log('=== END GEMINI INPUT ===');
+    
     console.log('Calling Gemini AI...');
     
     // Check if model is initialized
@@ -457,12 +574,51 @@ Analyze the data with the depth and sophistication expected from a top-tier busi
       return res.status(500).json({ error: 'AI model not initialized' });
     }
     
+    // Enhanced retry logic for Gemini API calls with rate limiting
+    async function callGeminiWithRetry(model, prompt, maxRetries = 5) {
+      for (let i = 0; i < maxRetries; i++) {
+        try {
+          console.log(`Attempt ${i + 1} calling Gemini...`);
+          const result = await model.generateContent(prompt);
+          console.log(`Attempt ${i + 1} succeeded!`);
+          return result;
+        } catch (error) {
+          console.log('=== GEMINI ERROR DETAILS ===');
+          console.log('Error message:', error.message);
+          console.log('Error status:', error.status || 'No status');
+          console.log('Error code:', error.code || 'No code');
+          console.log('Full error:', error);
+          console.log('=== END ERROR ===');
+          
+          console.log(`Attempt ${i + 1} failed:`, error.message);
+          
+          // Handle rate limiting and service overload
+          if (error.message.includes('503') || 
+              error.message.includes('overloaded') || 
+              error.message.includes('unavailable') ||
+              error.message.includes('rate limit') ||
+              error.message.includes('429')) {
+            if (i < maxRetries - 1) {
+              // Exponential backoff with jitter for rate limiting
+              const baseDelay = 1000 * Math.pow(2, i);
+              const jitter = Math.random() * 1000;
+              const delay = baseDelay + jitter;
+              console.log(`Rate limited or service overloaded, retrying in ${Math.round(delay)}ms...`);
+              await new Promise(resolve => setTimeout(resolve, delay));
+              continue;
+            }
+          }
+          throw error;
+        }
+      }
+    }
+    
     // Call Gemini AI with timeout and error handling
     let result;
     let responseText;
     
     try {
-      result = await model.generateContent(prompt);
+      result = await callGeminiWithRetry(model, prompt);
       if (!result || !result.response) {
         throw new Error('Invalid response from AI model');
       }
@@ -472,10 +628,11 @@ Analyze the data with the depth and sophistication expected from a top-tier busi
         throw new Error('Empty response from AI model');
       }
     } catch (aiError) {
-      console.log('ERROR: AI model failed:', aiError.message);
+      console.log('ERROR: AI model failed after retries:', aiError.message);
       return res.status(500).json({ 
         error: 'AI model failed to generate response', 
-        details: aiError.message 
+        details: aiError.message,
+        isRetryable: aiError.message.includes('503') || aiError.message.includes('overloaded')
       });
     }
     
